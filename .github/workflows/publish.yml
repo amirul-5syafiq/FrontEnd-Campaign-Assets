@@ -34,7 +34,7 @@ jobs:
       id-token: write
     outputs:
       branch: ${{ steps.get_branch.outputs.branch }}
-      tagging: ${{ steps.meta.outputs.tags }}
+      tagging: ${{ steps.get_tag.outputs.tag }}
     steps:
       - name: Get current branch
         id: get_branch
@@ -43,6 +43,14 @@ jobs:
           branch="${raw#refs/heads/}"
           echo "::set-output name=branch::$branch"
           echo "Branch is $branch."
+      
+      - name: Get current tags
+        id: get_tag
+        run: |
+          raw="${{ github.event.base_ref }}"
+          tag="${raw#refs/tags/}"
+          echo "::set-output name=tag::$tag"
+          echo "Tag is $tag."
 
   # |------------------------------------|
   # | SIT                                |
