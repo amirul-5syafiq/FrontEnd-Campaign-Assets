@@ -84,11 +84,12 @@ jobs:
           
           for path in ./MAE/ENV/*; do \
             if [[ $path == "./MAE/ENV/setting" ]]; then \
-              echo "$path"; \
+              echo "Master $path"; \
               aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/setting/$AP --delete --cache-control no-store; \
             fi; \
-              echo "$path"; \
-              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$AP/$CV --delete; \
+              echo "Others $path"; \
+              export CT=$(node ./scripts/split_ct.js $path); \
+              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$CT/$AP/$CV --delete; \
           done
 
       - name: delete cache
