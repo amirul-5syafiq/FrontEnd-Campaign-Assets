@@ -1,0 +1,5 @@
+{
+  "selectCampaign": "yearend",
+  "contentVersion": "cv1",
+  "listCampaignType": ["raya", "cny", "default", "yearend"]
+}
