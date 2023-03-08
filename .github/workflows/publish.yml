@@ -34,7 +34,7 @@ jobs:
       id-token: write
     outputs:
       branch: ${{ steps.get_branch.outputs.branch }}
-      tag: ${{ steps.get_tag.outputs.tags }}
+      tag: ${{ steps.get_tag.outputs.tag }}
     steps:
       - name: Get current branch
         id: get_branch
@@ -42,16 +42,12 @@ jobs:
           raw="${{ github.event.base_ref }}"
           branch="${raw#refs/heads/}"
           echo "::set-output name=branch::$branch"
-          echo "Tag name: ${github.event.ref}"
           echo "Branch is $branch."
-      
-      - name: Extract metadata (tags, labels)
+        
+      - name: Get current tag
         id: get_tag
-        uses: docker/metadata-action@v4
-        with:
-          images: |
-            # my-docker-hub-namespace/my-docker-hub-repository
-            ghcr.io/${{ github.repository }}
+        run: |
+          echo "tag=${GITHUB_REF#refs/*/}" >> $GITHUB_OUTPUT
 
   # |------------------------------------|
   # | SIT                                |
