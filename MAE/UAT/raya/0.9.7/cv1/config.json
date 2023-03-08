@@ -1,7 +1,7 @@
 {
   "campaignId": 2,
   "greetingReceived": {
-    "festiveSendMoneyFromReceived": "e-Angpao from",
+    "festiveSendMoneyFromReceived": "e-Duit Raya from",
     "background": "greetings/received/receiveBackground.png",
     "moneyContainer": "greetings/received/moneyContainer.png"
   },
@@ -30,7 +30,7 @@
     "background": "greetings/eDuitRayaBackground.png",
     "mainData": {
       "color": "#FFFFFF",
-      "mainHeader": "Send e-Duit Raya as\nblessings and well wishes\nto love ones.",
+      "mainHeader": "Send e-Duit Raya as\nblessings and well wishes\nto loved ones.",
       "options": [
         {
           "title": "Send via \nScan & Pay",
@@ -46,18 +46,19 @@
         }
       ]
     },
-    "successMessageTransfer": "e-Duit Raya sent successfully",
+    "successMessageTransfer": "Transaction successful",
+    "failMessageTransfer":"Transaction unsuccessful",
     "includeMoneyText": "Include e-Duit Raya",
     "topContainer": "greetings/send/e-greetingSkin.png",
     "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
-    "moneyReceivedText": "e-Angpao",
+    "moneyReceivedText": "e-Duit Raya",
     "sendGreetingTitle": "Send e-Greeting",
     "sendGreetingText": "Send\ne-Greeting to",
     "sendGreetingFinalTitle": "Take a final look"
   },
   "sendMoney": {
-    "festiveTitle": "Send e-Angpao",
-    "headerTitleEnterAmount": "Send e-Angpao"
+    "festiveTitle": "Send e-Duit Raya",
+    "headerTitleEnterAmount": "Send e-Duit Raya"
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
@@ -83,6 +84,12 @@
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
+    "consolation":{
+      "title": "You've scored",
+      "subtitle": "entries to win a Special Prize!",
+      "firstDesc":  "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
+      "secondDesc": "Make another transaction for more\nentries to win."
+    },
     "special": {
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win.",
@@ -109,7 +116,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/TapTrackWinIcon.json",
+      "icon": "icons/TapTrackWin.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
@@ -120,6 +127,24 @@
         "module": "GameStack",
         "screen": "TapTrackWin"
       }
+    }
+  },
+  "link" :{
+    "gameTnc" : {
+      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+      "title" : "Terms & Conditions"
+    },
+    "ezyCash" :{
+      "link" : "https://172.31.11.35/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "title" : "Maybank2u"
+    },
+    "ezyPay" :{
+      "link" : "https://172.31.11.35/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "title" : "Maybank2u"
+    },
+    "balanceTransfer" :{
+      "link" : "https://172.31.11.35/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "title" : "Maybank2u"
     }
   },
   "ssl": {
@@ -140,9 +165,9 @@
     "btnTitile": "Discover Now"
   },
   "gameStatus": {
-    "grandPrize": "tracker/earnedScreen/GrandPrizeRaya.json",
+    "grandPrize": "tracker/earnedScreen/GrandPrizeRaya1.json",
     "specialPrize": "tracker/earnedScreen/SpecialPrizeRaya.json",
-    "booster": "tracker/earnedScreen/booster.json",
+    "booster": "tracker/earnedScreen/SpecialPrizeRaya2.json",
     "completed": "tracker/earnedScreen/CompletedRaya.json",
     "background": "tracker/earnedScreen/rayaBackgroundBooster.png",
     "tapTrackWin": "tracker/earnedScreen/TapTrackWinRaya.json",
@@ -186,10 +211,10 @@
     "gameProgress": {
       "title": "Your Progress",
       "viewTracker": "View Tracker",
-      "widgetItem1": "dashboard/withTracker/grandPrizeRaya.png",
+      "widgetItem1": "dashboard/withTracker/grandPrizeRaya1.png",
       "descriptionWidgetItem1": "Entries to win\nGrand Prize",
       "widgetItem2": "dashboard/withTracker/specialPrizeRaya.png",
-      "descriptionWidgetItem2": "Entriessxs to win\nSpecial Prize",
+      "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
       "backgroundColor": "#FFD88D",
       "entriesContainerColor": "#FFD88D"
     }
@@ -197,18 +222,18 @@
   "dashboardstatus": {
     "active": {
       "activeEven": {
-        "title": "Winn all-expenses-paid\ntrip to Maladives!",
-        "description": "Transact now to earn\nyour first entry",
+        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "description": "Keep transacting to\nearn more entries to win.",
         "buttonText": "View Tracker"
       },
       "activeOdd": {
-        "title": "Winn all-expenses-paid\ntrip to Maladives!",
-        "description": "Earn entries when you\nReload Transfer or more.",
+        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "description": "Earn entries when you\nPay Bills, Reload or more.",
         "buttonText": "View Tracker"
       },
       "": {
-        "title": "Winn all-expenses-paid\ntrip to Maladives!",
-        "description": "Earn entries when you\nReload Transfer or more.",
+        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "description": "Earn entries when you\nPay Bills, Reload or more.",
         "buttonText": "View Tracker"
       }
     },
@@ -226,52 +251,34 @@
     },
     "empty": {
       "emptyEven": {
-        "title": "Win a trip to Turkey or\ncash prizes!",
+        "title": "Win 100g 999.9 gold or\ncash prizes!",
         "description": "Transact now to earn\nyour first entry",
-        "buttonText": "Learn More"
+        "buttonText": "Go To Tracker"
       },
       "emptyOdd": {
-        "title": "Win a trip to Turkey or\ncash prizes!",
-        "description": "Transact now to earn\nyour first entry",
-        "buttonText": "Learn More"
+        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "description": "Tap here to earn your\nfirst entry now.",
+        "buttonText": "Go To Tracker"
       }
     }
   },
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Transact to earn +3 entries!",
-        "description": "It's your lucky even day! Every eligible transaction you make today earns you extra entries to win an all-expenses-paid trip to Maldives for 2 adults! Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers."
+        "title": "Tap, Track, Win: Transact to earn +2 entries!",
+        "description": "It's your lucky day! Every eligible transaction you make today earns you extra entries to win 100g 999.9 gold. Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for +4 entries to win prizes!",
-        "description": "You could win an all-expenses-paid trip to Maldives for 2 with Tap, Track, Win, tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for extra entries to win prizes!",
+        "description": "You're in luck! Earn extra entries to win 100g 999.9 gold when you check in with Tap, Track, Win. No spending needed. Keep transacting to earn more entries. T&C apply. Tap below to complete your daily check-in."
       },
       "nonBoosterEven": {
         "title": "Tap, Track, Win: Transact now to win exciting prizes!",
-        "description": "Win an all-expenses-paid trip to Maldives for 2 adults when you pay bills, transfer, reload and more! Every eligible transaction earns you entries to win cash prizes too. Make a transaction now to earn your next entry. T&C apply. Tap below to view your Trackers."
+        "description": "Win 100g 999.9 gold when you reload, transfer and more! Every eligible transaction earns you entries to win cash prizes too. T&C apply. Tap to view your Trackers."
       },
       "nonBoosterOdd": {
         "title": "Tap, Track, Win: Check in now to win exciting prizes!",
-        "description": "Check in daily for entries to win an all-expenses-paid trip to Maldives for 2 adults when you check in daily and earn your free entries. T&C apply. Tap below to check in now."
-      }
-    },
-    "default": {
-      "isBoosterDefaultEven": {
-        "title": "Tap, Track, Win: Transact to earn +5 entries!",
-        "description": "It's your lucky day! Every eligible transaction you make today earns you extra entries to win an all-expenses-paid trip to Maldives for 2 adults! Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers."
-      },
-      "isBoosterDefaultOdd": {
-        "title": "Tap, Track, Win: Check in now for +6 entries to win prizes!",
-        "description": "You could win an all-expenses-paid trip to Maldives for 2 with Tap, Track, Win, tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
-      },
-      "nonBoosterDefaultEven": {
-        "title": "Tap, Track, Win: Transact now to win exciting prizes!",
-        "description": "Win an all-expenses-paid trip to Maldives for 2 adults when you pay bills, transfer, reload and more! Every eligible transaction earns you entries to win cash prizes too. Make a transaction now to earn your next entry. T&C apply. Tap below to view your Trackers."
-      },
-      "nonBoosterDefaultOdd": {
-        "title": "Tap, Track, Win: Check in now to win exciting prizes!",
-        "description": "Check in daily for entries to win an all-expenses-paid trip to Maldives for 2 adults when you check in daily and earn your free entries. T&C apply. Tap below to check in now."
+        "description": "Win 100g 999.9 gold when you check in daily and earn your free entries. T&C apply. Tap below to check in now."
       }
     }
   },
