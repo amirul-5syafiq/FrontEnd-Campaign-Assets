@@ -111,7 +111,7 @@ jobs:
   push_to_uat:
     name: Release to uat
     needs: [branch_check]
-    if: ${{ needs.branch_check.outputs.branch == 'UAT' }} # only run if branch is UAT
+    if: ${{ needs.branch_check.outputs.branch == 'uat' }} # only run if branch is UAT
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -126,14 +126,32 @@ jobs:
         with:
           aws-region: ap-southeast-1
           role-to-assume: ${{ env.AWS_ROLE_CREDENTIAL_UAT }}
+          role-session-name: OIDCsession
 
       - name: Update to s3
         run: |
-          aws s3 sync ./MAE/ENV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT --exclude "*" --include "*/dynamo.json" --cache-control no-store
-          aws s3 sync ./MAE/ENV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT --delete
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
+          jq --arg CV "${CV}" '.contentVersion = $CV' ./MAE/ENV/setting/AP/masterConfig.json > ./MAE/ENV/setting/AP/masterConfigNew.json
+          mv ./MAE/ENV/setting/AP/masterConfigNew.json ./MAE/ENV/setting/AP/masterConfig.json
+          
+          for path in ./MAE/ENV/*; do \
+            if [[ $path == "./MAE/ENV/setting" ]]; then \
+              echo "Master $path"; \
+              aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT/setting/$AP --delete --cache-control no-store; \
+              continue; \
+            fi; \
+              echo "Others $path"; \
+              export CT=$(node ./scripts/split_ct.js $path); \
+              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT/$CT/$AP/$CV --delete; \
+          done
 
       - name: delete cache
         run: |
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_NONPROD }} \
             --paths "/MAE/UAT/*"
@@ -161,6 +179,7 @@ jobs:
         with:
           aws-region: ap-southeast-1
           role-to-assume: ${{ env.AWS_ROLE_CREDENTIAL_STG }}
+          role-session-name: OIDCsession
 
       - name: Update to s3
         run: |
