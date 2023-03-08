@@ -88,11 +88,11 @@ jobs:
           for path in ./MAE/ENV/*; do \
             if [[ $path == "./MAE/ENV/setting" ]]; then \
               echo "$path"; \
-              aws s3 sync $path/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/setting/$AP --delete --exclude "*" --include "*/masterConfig.json" --cache-control no-store; \
+              aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/setting/$AP --delete --exclude "*" --include "*/masterConfig.json" --cache-control no-store; \
               continue; \
             fi; \
               echo "$path"; \
-              aws s3 sync $path/$AP/$CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$AP/$CV --delete;
+              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$AP/$CV --delete;
             done
 
       - name: delete cache
