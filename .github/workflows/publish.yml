@@ -26,7 +26,7 @@ jobs:
   # |------------------------------------|
 
   branch_check:
-    name: Branch Check
+    name: Branch Check and Get Tag
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -52,7 +52,7 @@ jobs:
   push_to_sit:
     name: Release to sit
     needs: [branch_check]
-    if: ${{ needs.branch_check.outputs.branch == 'SIT' }} # only run if branch is SIT
+    if: ${{ needs.branch_check.outputs.branch == 'sit' }} # only run if branch is SIT
     runs-on: ubuntu-latest
     permissions:
       packages: write
