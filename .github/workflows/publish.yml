@@ -100,7 +100,7 @@ jobs:
 
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_NONPROD }} \
-            --paths "/MAE/SIT/$AP/$CV/*"
+            --paths "/MAE/SIT/*"
 
   
   # |------------------------------------|
