@@ -42,6 +42,7 @@ jobs:
           raw="${{ github.event.base_ref }}"
           branch="${raw#refs/heads/}"
           echo "::set-output name=branch::$branch"
+          echo "Tag name: ${github.event.ref}"
           echo "Branch is $branch."
       
       - name: Extract metadata (tags, labels)
