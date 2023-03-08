@@ -86,6 +86,7 @@ jobs:
             if [[ $path == "./MAE/ENV/setting" ]]; then \
               echo "Master $path"; \
               aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/setting/$AP --delete --cache-control no-store; \
+              continue; \
             fi; \
               echo "Others $path"; \
               export CT=$(node ./scripts/split_ct.js $path); \
