@@ -211,7 +211,7 @@
     "gameProgress": {
       "title": "Your Progress",
       "viewTracker": "View Tracker",
-      "widgetItem1": "dashboard/withTracker/grandPrizeRaya1.png",
+      "widgetItem1": "dashboard/withTracker/grandPrizeRaya.png",
       "descriptionWidgetItem1": "Entries to win\nGrand Prize",
       "widgetItem2": "dashboard/withTracker/specialPrizeRaya.png",
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
