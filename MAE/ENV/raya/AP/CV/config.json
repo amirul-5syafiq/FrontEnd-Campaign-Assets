@@ -116,7 +116,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/TapTrackWin.gif",
+      "icon": "icons/game.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
@@ -165,9 +165,9 @@
     "btnTitile": "Discover Now"
   },
   "gameStatus": {
-    "grandPrize": "tracker/earnedScreen/GrandPrizeRaya1.json",
+    "grandPrize": "tracker/earnedScreen/GrandPrizeRaya.json",
     "specialPrize": "tracker/earnedScreen/SpecialPrizeRaya.json",
-    "booster": "tracker/earnedScreen/SpecialPrizeRaya2.json",
+    "booster": "tracker/earnedScreen/SpecialPrize2.json",
     "completed": "tracker/earnedScreen/CompletedRaya.json",
     "background": "tracker/earnedScreen/rayaBackgroundBooster.png",
     "tapTrackWin": "tracker/earnedScreen/TapTrackWinRaya.json",
