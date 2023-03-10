@@ -30,7 +30,7 @@
     "background": "greetings/eDuitRayaBackground.png",
     "mainData": {
       "color": "#FFFFFF",
-      "mainHeader": "Send e-Duit Raya as\nblessings and well wishes\nto love ones.",
+      "mainHeader": "Send e-Duit Raya as\nblessings and well wishes\nto loved ones.",
       "options": [
         {
           "title": "Send via \nScan & Pay",
@@ -109,7 +109,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/TapTrackWinIcon.json",
+      "icon": "icons/game.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
