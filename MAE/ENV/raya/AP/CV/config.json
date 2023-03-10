@@ -87,7 +87,7 @@
     "consolation":{
       "title": "You've scored",
       "subtitle": "entries to win a Special Prize!",
-      "firstDesc":  "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
+      "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win."
     },
     "special": {
