@@ -60,6 +60,12 @@
     "festiveTitle": "Send e-Duit Raya",
     "headerTitleEnterAmount": "Send e-Duit Raya"
   },
+  "transfer":{
+    "backgroundSkin": ""
+  },
+  "payBills":{
+    "backgroundSkin": ""
+  },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
     "background": "qrPay/scanPaySkinRaya.png",
@@ -183,7 +189,7 @@
         "logo": "dashboard/rayaTapTrackWin.png"
       },
       "completed": {
-        "logo": "dashboard/rayaTapTrackWin.png"
+        "logo": "dashboard/rayaTaptrackWin.png"
       }
     },
     "dashboardWithTracker": {
