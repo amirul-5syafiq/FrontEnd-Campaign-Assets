@@ -2,6 +2,7 @@
   "campaignId": 2,
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "e-Duit Raya from",
+    "festiveSendGreetingFromReceived": "e-Greeting Raya from",
     "background": "greetings/received/receiveBackground.png",
     "moneyContainer": "greetings/received/moneyContainer.png"
   },
@@ -186,7 +187,7 @@
         "logo": "dashboard/logoRayaActive.png"
       },
       "empty": {
-        "logo": "dashboard/rayaTapTrackWin.png"
+        "logo": "dashboard/rayaTapTrackWinEmpty.png"
       },
       "completed": {
         "logo": "dashboard/rayaTaptrackWin.png"
