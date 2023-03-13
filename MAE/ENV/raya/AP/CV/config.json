@@ -2,7 +2,7 @@
   "campaignId": 2,
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "e-Duit Raya from",
-    "festiveSendGreetingFromReceived": "e-Greeting Raya from",
+    "festiveSendGreetingFromReceived": "You've received e-Greeting Raya from",
     "background": "greetings/received/receiveBackground.png",
     "moneyContainer": "greetings/received/moneyContainer.png"
   },
@@ -138,7 +138,7 @@
   },
   "link" :{
     "gameTnc" : {
-      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
       "title" : "Terms & Conditions"
     },
     "ezyCash" :{
