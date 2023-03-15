@@ -31,7 +31,7 @@
     "background": "greetings/eDuitRayaBackground.png",
     "mainData": {
       "color": "#FFFFFF",
-      "mainHeader": "Send e-Duit Raya as\nblessings and well wishes\nto loved ones.",
+      "mainHeader": "Send e-Duit Raya as\nblessings and well wishes\nto loved ones",
       "options": [
         {
           "title": "Send via \nScan & Pay",
@@ -93,7 +93,7 @@
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
     "consolation":{
-      "title": "You've earned",
+      "title": "You've just earned",
       "subtitle": "entries to win a Special Prize!",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win."
