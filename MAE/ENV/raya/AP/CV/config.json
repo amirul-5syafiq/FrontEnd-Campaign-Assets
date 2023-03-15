@@ -86,23 +86,26 @@
     }
   },
   "entriesAnimation": {
-    "background": "qrPay/cashback/background.png",
+    "backgroundSpecial": "tracker/earnedScreen/backgroundSpecial.png",
+    "backgroundGrand": "qrPay/cashback/background.png",
     "moneyContainer": "qrPay/cashback/amountContainer.png",
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
     "consolation":{
-      "title": "You've scored",
+      "title": "You've earned",
       "subtitle": "entries to win a Special Prize!",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win."
     },
     "special": {
+      "title": "You've just earned",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
     "grand": {
+      "title": "You've just earned",
       "firstDesc": "Well done! You’ve completed a Tracker \non Tap, Track, Win.",
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
@@ -176,7 +179,8 @@
     "specialPrize": "tracker/earnedScreen/SpecialPrizeRaya.json",
     "booster": "tracker/earnedScreen/SpecialPrize2.json",
     "completed": "tracker/earnedScreen/CompletedRaya.json",
-    "background": "tracker/earnedScreen/rayaBackgroundBooster.png",
+    "backgroundGrand": "tracker/earnedScreen/rayaBackgroundGrand.png",
+    "backgroundSpecial": "tracker/earnedScreen/backgroundSpecial.png",
     "tapTrackWin": "tracker/earnedScreen/TapTrackWinRaya.json",
     "entriesContainer": "tracker/earnedScreen/entriesContainerRaya.png"
   },
