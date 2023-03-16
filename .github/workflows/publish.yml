@@ -5,15 +5,16 @@ on:
     tags:
       - "v*-cv*" # v0.9.7-cv1-alpha
 
-
 env:
   TAG_VERSION: ${{ github.ref_name }}
+  AWS_ROLE_CREDENTIAL_DEV: arn:aws:iam::823450791383:role/campaign-dev-GitOIDC-1MHTMHXU009-StaticWebHostRole-1FYADBDB22X98
   AWS_ROLE_CREDENTIAL_SIT: arn:aws:iam::823450791383:role/campaign-sit-GitOIDC-1HJ8PQ74FSA-StaticWebHostRole-VY4Q6Q27S2TZ
   AWS_ROLE_CREDENTIAL_UAT: arn:aws:iam::823450791383:role/campaign-uat-GitOIDC-NSE3YJF14ZV-StaticWebHostRole-JDI74L6N0D4P
   AWS_ROLE_CREDENTIAL_STG: arn:aws:iam::XXXXXXXXXXXX:role/<ROLE NAME>
   AWS_ROLE_CREDENTIAL_PROD: arn:aws:iam::XXXXXXXXXXXX:role/<ROLE NAME>
 
   # for new architecture
+  BUCKET_ASSETS_DEV: campaign-dev-assets
   BUCKET_ASSETS_SIT: campaign-sit-assets
   BUCKET_ASSETS_UAT: campaign-uat-assets
   BUCKET_ASSETS_STG: campaign-stg-assets
@@ -26,7 +27,7 @@ jobs:
   # |------------------------------------|
 
   branch_check:
-    name: Branch Check
+    name: Branch Check and Get Tag
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -34,7 +35,7 @@ jobs:
       id-token: write
     outputs:
       branch: ${{ steps.get_branch.outputs.branch }}
-      tagging: ${{ steps.meta.outputs.tags }}
+      tag: ${{ steps.get_tag.outputs.tag }}
     steps:
       - name: Get current branch
         id: get_branch
@@ -43,6 +44,66 @@ jobs:
           branch="${raw#refs/heads/}"
           echo "::set-output name=branch::$branch"
           echo "Branch is $branch."
+        
+      - name: Get current tag
+        id: get_tag
+        run: |
+          echo "tag=${GITHUB_REF#refs/*/}" >> $GITHUB_OUTPUT
+
+  # |------------------------------------|
+  # | DEV                                |
+  # |------------------------------------|
+
+  # push to old architecture
+  push_to_dev:
+    name: Release to dev
+    needs: [branch_check]
+    if: ${{ needs.branch_check.outputs.branch == 'develop' }} # only run if branch is DEV
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: write
+      id-token: write
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@master
+        with:
+          aws-region: ap-southeast-1
+          role-to-assume: ${{ env.AWS_ROLE_CREDENTIAL_DEV }}
+          role-session-name: OIDCsession
+      
+      - name: Update to s3
+        run: |
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
+          jq --arg CV "${CV}" '.contentVersion = $CV' ./MAE/ENV/setting/AP/masterConfig.json > ./MAE/ENV/setting/AP/masterConfigNew.json
+          mv ./MAE/ENV/setting/AP/masterConfigNew.json ./MAE/ENV/setting/AP/masterConfig.json
+          
+          for path in ./MAE/ENV/*; do \
+            if [[ $path == "./MAE/ENV/setting" ]]; then \
+              echo "Master $path"; \
+              aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_DEV }}/MAE/development/setting/$AP --delete --cache-control no-store; \
+              continue; \
+            fi; \
+              echo "Others $path"; \
+              export CT=$(node ./scripts/split_ct.js $path); \
+              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_DEV }}/MAE/development/$CT/$AP/$CV --delete; \
+          done
+
+      - name: delete cache
+        run: |
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_NONPROD }} \
+            --paths "/MAE/development/*"
+
+  
 
   # |------------------------------------|
   # | SIT                                |
@@ -52,7 +113,7 @@ jobs:
   push_to_sit:
     name: Release to sit
     needs: [branch_check]
-    if: ${{ needs.branch_check.outputs.branch == 'SIT' }} # only run if branch is SIT
+    if: ${{ needs.branch_check.outputs.branch == 'sit' }} # only run if branch is SIT
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -69,35 +130,33 @@ jobs:
           role-to-assume: ${{ env.AWS_ROLE_CREDENTIAL_SIT }}
           role-session-name: OIDCsession
       
-      - name: Change content version in masterConfig.json
-        run: |
-          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tagging }})
-          jq --arg CV "${CV}" '.contentVersion = $CV' ./MAE/ENV/setting/AP/masterConfig.json > ./MAE/ENV/setting/AP/masterConfigNew.json
-          mv ./MAE/ENV/setting/AP/masterConfigNew.json ./MAE/ENV/setting/AP/masterConfig.json
-
       - name: Update to s3
         run: |
-          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tagging }})
-          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tagging }})
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
+          jq --arg CV "${CV}" '.contentVersion = $CV' ./MAE/ENV/setting/AP/masterConfig.json > ./MAE/ENV/setting/AP/masterConfigNew.json
+          mv ./MAE/ENV/setting/AP/masterConfigNew.json ./MAE/ENV/setting/AP/masterConfig.json
           
           for path in ./MAE/ENV/*; do \
             if [[ $path == "./MAE/ENV/setting" ]]; then \
-              echo "$path"; \
-              aws s3 sync $path/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/setting/$AP --delete --exclude "*" --include "*/masterConfig.json" --cache-control no-store; \
+              echo "Master $path"; \
+              aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/setting/$AP --delete --cache-control no-store; \
               continue; \
             fi; \
-              echo "$path"; \
-              aws s3 sync $path/$AP/$CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$AP/$CV --delete;
-            done
+              echo "Others $path"; \
+              export CT=$(node ./scripts/split_ct.js $path); \
+              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$CT/$AP/$CV --delete; \
+          done
 
       - name: delete cache
         run: |
-          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tagging }})
-          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tagging }})
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
 
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_NONPROD }} \
-            --paths "/MAE/SIT/$AP/$CV/*"
+            --paths "/MAE/SIT/*"
 
   
   # |------------------------------------|
@@ -108,7 +167,7 @@ jobs:
   push_to_uat:
     name: Release to uat
     needs: [branch_check]
-    if: ${{ needs.branch_check.outputs.branch == 'UAT' }} # only run if branch is UAT
+    if: ${{ needs.branch_check.outputs.branch == 'uat' }} # only run if branch is UAT
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -123,14 +182,32 @@ jobs:
         with:
           aws-region: ap-southeast-1
           role-to-assume: ${{ env.AWS_ROLE_CREDENTIAL_UAT }}
+          role-session-name: OIDCsession
 
       - name: Update to s3
         run: |
-          aws s3 sync ./MAE/ENV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT --exclude "*" --include "*/dynamo.json" --cache-control no-store
-          aws s3 sync ./MAE/ENV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT --delete
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
+          jq --arg CV "${CV}" '.contentVersion = $CV' ./MAE/ENV/setting/AP/masterConfig.json > ./MAE/ENV/setting/AP/masterConfigNew.json
+          mv ./MAE/ENV/setting/AP/masterConfigNew.json ./MAE/ENV/setting/AP/masterConfig.json
+          
+          for path in ./MAE/ENV/*; do \
+            if [[ $path == "./MAE/ENV/setting" ]]; then \
+              echo "Master $path"; \
+              aws s3 sync $path/AP/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT/setting/$AP --delete --cache-control no-store; \
+              continue; \
+            fi; \
+              echo "Others $path"; \
+              export CT=$(node ./scripts/split_ct.js $path); \
+              aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT/$CT/$AP/$CV --delete; \
+          done
 
       - name: delete cache
         run: |
+          export AP=$(node ./scripts/split_ap.js ${{ needs.branch_check.outputs.tag }})
+          export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
+
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_NONPROD }} \
             --paths "/MAE/UAT/*"
@@ -158,6 +235,7 @@ jobs:
         with:
           aws-region: ap-southeast-1
           role-to-assume: ${{ env.AWS_ROLE_CREDENTIAL_STG }}
+          role-session-name: OIDCsession
 
       - name: Update to s3
         run: |

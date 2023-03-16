@@ -1,5 +1,5 @@
 {
   "selectCampaign": "raya",
-  "contentVersion": "cv1",
+  "contentVersion": "",
   "listCampaignType": ["raya", "cny", "aoc", "default", "yearend"]
 }
