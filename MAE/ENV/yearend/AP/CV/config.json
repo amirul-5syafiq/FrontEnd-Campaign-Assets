@@ -230,7 +230,7 @@
       "backgroundColor": "#FFD88D",
       "borderColor": "#FFD88D",
       "entriesContainerColor": "#FFD88D",
-      "entriesContainerButton": "#ffde02"
+      "entriesContainerButton": "##ffffff"
     }
   },
   "dashboardstatus": {
