@@ -228,7 +228,8 @@
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
       "backgroundColor": "#fff9c8",
       "borderColor": "#c6e9b9",
-      "entriesContainerColor": "##fff9c8"
+      "entriesContainerColor": "#fff9c8",
+      "entriesContainerButton": "#ffde02"
     }
   },
   "dashboardstatus": {
