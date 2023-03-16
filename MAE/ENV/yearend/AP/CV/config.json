@@ -62,7 +62,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "qrPay/skin",
+    "background": "qrPay/skinQrPay.png",
     "cashback": {
         "background": "qrPay/cashback/background.png",
         "success": {
@@ -79,7 +79,8 @@
       }
   },
   "entriesAnimation": {
-    "background": "qrPay/cashback/background.png",
+    "backgroundSpecial": "qrPay/cashback/background.png",
+    "backgroundGrand": "qrPay/cashback/background.png",
     "moneyContainer": "qrPay/cashback/amountContainer.png",
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
@@ -150,8 +151,8 @@
   "ssl": {
     "background": "ssl/skin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/background.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/background.png",
+    "festiveWidgetBackground": "ssl/dashboard/backgroundSSL.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/backgroundSSL.png",
     "headerTitle": "Order Food & More",
     "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
     "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
@@ -165,14 +166,15 @@
     "btnTitile": "Discover Now"
   },
   "gameStatus": {
-    "background": "tracker/earnedScreen/completedBackground.png",
-    "entriesContainer": "tracker/earnedScreen/amountContainer.png",
     "grandPrize": "tracker/earnedScreen/GrandPrize.json",
     "specialPrize": "tracker/earnedScreen/SpecialPrize1.json",
     "booster": "tracker/earnedScreen/SpecialPrize2.json",
     "completed": "tracker/earnedScreen/Completed.json",
+    "backgroundGrand": "tracker/earnedScreen/grandBackground.png",
+    "backgroundSpecial": "tracker/earnedScreen/specialBackground.png",
     "tapTrackWin": "tracker/earnedScreen/TapTrackWin.json",
-    "specialCashback": ""
+    "specialCashback": "",
+    "entriesContainer": "tracker/earnedScreen/amountContainer.png"
   },
   "dashboard": {
     "headerTitle": "Tap, Track, Win",
@@ -224,12 +226,12 @@
     "active": {
       "activeEven": {
         "title": "Winn 1 year's worth of\npertrol vouchers!",
-        "description": "Transact now to earn\nyour first entry",
+        "description": "Earn entries when you\nPay Bills, Transfer or more.",
         "buttonText": "View Tracker"
       },
       "activeOdd": {
         "title": "Winn 1 year's worth of\npertrol vouchers!",
-        "description": "Earn entries when you\nPay Bills, Reload or more.",
+        "description": "Earn entries when you\nPay Bills, Transfer or more.",
         "buttonText": "View Tracker"
       },
       "": {
