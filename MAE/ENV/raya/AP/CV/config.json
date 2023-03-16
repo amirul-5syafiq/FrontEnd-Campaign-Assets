@@ -159,13 +159,13 @@
   },
   "ssl": {
     "background": "ssl/sslRayaSkin.png",
-    "handLogo": "ssl/SSLHandLogo.png",
-    "festiveWidgetBackground": "ssl/dashboard/rayaBackgroundSSLWidget.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/rayaSSLFoodWidget.png",
-    "headerTitle": "Order Food & More",
-    "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal 123456.",
-    "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
-    "orderNow": "Order Now"
+    "handLogo": "",
+    "festiveWidgetBackground": "ssl/dashboard/sslBanner.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner.png",
+    "headerTitle": "",
+    "sslTitle": "",
+    "sslDescription": "",
+    "orderNow": ""
   },
   "fnB": {
     "fnBbackground": "fnB/background.png",
@@ -188,35 +188,35 @@
     "headerTitle": "Tap, Track, Win",
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/logoRayaActive.png"
+        "logo": "dashboard/rayaMasthead.png"
       },
       "empty": {
-        "logo": "dashboard/rayaTapTrackWinEmpty.png"
+        "logo": "dashboard/rayaMasthead.png"
       },
       "completed": {
-        "logo": "dashboard/rayaTaptrackWin.png"
+        "logo": "dashboard/rayaMasthead.png"
       }
     },
     "dashboardWithTracker": {
       "active": {
-        "background": "dashboard/withTracker/widgetBackgroundRayaActive.png"
+        "background": "dashboard/withTracker/backgroundWidget.png"
       },
       "empty": {
-        "background": "dashboard/withTracker/plainWidgetBackgroundRaya.png"
+        "background": "dashboard/withTracker/backgroundWidget.png"
       },
       "completed": {
-        "background": "dashboard/withTracker/plainWidgetBackgroundRaya.png"
+        "background": "dashboard/withTracker/backgroundWidget.png"
       }
     },
     "dashboardWithoutTracker": {
       "active": {
-        "background": "dashboard/withoutTracker/widgetBackgroundRayaActive.png"
+        "background": "dashboard/withoutTracker/shortEntryBg.png"
       },
       "empty": {
-        "background": "dashboard/withoutTracker/rayaBackground.png"
+        "background": "dashboard/withoutTracker/shortEntryBg.png"
       },
       "completed": {
-        "background": "dashboard/withoutTracker/rayaBackground.png"
+        "background": "dashboard/withoutTracker/shortEntryBg.png"
       }
     },
     "gameProgress": {
@@ -234,29 +234,29 @@
     "active": {
       "activeEven": {
         "title": "Win 100g 999.9 gold or\ncash prizes!",
-        "description": "Keep transacting to\nearn more entries to win.",
+        "description": "",
         "buttonText": "View Tracker"
       },
       "activeOdd": {
         "title": "Win 100g 999.9 gold or\ncash prizes!",
-        "description": "Earn entries when you\nPay Bills, Reload or more.",
+        "description": "",
         "buttonText": "View Tracker"
       },
       "": {
         "title": "Win 100g 999.9 gold or\ncash prizes!",
-        "description": "Earn entries when you\nPay Bills, Reload or more.",
+        "description": "",
         "buttonText": "View Tracker"
       }
     },
     "completed": {
       "completedEven": {
         "title": "Yay! You've completed all teh trackers!",
-        "description": "Stay tuned for\nthe winners' announcement.",
+        "description": "",
         "buttonText": "View Tracker"
       },
       "completedOdd": {
         "title": "Yay! You've completed\nall Trackers!",
-        "description": "Stay tuned for\nthe winners' announcement.",
+        "description": "",
         "buttonText": "View Tracker"
       }
     },
@@ -268,7 +268,7 @@
       },
       "emptyOdd": {
         "title": "Win 100g 999.9 gold or\ncash prizes!",
-        "description": "Tap here to earn your\nfirst entry now.",
+        "description": "",
         "buttonText": "Go To Tracker"
       }
     }
