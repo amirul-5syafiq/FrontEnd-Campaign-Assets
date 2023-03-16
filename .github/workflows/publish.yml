@@ -14,7 +14,7 @@ env:
   AWS_ROLE_CREDENTIAL_PROD: arn:aws:iam::XXXXXXXXXXXX:role/<ROLE NAME>
 
   # for new architecture
-  BUCKET_ASSETS_SIT: campaign-dev-assets
+  BUCKET_ASSETS_DEV: campaign-dev-assets
   BUCKET_ASSETS_SIT: campaign-sit-assets
   BUCKET_ASSETS_UAT: campaign-uat-assets
   BUCKET_ASSETS_STG: campaign-stg-assets
