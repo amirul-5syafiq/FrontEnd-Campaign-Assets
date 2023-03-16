@@ -58,7 +58,7 @@ jobs:
   push_to_dev:
     name: Release to dev
     needs: [branch_check]
-    if: ${{ needs.branch_check.outputs.branch == 'dev' }} # only run if branch is DEV
+    if: ${{ needs.branch_check.outputs.branch == 'develop' }} # only run if branch is DEV
     runs-on: ubuntu-latest
     permissions:
       packages: write
