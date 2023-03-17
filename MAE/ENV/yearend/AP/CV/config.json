@@ -177,7 +177,7 @@
   "gameStatus": {
     "grandPrize": "tracker/earnedScreen/GrandPrize.json",
     "specialPrize": "tracker/earnedScreen/SpecialPrize1.json",
-    "booster": "tracker/earnedScreen/SpecialPrize2.json",
+    "booster": "tracker/earnedScreen/SpecialPrize2Resized.json",
     "completed": "tracker/earnedScreen/Completed.json",
     "backgroundGrand": "tracker/earnedScreen/grandBackground.png",
     "backgroundSpecial": "tracker/earnedScreen/specialBackground.png",
