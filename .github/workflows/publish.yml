@@ -257,7 +257,7 @@ jobs:
           export CV=$(node ./scripts/split_cv.js ${{ needs.branch_check.outputs.tag }})
 
           aws cloudfront create-invalidation \
-            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_NONPROD }} \
+            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID_PROD }} \
             --paths "/MAE/staging/*"
 
   
