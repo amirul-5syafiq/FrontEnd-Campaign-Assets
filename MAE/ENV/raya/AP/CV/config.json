@@ -199,13 +199,13 @@
     },
     "dashboardWithTracker": {
       "active": {
-        "background": "dashboard/withTracker/backgroundWidget.png"
+        "background": "dashboard/withTracker/longEntryBg.png"
       },
       "empty": {
-        "background": "dashboard/withTracker/backgroundWidget.png"
+        "background": "dashboard/withTracker/longEntryBg.png"
       },
       "completed": {
-        "background": "dashboard/withTracker/backgroundWidget.png"
+        "background": "dashboard/withTracker/longEntryBg.png"
       }
     },
     "dashboardWithoutTracker": {
@@ -226,48 +226,50 @@
       "descriptionWidgetItem1": "Entries to win\nGrand Prize",
       "widgetItem2": "dashboard/withTracker/specialPrizeRaya.png",
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
-      "backgroundColor": "#FFD88D",
-      "entriesContainerColor": "#FFD88D"
+      "backgroundColor": "#fff9c8",
+      "borderColor": "#c6e9b9",
+      "entriesContainerColor": "#fff9c8",
+      "entriesContainerButton": "#ffde02"
     }
   },
   "dashboardstatus": {
     "active": {
       "activeEven": {
-        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "title": "Win 100g 999.9 gold\nor cash prizes!",
         "description": "",
         "buttonText": "View Tracker"
       },
       "activeOdd": {
-        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "title": "Win 100g 999.9 gold\nor cash prizes!",
         "description": "",
         "buttonText": "View Tracker"
       },
       "": {
-        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "title": "Win 100g 999.9 gold\nor cash prizes!",
         "description": "",
         "buttonText": "View Tracker"
       }
     },
     "completed": {
       "completedEven": {
-        "title": "Yay! You've completed all teh trackers!",
+        "title": "Yay! You've completed all the trackers!",
         "description": "",
         "buttonText": "View Tracker"
       },
       "completedOdd": {
-        "title": "Yay! You've completed\nall Trackers!",
+        "title": "Yay! You've completed\nall the trackers!",
         "description": "",
         "buttonText": "View Tracker"
       }
     },
     "empty": {
       "emptyEven": {
-        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "title": "Win 100g 999.9 gold\nor cash prizes!",
         "description": "Transact now to earn\nyour first entry",
         "buttonText": "Go To Tracker"
       },
       "emptyOdd": {
-        "title": "Win 100g 999.9 gold or\ncash prizes!",
+        "title": "Win 100g 999.9 gold\nor cash prizes!",
         "description": "",
         "buttonText": "Go To Tracker"
       }

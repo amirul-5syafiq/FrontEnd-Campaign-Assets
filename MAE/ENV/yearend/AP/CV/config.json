@@ -2,6 +2,7 @@
   "campaignId": 2,
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
+    "festiveSendGreetingFromReceived": "",
     "background": "",
     "moneyContainer": ""
   },
@@ -60,6 +61,12 @@
     "festiveTitle": "",
     "headerTitleEnterAmount": ""
   },
+  "transfer":{
+    "backgroundSkin": ""
+  },
+  "payBills":{
+    "backgroundSkin": ""
+  },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
     "background": "qrPay/skinQrPay.png",
@@ -92,11 +99,13 @@
       "secondDesc": "Make another transaction for more\nentries to win."
     },
     "special": {
+      "title": "You've scored",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
     "grand": {
+      "title": "You've scored",
       "firstDesc": "Well done! You’ve completed a Tracker \non Tap, Track, Win.",
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
@@ -219,7 +228,9 @@
       "widgetItem2": "dashboard/withTracker/specialPrize.png",
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
       "backgroundColor": "#FFD88D",
-      "entriesContainerColor": "#FFD88D"
+      "borderColor": "#FFD88D",
+      "entriesContainerColor": "#FFD88D",
+      "entriesContainerButton": "#ffffff"
     }
   },
   "dashboardstatus": {
@@ -273,15 +284,15 @@
       },
       "isBoosterFestiveOdd": {
         "title": "Tap, Track, Win: +2 entry for Special Prize!",
-        "description": "You're in the running to win 2 year's worth of petrol vouchers and more exciting prizes! Keep transacting to earn more entries. T&C apply."
+        "description": "You're in the running to win 1 year's worth of petrol vouchers and more exciting prizes! Keep transacting to earn more entries. T&C apply."
       },
       "nonBoosterEven": {
         "title": "Tap, Track, Win: +1 entry for Special Prize!",
-        "description": "You're in the running to win 3 year's worth of petrol vouchers and more exciting prizes! Keep transacting to earn more entries. T&C apply. Tap below to view your Trackers now."
+        "description": "You're in the running to win 1 year's worth of petrol vouchers and more exciting prizes! Keep transacting to earn more entries. T&C apply. Tap below to view your Trackers now."
       },
       "nonBoosterOdd": {
         "title": "Tap, Track, Win: +1 entry for Special Prize!",
-        "description": "You're in the running to win 4 year's worth of petrol vouchers and more exciting prizes! Keep transacting to earn more entries. T&C apply. Tap below to view your Trackers now."
+        "description": "You're in the running to win 1 year's worth of petrol vouchers and more exciting prizes! Keep transacting to earn more entries. T&C apply. Tap below to view your Trackers now."
       }
     }
   },
