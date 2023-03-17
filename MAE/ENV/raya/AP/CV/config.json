@@ -188,13 +188,13 @@
     "headerTitle": "Tap, Track, Win",
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/rayaMasthead.png"
+        "logo": "dashboard/newRayaMasthead.png"
       },
       "empty": {
-        "logo": "dashboard/rayaMasthead.png"
+        "logo": "dashboard/newRayaMasthead.png"
       },
       "completed": {
-        "logo": "dashboard/rayaMasthead.png"
+        "logo": "dashboard/newRayaMasthead.png"
       }
     },
     "dashboardWithTracker": {
