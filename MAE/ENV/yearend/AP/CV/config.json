@@ -116,7 +116,7 @@
     }
   },
   "login": {
-    "background": "login/preloginSkin.png.png"
+    "background": "login/preloginSkin.png"
   },
   "quickAction": {
     "showFestive": false,
