@@ -1,6 +1,6 @@
 {
   "campaignId": 2,
-  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
+  "campaignWebViewUrl": "https://campaign.maybanksandbox.com/",
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
     "festiveSendGreetingFromReceived": "",
