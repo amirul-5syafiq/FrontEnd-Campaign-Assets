@@ -1,5 +1,6 @@
 {
   "campaignId": 2,
+  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
     "festiveSendGreetingFromReceived": "",
@@ -265,12 +266,12 @@
     },
     "empty": {
       "emptyEven": {
-        "title": "Winn 1 year's worth of\npertrol vouchers!",
+        "title": "Win 1 year's worth of\npetrol vouchers!",
         "description": "Transact now to earn\nyour first entry",
         "buttonText": "Learn More"
       },
       "emptyOdd": {
-        "title": "Winn 1 year's of\npertrol vouchers!",
+        "title": "Win 1 year's of\npetrol vouchers!",
         "description": "Transact now to earn\nyour first entry",
         "buttonText": "Learn More"
       }
