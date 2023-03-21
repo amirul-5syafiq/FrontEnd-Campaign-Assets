@@ -305,7 +305,7 @@ jobs:
               echo "Others $path"; \
               export CT=$(node ./scripts/split_ct.js $path); \
               aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/production/$CT/$AP/$CV --delete; \
-              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/production/$CT/$AP/$CV --cache-control no-store; \
+              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/production/$CT/$AP/$CV/ --cache-control no-store; \
           done
 
       - name: delete cache
