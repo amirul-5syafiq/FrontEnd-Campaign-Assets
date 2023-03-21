@@ -92,7 +92,7 @@ jobs:
               echo "Others $path"; \
               export CT=$(node ./scripts/split_ct.js $path); \
               aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_DEV }}/MAE/development/$CT/$AP/$CV --delete; \
-              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/development/$CT/$AP/$CV --cache-control no-store; \
+              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_DEV }}/MAE/development/$CT/$AP/$CV --cache-control no-store; \
           done
 
       - name: delete cache
@@ -145,7 +145,7 @@ jobs:
               echo "Others $path"; \
               export CT=$(node ./scripts/split_ct.js $path); \
               aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$CT/$AP/$CV --delete; \
-              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/SIT/$CT/$AP/$CV --cache-control no-store; \
+              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_SIT }}/MAE/SIT/$CT/$AP/$CV --cache-control no-store; \
           done
 
       - name: delete cache
@@ -199,7 +199,7 @@ jobs:
               echo "Others $path"; \
               export CT=$(node ./scripts/split_ct.js $path); \
               aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT/$CT/$AP/$CV --delete; \
-              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/UAT/$CT/$AP/$CV --cache-control no-store; \
+              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_UAT }}/MAE/UAT/$CT/$AP/$CV --cache-control no-store; \
           done
 
       - name: delete cache
@@ -252,7 +252,7 @@ jobs:
               echo "Others $path"; \
               export CT=$(node ./scripts/split_ct.js $path); \
               aws s3 sync $path/AP/CV/. s3://${{ env.BUCKET_ASSETS_STG }}/MAE/staging/$CT/$AP/$CV --delete; \
-              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_PROD }}/MAE/staging/$CT/$AP/$CV --cache-control no-store; \
+              aws s3 cp $path/AP/CV/config.json s3://${{ env.BUCKET_ASSETS_STG }}/MAE/staging/$CT/$AP/$CV --cache-control no-store; \
           done
 
       - name: delete cache
