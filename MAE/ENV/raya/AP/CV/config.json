@@ -92,6 +92,7 @@
     "moneyContainer": "qrPay/cashback/amountContainer.png",
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
+    "buttonTextPositiveNotification": "Turn On Notification",
     "buttonTextNegative": "MAE-be later",
     "consolation":{
       "title": "You've just earned",
