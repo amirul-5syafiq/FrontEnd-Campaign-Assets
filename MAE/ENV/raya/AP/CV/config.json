@@ -49,7 +49,7 @@
       ]
     },
     "successMessageTransfer": "Transaction successful",
-    "failMessageTransfer":"Transaction unsuccessful",
+    "failMessageTransfer": "Transaction unsuccessful",
     "includeMoneyText": "Include e-Duit Raya",
     "topContainer": "greetings/send/e-greetingSkin.png",
     "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
@@ -62,10 +62,10 @@
     "festiveTitle": "Send e-Duit Raya",
     "headerTitleEnterAmount": "Send e-Duit Raya"
   },
-  "transfer":{
+  "transfer": {
     "backgroundSkin": ""
   },
-  "payBills":{
+  "payBills": {
     "backgroundSkin": ""
   },
   "qrPay": {
@@ -93,7 +93,7 @@
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
-    "consolation":{
+    "consolation": {
       "title": "You've just earned",
       "subtitle": "entries to win a Special Prize!",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
@@ -111,7 +111,7 @@
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
-    "completed":{
+    "completed": {
       "title": "You're a star! You've\ncompleted all your Trackers",
       "description": "Turn on your notification so you can\nbe notified when you win!"
     }
@@ -140,22 +140,22 @@
       }
     }
   },
-  "link" :{
-    "gameTnc" : {
-      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
-      "title" : "Terms & Conditions"
+  "link": {
+    "gameTnc": {
+      "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
+      "title": "Terms & Conditions"
     },
-    "ezyCash" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
-      "title" : "Maybank2u"
+    "ezyCash": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
     },
-    "ezyPay" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
-      "title" : "Maybank2u"
+    "ezyPay": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
     },
-    "balanceTransfer" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
-      "title" : "Maybank2u"
+    "balanceTransfer": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
     }
   },
   "ssl": {
@@ -187,6 +187,23 @@
   },
   "dashboard": {
     "headerTitle": "Tap, Track, Win",
+    "swipper": [
+      {
+        "id": "campaign",
+        "action": "CAMPAIGN",
+        "image": "dashboard/swipper/campaign.png"
+      },
+      {
+        "id": "tabung",
+        "action": "GOALS_DASHBOARD",
+        "image": "dashboard/swipper/tabung.png"
+      },
+      {
+        "id": "applePay",
+        "action": "APPLEPAY_DASHBOARD",
+        "image": "dashboard/swipper/applePay.png"
+      }
+    ],
     "dashboardLogo": {
       "active": {
         "logo": "dashboard/newRayaMasthead.png"
