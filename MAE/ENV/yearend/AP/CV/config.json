@@ -148,15 +148,15 @@
       "title" : "Terms & Conditions"
     },
     "ezyCash" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
       "title" : "Maybank2u"
     },
     "ezyPay" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
       "title" : "Maybank2u"
     },
     "balanceTransfer" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
       "title" : "Maybank2u"
     }
   },
