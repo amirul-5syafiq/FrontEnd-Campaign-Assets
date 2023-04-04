@@ -49,7 +49,7 @@
       ]
     },
     "successMessageTransfer": "",
-    "failMessageTransfer":"",
+    "failMessageTransfer": "",
     "includeMoneyText": "",
     "topContainer": "",
     "backgroundGreetings": "",
@@ -62,29 +62,29 @@
     "festiveTitle": "",
     "headerTitleEnterAmount": ""
   },
-  "transfer":{
+  "transfer": {
     "backgroundSkin": ""
   },
-  "payBills":{
+  "payBills": {
     "backgroundSkin": ""
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
     "background": "qrPay/skinQrPay.png",
     "cashback": {
-        "background": "qrPay/cashback/background.png",
-        "success": {
-          "title": "Hooray!\nYou've just earned",
-          "description": "Keep using Scan & Pay for more rewards.",
-          "animation": "qrPay/cashback/cashback.json",
-          "moneyContainer": "qrPay/cashback/cashbackAmountContainer.png"
-        },
-        "failed": {
-          "title": "Oops, no cashback this time.",
-          "description": "Keep using Scan & Pay for more rewards in the future.",
-          "animation": "qrPay/cashback/noCashback.json"
-        }
+      "background": "qrPay/cashback/background.png",
+      "success": {
+        "title": "Hooray!\nYou've just earned",
+        "description": "Keep using Scan & Pay for more rewards.",
+        "animation": "qrPay/cashback/cashback.json",
+        "moneyContainer": "qrPay/cashback/cashbackAmountContainer.png"
+      },
+      "failed": {
+        "title": "Oops, no cashback this time.",
+        "description": "Keep using Scan & Pay for more rewards in the future.",
+        "animation": "qrPay/cashback/noCashback.json"
       }
+    }
   },
   "entriesAnimation": {
     "backgroundSpecial": "qrPay/cashback/background.png",
@@ -93,10 +93,10 @@
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
-    "consolation":{
+    "consolation": {
       "title": "You've scored",
       "subtitle": "entries to win a Special Prize!",
-      "firstDesc":  "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
+      "firstDesc": "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win."
     },
     "special": {
@@ -111,7 +111,7 @@
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
-    "completed":{
+    "completed": {
       "title": "You're a star! You've\ncompleted all your Trackers",
       "description": "Turn on your notification so you can\nbe notified when you win!"
     }
@@ -140,22 +140,22 @@
       }
     }
   },
-  "link" :{
-    "gameTnc" : {
-      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
-      "title" : "Terms & Conditions"
+  "link": {
+    "gameTnc": {
+      "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+      "title": "Terms & Conditions"
     },
-    "ezyCash" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
-      "title" : "Maybank2u"
+    "ezyCash": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "title": "Maybank2u"
     },
-    "ezyPay" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
-      "title" : "Maybank2u"
+    "ezyPay": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "title": "Maybank2u"
     },
-    "balanceTransfer" :{
-      "link" : "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
-      "title" : "Maybank2u"
+    "balanceTransfer": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX1/m2u/common/login.do",
+      "title": "Maybank2u"
     }
   },
   "ssl": {
@@ -188,6 +188,23 @@
   },
   "dashboard": {
     "headerTitle": "Tap, Track, Win",
+    "swipper": [
+      {
+        "id": "campaign",
+        "action": "CAMPAIGN",
+        "image": "dashboard/swipper/campaign.png"
+      },
+      {
+        "id": "tabung",
+        "action": "GOALS_DASHBOARD",
+        "image": "dashboard/swipper/tabung.png"
+      },
+      {
+        "id": "applePay",
+        "action": "APPLEPAY_DASHBOARD",
+        "image": "dashboard/swipper/applePay.png"
+      }
+    ],
     "dashboardLogo": {
       "active": {
         "logo": "dashboard/logo.png"
