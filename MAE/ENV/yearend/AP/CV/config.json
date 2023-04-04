@@ -129,7 +129,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/game.gif",
+      "icon": "icons/game.png",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
