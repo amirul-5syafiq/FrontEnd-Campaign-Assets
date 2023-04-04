@@ -122,9 +122,9 @@
     "background": "login/loginSkin.png"
   },
   "quickAction": {
-    "showFestive": true,
-    "festiveIcon": "icons/game.png",
-    "festiveTitle": "Tap, Track, Win"
+    "showFestive": false,
+    "festiveIcon": "",
+    "festiveTitle": ""
   },
   "moreMenu": {
     "festiveIcon": {
