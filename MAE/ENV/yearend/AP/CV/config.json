@@ -123,13 +123,13 @@
   },
   "quickAction": {
     "showFestive": false,
-    "festiveIcon": "",
-    "festiveTitle": ""
+    "festiveIcon": "icons/game.png",
+    "festiveTitle": "Tap, Track, Win"
   },
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/game.png",
+      "icon": "icons/game.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
