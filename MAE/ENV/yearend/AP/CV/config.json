@@ -348,7 +348,12 @@
   "DeepLinking": {
     "scan_pay": {
       "stack": "QrStack",
-      "screen": "",
+      "screen": {
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
+        }
+      },
       "params": {
         "primary": true,
         "settings": false,
