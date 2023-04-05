@@ -346,6 +346,16 @@
     }
   },
   "DeepLinking": {
+    "scan_pay": {
+      "stack": "QrStack",
+      "screen": "",
+      "params": {
+        "primary": true,
+        "settings": false,
+        "fromRoute": "",
+        "fromStack": ""
+      }
+    },
     "paybill": {
       "stack": "payBillsModule",
       "screen": "PayBillsLandingScreen",
