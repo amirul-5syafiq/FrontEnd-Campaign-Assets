@@ -158,6 +158,22 @@
     "balanceTransfer" :{
       "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
       "title" : "Maybank2u"
+    },
+    "goldAccount": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "shareTrading": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "unitTrust": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "kawankuSaving": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
     }
   },
   "ssl": {
@@ -326,6 +342,29 @@
         "title": "Win 1 year's of\npetrol vouchers!",
         "description": "Transact now to earn\nyour first entry",
         "buttonText": "Learn More"
+      }
+    }
+  },
+  "DeepLinking": {
+    "paybill": {
+      "stack": "PAYBILLS_MODULE",
+      "screen": "PAYBILLS_LANDING_SCREEN",
+      "params": {
+        "data": "null"
+      }
+    },
+    "pay_zakat": {
+      "stack": "PAYBILLS_MODULE",
+      "screen": "PAYBILLS_LANDING_SCREEN",
+      "params": {
+        "data": "null"
+      }
+    },
+    "paybill_jompay": {
+      "stack": "PAYBILLS_MODULE",
+      "screen": "PAYBILLS_LANDING_SCREEN",
+      "params": {
+        "data": "null"
       }
     }
   },
