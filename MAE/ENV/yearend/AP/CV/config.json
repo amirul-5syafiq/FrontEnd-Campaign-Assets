@@ -366,6 +366,13 @@
       "params": {
         "data": "null"
       }
+    },
+    "reload_hotlink": {
+      "stack": "RELOAD_MODULE",
+      "screen": "RELOAD_SELECT_TELCO",
+      "params": {
+        "data": "null"
+      }
     }
   },
   "pushNotification": {
