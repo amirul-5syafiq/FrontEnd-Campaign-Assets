@@ -347,29 +347,29 @@
   },
   "DeepLinking": {
     "paybill": {
-      "stack": "PAYBILLS_MODULE",
-      "screen": "PAYBILLS_LANDING_SCREEN",
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
       "params": {
         "data": "null"
       }
     },
     "pay_zakat": {
-      "stack": "PAYBILLS_MODULE",
-      "screen": "PAYBILLS_LANDING_SCREEN",
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
       "params": {
         "data": "null"
       }
     },
     "paybill_jompay": {
-      "stack": "PAYBILLS_MODULE",
-      "screen": "PAYBILLS_LANDING_SCREEN",
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
       "params": {
         "data": "null"
       }
     },
     "reload_hotlink": {
-      "stack": "RELOAD_MODULE",
-      "screen": "RELOAD_SELECT_TELCO",
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
       "params": {
         "data": "null"
       }
