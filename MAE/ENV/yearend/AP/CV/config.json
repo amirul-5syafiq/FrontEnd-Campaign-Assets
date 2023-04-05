@@ -630,26 +630,29 @@
     "ezycash": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
-      "params": { "data": null },
-      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
-      "title": "Terms & Conditions",
-      "headerColor": "transparent"
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
     },
     "ezypay": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
-      "params": { "data": null },
-      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
-      "title": "Terms & Conditions",
-      "headerColor": "transparent"
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
     },
     "balancetransfer": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
-      "params": { "data": null },
-      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
-      "title": "Terms & Conditions",
-      "headerColor": "transparent"
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
     }
   },
   "pushNotification": {
