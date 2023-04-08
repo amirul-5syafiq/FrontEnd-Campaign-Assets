@@ -92,6 +92,7 @@
     "moneyContainer": "qrPay/cashback/amountContainer.png",
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
+    "buttonTextPositiveNotification": "Turn On Notification",
     "buttonTextNegative": "MAE-be later",
     "consolation": {
       "title": "You've scored",
@@ -445,7 +446,7 @@
       "stack": "fundTransferModule",
       "screen": "TransferTabScreen",
       "params": {
-        "index": 5,
+        "index": 3,
         "isNewASNBTransferEntryPoint": true,
         "screenDate": { "routeFrom": "TapTrackWin" }
       }
@@ -656,11 +657,47 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+        "headerColor": "transparent"
+      }
+    },
+    "balancetransfer": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
         "headerColor": "transparent"
       }
     },
-    "balancetransfer": {
+    "goldAccount": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "shareTrading": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "unitTrust": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "kawankuSaving": { 
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
