@@ -102,12 +102,14 @@
     },
     "special": {
       "title": "You've just earned",
+      "subtitle": "entries to win a Special Prize!",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
     "grand": {
       "title": "You've just earned",
+      "subtitle": "entries to win a Grand Prize!",
       "firstDesc": "Well done! You’ve completed a Tracker \non Tap, Track, Win.",
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
