@@ -123,15 +123,17 @@
     "background": "login/loginSkin.png"
   },
   "quickAction": {
+    "isEnabled": false,
     "showFestive": "",
     "festiveIcon": "",
     "festiveTitle": ""
   },
-  "quickActionDisplay":{
-    "tapTrackWin":{
+  "quickActionDisplay": {
+    "isFestiveEnabled": false,
+    "quickActionItem": {
       "id": "tapTrackWin",
-      "title":  "Tap, Track, Win",
-      "disabled" : true,
+      "title": "Tap, Track,\nWin",
+      "disabled": true,
       "iconImage": "icons/game.png",
       "module": "GameStack",
       "screen": "TapTrackWin",
@@ -674,7 +676,7 @@
         "headerColor": "transparent"
       }
     },
-    "balancetransfer": { 
+    "balancetransfer": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
@@ -683,7 +685,7 @@
         "headerColor": "transparent"
       }
     },
-    "goldAccount": { 
+    "goldAccount": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
@@ -692,7 +694,7 @@
         "headerColor": "transparent"
       }
     },
-    "shareTrading": { 
+    "shareTrading": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
@@ -701,7 +703,7 @@
         "headerColor": "transparent"
       }
     },
-    "unitTrust": { 
+    "unitTrust": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
@@ -710,7 +712,7 @@
         "headerColor": "transparent"
       }
     },
-    "kawankuSaving": { 
+    "kawankuSaving": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
