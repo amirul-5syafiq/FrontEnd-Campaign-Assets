@@ -130,7 +130,7 @@
   },
   "quickActionDisplay": {
     "isFestiveEnabled": false,
-    "quickActionItem": {
+    "tapTrackWin": {
       "id": "tapTrackWin",
       "title": "Tap, Track,\nWin",
       "disabled": true,
@@ -139,6 +139,17 @@
       "screen": "TapTrackWin",
       "params": {
         "data": "null"
+      }
+    },
+    "egreetings": {
+      "id": "egreetings",
+      "title": "e-Duit\nRaya",
+      "disabled": true,
+      "iconImage": "icons/game.png",
+      "module": "DashboardStack",
+      "screen": "Dashboard",
+      "params": {
+        "screen": "FestiveQuickActionScreen"
       }
     }
   },
