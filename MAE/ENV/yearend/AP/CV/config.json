@@ -123,9 +123,22 @@
     "background": "login/loginSkin.png"
   },
   "quickAction": {
-    "showFestive": true,
-    "festiveIcon": "icons/game.png",
-    "festiveTitle": "Tap, Track, Win"
+    "showFestive": "",
+    "festiveIcon": "",
+    "festiveTitle": ""
+  },
+  "quickActionDisplay":{
+    "tapTrackWin":{
+      "id": "tapTrackWin",
+      "title":  "Tap, Track, Win",
+      "disabled" : true,
+      "iconImage": "icons/game.png",
+      "module": "GameStack",
+      "screen": "TapTrackWin",
+      "params": {
+        "data": "null"
+      }
+    }
   },
   "moreMenu": {
     "festiveIcon": {
