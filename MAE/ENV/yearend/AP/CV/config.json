@@ -676,11 +676,7 @@
         "data": "isRefresh"
       }
     },
-    "mae_dashboard": {
-      "module": "",
-      "screen": "",
-      "params": "handleOnback()"
-    },
+    "mae_dashboard": "mae_dashboard",
     "ezycash": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
