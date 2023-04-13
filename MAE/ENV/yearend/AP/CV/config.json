@@ -670,15 +670,15 @@
       }
     },
     "tracker": {
-      "stack": "GameStack",
+      "module": "GameStack",
       "screen": "TapTrackWin",
       "params": {
-        "data": null
+        "data": "isRefresh"
       }
     },
     "mae_dashboard": {
-      "stack": "GameStack",
-      "screen": "TapTrackWin",
+      "module": "",
+      "screen": "",
       "params": {
         "data": null
       }
