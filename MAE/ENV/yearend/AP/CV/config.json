@@ -679,9 +679,7 @@
     "mae_dashboard": {
       "module": "",
       "screen": "",
-      "params": {
-        "navigation" : " navigation.goBack()"
-      }
+      "params": "handleOnback()"
     },
     "ezycash": {
       "stack": "SettingsModule",
