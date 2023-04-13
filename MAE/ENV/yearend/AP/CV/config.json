@@ -669,6 +669,20 @@
         "data": null
       }
     },
+    "tracker": {
+      "stack": "GameStack",
+      "screen": "TapTrackWin",
+      "params": {
+        "data": null
+      }
+    },
+    "mae_dashboard": {
+      "stack": "GameStack",
+      "screen": "TapTrackWin",
+      "params": {
+        "data": null
+      }
+    },
     "ezycash": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
