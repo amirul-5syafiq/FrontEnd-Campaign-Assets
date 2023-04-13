@@ -680,7 +680,7 @@
       "module": "",
       "screen": "",
       "params": {
-        "data": null
+        "navigation" : " navigation.goBack()"
       }
     },
     "ezycash": {
