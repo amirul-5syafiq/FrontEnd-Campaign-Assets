@@ -676,6 +676,13 @@
         "data": "isRefresh"
       }
     },
+    "notification": {
+      "module": "SettingsModule",
+      "screen": "Notifications",
+      "params": {
+        "data": null
+      }
+    },
     "mae_dashboard": "mae_dashboard",
     "ezycash": {
       "stack": "SettingsModule",
