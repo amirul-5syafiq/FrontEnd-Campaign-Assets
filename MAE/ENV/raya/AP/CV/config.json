@@ -161,8 +161,8 @@
   "ssl": {
     "background": "ssl/sslRayaSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/sslBanner.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner.png",
+    "festiveWidgetBackground": "ssl/dashboard/rayaSSlparttwo.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/rayaSSlparttwo.png",
     "headerTitle": "",
     "sslTitle": "",
     "sslDescription": "",
