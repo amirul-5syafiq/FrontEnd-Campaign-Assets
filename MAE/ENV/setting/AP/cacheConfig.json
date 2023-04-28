@@ -20,6 +20,9 @@
     ]
   },
   "included": {
+    "https://uat-maya.maybank.com.my/asb/v1/asb/resumeApplication": true,
+    "https://uat-maya.maybank.com.my/applepay/v1/cards": true,
+    "https://uat-maya.maybank.com.my/users/v1/mdip/generate": true,
     "https://uat-maya.maybank.com.my/banking/v1/summary/getBalance": true,
     "https://uat-maya.maybank.com.my/banking/v1/summary?type=C&checkMae=true": true,
     "https://uat-maya.maybank.com.my/banking/v1/summary?type=A&checkMae=true": true,
