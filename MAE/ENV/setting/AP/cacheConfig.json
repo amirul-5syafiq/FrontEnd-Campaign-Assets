@@ -1,0 +1,22 @@
+{
+  "cacheDictionary": {
+    "https://uat-maya.maybank.com.my/transfer/v2/fundTransfer/monetary": [
+      "https://uat-maya.maybank.com.my/goal/v1/goal/exists",
+      "https://uat-maya.maybank.com.my/goal/v1/goal"
+    ],
+    "https://uat-maya.maybank.com.my/banking/v1/summary?type=F&checkMae=true": [
+      "https://uat-maya.maybank.com.my/banking/v1/summary?type=A&checkMae=true",
+      "https://uat-maya.maybank.com.my/goal/v1/goal/exists",
+      "https://uat-maya.maybank.com.my/goal/v1/goal"
+    ]
+  },
+  "included": {
+    "https://uat-maya.maybank.com.my/banking/v1/summary?type=C&checkMae=true": true,
+    "https://uat-maya.maybank.com.my/banking/v1/summary?type=A&checkMae=true": true,
+    "https://uat-maya.maybank.com.my/goal/v1/goal/exists": true,
+    "https://uat-maya.maybank.com.my/goal/v1/goal": true,
+    "https://uat-maya.maybank.com.my/banking/v1/summary?": true,
+    "https://uat-maya.maybank.com.my/moment/api/v1/moment/get?": true,
+    "https://uat-maya.maybank.com.my/moment/api/v1/moment/get?countryCode=US&country=United States": true
+  }
+}
