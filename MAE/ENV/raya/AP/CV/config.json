@@ -145,24 +145,24 @@
       "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
       "title": "Terms & Conditions"
     },
-    "ezyCash": {
-      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
-      "title": "Maybank2u"
+    "ezyCash" :{
+      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+      "title" : "Maybank2u"
     },
-    "ezyPay": {
-      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
-      "title": "Maybank2u"
+    "ezyPay" :{
+      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+      "title" : "Maybank2u"
     },
-    "balanceTransfer": {
-      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
-      "title": "Maybank2u"
+    "balanceTransfer" :{
+      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
+      "title" : "Maybank2u"
     }
   },
   "ssl": {
     "background": "ssl/sslRayaSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/sslBanner.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBannerRaya.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerRaya.png",
     "headerTitle": "",
     "sslTitle": "",
     "sslDescription": "",
