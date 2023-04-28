@@ -6,6 +6,9 @@
     "https://uat-maya.maybank.com.my/payment/v1/mobilereload/topup": [
         "https://uat-maya.maybank.com.my/banking/v1/summary/getBalance"
     ],
+    "https://uat-maya.maybank.com.my/2fa/v2/secure2u/signTransaction": [
+        "https://uat-maya.maybank.com.my/banking/v1/summary/getBalance"
+    ],
     "https://uat-maya.maybank.com.my/transfer/v2/fundTransfer/monetary": [
       "https://uat-maya.maybank.com.my/goal/v1/goal/exists",
       "https://uat-maya.maybank.com.my/goal/v1/goal"
