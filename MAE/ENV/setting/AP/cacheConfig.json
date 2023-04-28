@@ -1,5 +1,11 @@
 {
   "cacheDictionary": {
+    "https://uat-maya.maybank.com.my/payment/v1/pay/bill": [
+        "https://uat-maya.maybank.com.my/banking/v1/summary/getBalance"
+    ],
+    "https://uat-maya.maybank.com.my/payment/v1/mobilereload/topup": [
+        "https://uat-maya.maybank.com.my/banking/v1/summary/getBalance"
+    ],
     "https://uat-maya.maybank.com.my/transfer/v2/fundTransfer/monetary": [
       "https://uat-maya.maybank.com.my/goal/v1/goal/exists",
       "https://uat-maya.maybank.com.my/goal/v1/goal"
@@ -11,6 +17,7 @@
     ]
   },
   "included": {
+    "https://uat-maya.maybank.com.my/banking/v1/summary/getBalance": true,
     "https://uat-maya.maybank.com.my/banking/v1/summary?type=C&checkMae=true": true,
     "https://uat-maya.maybank.com.my/banking/v1/summary?type=A&checkMae=true": true,
     "https://uat-maya.maybank.com.my/goal/v1/goal/exists": true,
