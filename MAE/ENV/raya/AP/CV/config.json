@@ -178,8 +178,8 @@
   "ssl": {
     "background": "ssl/sslRayaSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/sslBanner.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
     "headerTitle": "",
     "sslTitle": "",
     "sslDescription": "",
@@ -209,7 +209,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaignV2.png",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
@@ -229,7 +229,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaignV2.png",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
@@ -243,7 +243,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaignV2.png",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
