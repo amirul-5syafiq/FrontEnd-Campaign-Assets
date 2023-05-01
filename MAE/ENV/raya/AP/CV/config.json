@@ -229,7 +229,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaign.png",
+          "image": "dashboard/swipper/campaignV2.png",
           "visible": true
         },
         {
