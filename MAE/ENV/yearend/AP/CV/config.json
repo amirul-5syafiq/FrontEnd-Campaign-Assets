@@ -211,8 +211,8 @@
   "ssl": {
     "background": "ssl/skin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/backgroundSSLRaya.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/backgroundSSLRaya.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
     "headerTitle": "Order Food & More",
     "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
     "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
@@ -243,7 +243,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaignV2.png",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
@@ -263,7 +263,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaignV2.png",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
@@ -277,7 +277,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaignV2.png",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
