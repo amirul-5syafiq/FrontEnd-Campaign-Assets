@@ -241,15 +241,15 @@
     "swipper": {
       "ios": [
         {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaign.png",
-          "visible": true
-        },
-        {
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         },
         {
@@ -261,29 +261,29 @@
       ],
       "android": [
         {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaign.png",
-          "visible": true
-        },
-        {
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         }
       ],
       "huawei": [
         {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaign.png",
-          "visible": true
-        },
-        {
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
           "visible": true
         }
       ]
