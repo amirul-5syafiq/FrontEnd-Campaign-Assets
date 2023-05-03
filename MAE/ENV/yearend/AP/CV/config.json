@@ -143,7 +143,7 @@
       "module": "GameStack",
       "screen": "TapTrackWin",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "egreetings": {
@@ -418,21 +418,21 @@
       "stack": "mobileReloadModule",
       "screen": "ReloadSelectTelco",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "reload": {
       "stack": "mobileReloadModule",
       "screen": "ReloadSelectTelco",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "reload_50": {
       "stack": "mobileReloadModule",
       "screen": "ReloadSelectTelco",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "pay_cardloan": {
