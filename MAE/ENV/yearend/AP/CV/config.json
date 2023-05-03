@@ -397,21 +397,21 @@
       "stack": "payBillsModule",
       "screen": "PayBillsLandingScreen",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "pay_zakat": {
       "stack": "payBillsModule",
       "screen": "PayBillsLandingScreen",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "paybill_jompay": {
       "stack": "payBillsModule",
       "screen": "PayBillsLandingScreen",
       "params": {
-        "data": "null"
+        "data": null
       }
     },
     "reload_hotlink": {
@@ -711,8 +711,8 @@
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
-        "title": "Terms & Conditions",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "title": "Maybank2u",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
         "headerColor": "transparent"
       }
     },
@@ -720,7 +720,7 @@
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
-        "title": "Terms & Conditions",
+        "title": "Maybank2u",
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
         "headerColor": "transparent"
       }
@@ -729,7 +729,7 @@
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
-        "title": "Terms & Conditions",
+        "title": "Maybank2u",
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
         "headerColor": "transparent"
       }
@@ -738,7 +738,7 @@
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
-        "title": "Terms & Conditions",
+        "title": "Maybank2u",
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
         "headerColor": "transparent"
       }
@@ -747,7 +747,7 @@
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
-        "title": "Terms & Conditions",
+        "title": "Maybank2u",
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
         "headerColor": "transparent"
       }
