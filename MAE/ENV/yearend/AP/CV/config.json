@@ -196,11 +196,11 @@
       "title": "Maybank2u"
     },
     "shareTrading": {
-      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/digital_banking/share-trading-cash-account.page",
       "title": "Maybank2u"
     },
     "unitTrust": {
-      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/unit_trusts/unit_trusts.page",
       "title": "Maybank2u"
     },
     "kawankuSaving": {
@@ -694,7 +694,7 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Terms & Conditions",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
         "headerColor": "transparent"
       }
     },
@@ -703,7 +703,7 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Terms & Conditions",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
         "headerColor": "transparent"
       }
     },
@@ -712,7 +712,7 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
+        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
         "headerColor": "transparent"
       }
     },
@@ -721,7 +721,7 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/gold_silver/maybank-islamic-gold-account-i.page?gclid=Cj0KCQjwr82iBhCuARIsAO0EAZx5PsyxysypZvEBMXK9qPwnCBo0lwflTJF3OMQ0ZY3MdZ2D62OJ3-AaAs9-EALw_wcB",
         "headerColor": "transparent"
       }
     },
@@ -730,7 +730,7 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/digital_banking/share-trading-cash-account.page",
         "headerColor": "transparent"
       }
     },
@@ -739,7 +739,7 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/unit_trusts/unit_trusts.page",
         "headerColor": "transparent"
       }
     },
@@ -748,7 +748,16 @@
       "screen": "PdfSetting",
       "params": {
         "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
+        "headerColor": "transparent"
+      }
+    },
+    "gameTnc": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
         "headerColor": "transparent"
       }
     }
