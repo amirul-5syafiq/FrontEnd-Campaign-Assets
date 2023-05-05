@@ -752,7 +752,7 @@
         "headerColor": "transparent"
       }
     },
-    "gameTnc": {
+    "tnc_url": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
