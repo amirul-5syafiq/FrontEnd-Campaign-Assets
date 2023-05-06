@@ -49,7 +49,7 @@
       ]
     },
     "successMessageTransfer": "",
-    "failMessageTransfer":"",
+    "failMessageTransfer": "",
     "includeMoneyText": "",
     "topContainer": "",
     "backgroundGreetings": "",
@@ -62,29 +62,29 @@
     "festiveTitle": "",
     "headerTitleEnterAmount": ""
   },
-  "transfer":{
+  "transfer": {
     "backgroundSkin": ""
   },
-  "payBills":{
+  "payBills": {
     "backgroundSkin": ""
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
     "background": "qrPay/skinQrPay.png",
     "cashback": {
-        "background": "qrPay/cashback/background.png",
-        "success": {
-          "title": "Hooray!\nYou've just earned",
-          "description": "Keep using Scan & Pay for more rewards.",
-          "animation": "qrPay/cashback/cashback.json",
-          "moneyContainer": "qrPay/cashback/cashbackAmountContainer.png"
-        },
-        "failed": {
-          "title": "Oops, no cashback this time.",
-          "description": "Keep using Scan & Pay for more rewards in the future.",
-          "animation": "qrPay/cashback/noCashback.json"
-        }
+      "background": "qrPay/cashback/background.png",
+      "success": {
+        "title": "Hooray!\nYou've just earned",
+        "description": "Keep using Scan & Pay for more rewards.",
+        "animation": "qrPay/cashback/cashback.json",
+        "moneyContainer": "qrPay/cashback/cashbackAmountContainer.png"
+      },
+      "failed": {
+        "title": "Oops, no cashback this time.",
+        "description": "Keep using Scan & Pay for more rewards in the future.",
+        "animation": "qrPay/cashback/noCashback.json"
       }
+    }
   },
   "entriesAnimation": {
     "backgroundSpecial": "qrPay/cashback/background.png",
@@ -93,25 +93,27 @@
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
-    "consolation":{
+    "consolation": {
       "title": "You've scored",
       "subtitle": "entries to win a Special Prize!",
-      "firstDesc":  "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
+      "firstDesc": "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win."
     },
     "special": {
       "title": "You've scored",
+      "subtitle": "entries to win a Special Prize!",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
       "secondDesc": "Make another transaction for more\nentries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
     "grand": {
       "title": "You've scored",
+      "subtitle": "entries to win a Grand Prize!",
       "firstDesc": "Well done! You’ve completed a Tracker \non Tap, Track, Win.",
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
-    "completed":{
+    "completed": {
       "title": "You're a star! You've\ncompleted all your Trackers",
       "description": "Turn on your notification so you can\nbe notified when you win!"
     }
@@ -140,29 +142,45 @@
       }
     }
   },
-  "link" :{
-    "gameTnc" : {
-      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
-      "title" : "Terms & Conditions"
+  "link": {
+    "gameTnc": {
+      "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+      "title": "Terms & Conditions"
     },
-    "ezyCash" :{
-      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
-      "title" : "Maybank2u"
+    "ezyCash": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+      "title": "Maybank2u"
     },
-    "ezyPay" :{
-      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
-      "title" : "Maybank2u"
+    "ezyPay": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+      "title": "Maybank2u"
     },
-    "balanceTransfer" :{
-      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
-      "title" : "Maybank2u"
+    "balanceTransfer": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
+      "title": "Maybank2u"
+    },
+    "goldAccount": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "shareTrading": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "unitTrust": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "kawankuSaving": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
     }
   },
   "ssl": {
     "background": "ssl/skin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/backgroundSSL.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/backgroundSSL.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
     "headerTitle": "Order Food & More",
     "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
     "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
@@ -188,6 +206,56 @@
   },
   "dashboard": {
     "headerTitle": "Tap, Track, Win",
+    "swipper": {
+      "ios": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
+          "visible": true
+        },
+        {
+          "id": "applePay",
+          "action": "APPLEPAY_DASHBOARD",
+          "image": "dashboard/swipper/applePayV2.png",
+          "visible": true
+        }
+      ],
+      "android": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
+          "visible": true
+        }
+      ],
+      "huawei": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
+          "visible": true
+        }
+      ]
+    },
     "dashboardLogo": {
       "active": {
         "logo": "dashboard/logo.png"

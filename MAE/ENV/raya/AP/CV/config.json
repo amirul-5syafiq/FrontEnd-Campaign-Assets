@@ -49,7 +49,7 @@
       ]
     },
     "successMessageTransfer": "Transaction successful",
-    "failMessageTransfer":"Transaction unsuccessful",
+    "failMessageTransfer": "Transaction unsuccessful",
     "includeMoneyText": "Include e-Duit Raya",
     "topContainer": "greetings/send/e-greetingSkin.png",
     "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
@@ -62,10 +62,10 @@
     "festiveTitle": "Send e-Duit Raya",
     "headerTitleEnterAmount": "Send e-Duit Raya"
   },
-  "transfer":{
+  "transfer": {
     "backgroundSkin": ""
   },
-  "payBills":{
+  "payBills": {
     "backgroundSkin": ""
   },
   "qrPay": {
@@ -93,7 +93,7 @@
     "title": "You've just earned",
     "buttonTextPositive": "View My Trackers",
     "buttonTextNegative": "MAE-be later",
-    "consolation":{
+    "consolation": {
       "title": "You've just earned",
       "subtitle": "entries to win a Special Prize!",
       "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
@@ -111,7 +111,7 @@
       "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
       "animation": "qrPay/cashback/coins.json"
     },
-    "completed":{
+    "completed": {
       "title": "You're a star! You've\ncompleted all your Trackers",
       "description": "Turn on your notification so you can\nbe notified when you win!"
     }
@@ -140,10 +140,10 @@
       }
     }
   },
-  "link" :{
-    "gameTnc" : {
-      "link" :  "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
-      "title" : "Terms & Conditions"
+  "link": {
+    "gameTnc": {
+      "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
+      "title": "Terms & Conditions"
     },
     "ezyCash" :{
       "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
@@ -161,8 +161,8 @@
   "ssl": {
     "background": "ssl/sslRayaSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/sslBannerRaya.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerRaya.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
     "headerTitle": "",
     "sslTitle": "",
     "sslDescription": "",
@@ -187,6 +187,56 @@
   },
   "dashboard": {
     "headerTitle": "Tap, Track, Win",
+    "swipper": {
+      "ios": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
+          "visible": true
+        },
+        {
+          "id": "applePay",
+          "action": "APPLEPAY_DASHBOARD",
+          "image": "dashboard/swipper/applePayV2.png",
+          "visible": true
+        }
+      ],
+      "android": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
+          "visible": true
+        }
+      ],
+      "huawei": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/campaign.png",
+          "visible": true
+        }
+      ]
+    },
     "dashboardLogo": {
       "active": {
         "logo": "dashboard/newRayaMasthead.png"
