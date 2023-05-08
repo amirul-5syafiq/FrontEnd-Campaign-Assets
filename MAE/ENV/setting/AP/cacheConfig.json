@@ -1,6 +1,6 @@
 {
   "enableCache": true,
-  "invalidationOrder": true,
+  "invalidationOrder": false,
   "maxAge": 900000,
   "dictionary": {
     "request": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"],
