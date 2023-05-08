@@ -1,4 +1,7 @@
 {
+  "enable": true,
+  "invalidationOrder": true,
+  "maxAge": 900000,
   "dictionary": {
     "request": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"],
     "response": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"]
