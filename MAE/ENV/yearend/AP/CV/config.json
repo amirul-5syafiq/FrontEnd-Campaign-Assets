@@ -249,7 +249,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/campaign.png",
+          "image": "dashboard/swipper/juneAo.png",
           "visible": true
         },
         {
@@ -699,12 +699,17 @@
       }
     },
     "ezypay": {
-      "stack": "SettingsModule",
-      "screen": "PdfSetting",
+      "stack": "TabNavigator",
+      "screen": "Tab",
       "params": {
-        "title": "Terms & Conditions",
-        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
-        "headerColor": "transparent"
+        "index": 1,
+        "screen": "More",
+        "params": {
+          "screen": "Maybank2u",
+          "params": {
+            "index": 1
+          }
+        }
       }
     },
     "balancetransfer": {
@@ -770,7 +775,7 @@
       },
       "isBoosterFestiveOdd": {
         "title": "Tap, Track, Win: Check in now for +2 entries to win prizes!",
-        "description": "You could win an all-expenses-paid trip to Maldives for 2 with Tap, Track, Win, tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "description": "You could win an all-expenses-paid trip to Maldives for 2 adults with Tap, Track, Win, tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
         "title": " Tap, Track, Win: Transact now to win exciting prizes!",
