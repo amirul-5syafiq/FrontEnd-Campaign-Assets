@@ -68,10 +68,10 @@
   "payBills": {
     "backgroundSkin": ""
   },
-  "animationsWeb":{
+  "animationsWeb": {
     "completed": "completed-entry-animation",
-    "consolation" : "special-entry-animation",
-    "grand" : "grand-entry-animation"
+    "consolation": "special-entry-animation",
+    "grand": "grand-entry-animation"
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
@@ -649,6 +649,17 @@
         }
       }
     },
+    "ezypay": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 1
+        }
+      }
+    },
     "atm_contactless": {
       "stack": "TabNavigator",
       "screen": "Tab",
@@ -696,20 +707,6 @@
         "title": "Terms & Conditions",
         "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
         "headerColor": "transparent"
-      }
-    },
-    "ezypay": {
-      "stack": "TabNavigator",
-      "screen": "Tab",
-      "params": {
-        "index": 1,
-        "screen": "More",
-        "params": {
-          "screen": "Maybank2u",
-          "params": {
-            "index": 1
-          }
-        }
       }
     },
     "balancetransfer": {
