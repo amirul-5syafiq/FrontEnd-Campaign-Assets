@@ -710,12 +710,14 @@
       }
     },
     "balancetransfer": {
-      "stack": "SettingsModule",
-      "screen": "PdfSetting",
+      "stack": "TabNavigator",
+      "screen": "Tab",
       "params": {
-        "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
-        "headerColor": "transparent"
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 1
+        }
       }
     },
     "islamicgoldaccount": {
