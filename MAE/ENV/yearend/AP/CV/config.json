@@ -382,11 +382,10 @@
       "stack": "QrStack",
       "screen": {
         "qrPay": {
-          "isEnabled": {
-            "qrEnabled": {
-              "true": "QrMain",
-              "false": "QrStart"
-            }
+          "isEnabled": "qrEnabled",
+          "qrEnabled": {
+            "true": "QrMain",
+            "false": "QrStart"
           }
         }
       },
