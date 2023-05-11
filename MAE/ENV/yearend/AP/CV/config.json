@@ -381,12 +381,9 @@
     "scan_pay": {
       "stack": "QrStack",
       "screen": {
-        "qrPay": {
-          "isEnabled": "qrEnabled",
-          "qrEnabled": {
-            "true": "QrMain",
-            "false": "QrStart"
-          }
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
         }
       },
       "params": {
