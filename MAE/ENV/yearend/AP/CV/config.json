@@ -764,13 +764,22 @@
         "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
         "headerColor": "transparent"
       }
+    },
+    "winner_list":{
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+        "headerColor": "transparent"
+      }
     }
   },
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": " Tap, Track, Win: Transact to earn +2 entries!",
-        "description": "It's your lucky day! Every eligible transaction you make today earns you extra entries to win an all-expenses-paid trip to Maldives for 2 adults! Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers."
+        "title": "Tap, Track, Win: Transact to earn +2 entries!",
+        "description": "It's your lucky day! Every eligible transaction you make today earns you extra entries to win an all-expenses-paid trip to Maldives for 2 adults! Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers"
       },
       "isBoosterFestiveOdd": {
         "title": "Tap, Track, Win: Check in now for +2 entries to win prizes!",
