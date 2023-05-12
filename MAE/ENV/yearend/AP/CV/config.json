@@ -769,8 +769,8 @@
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
-        "title": "Terms & Conditions",
-        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+        "title": "Winner List",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/contests_winner/taptrackwinwinners.page",
         "headerColor": "transparent"
       }
     }
