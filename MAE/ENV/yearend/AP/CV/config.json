@@ -779,19 +779,19 @@
     "festive": {
       "isBoosterFestiveEven": {
         "title": "Tap, Track, Win: Transact to earn +2 entries!",
-        "description": "It's your lucky day! Every eligible transaction you make today earns you extra entries to win an all-expenses-paid trip to Maldives for 2 adults! Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers"
+        "description": "1"
       },
       "isBoosterFestiveOdd": {
         "title": "Tap, Track, Win: Check in now for +2 entries to win prizes!",
-        "description": "You could win an all-expenses-paid trip to Maldives for 2 with Tap, Track, Win, tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "description": "2"
       },
       "nonBoosterEven": {
         "title": "Tap, Track, Win: Transact now to win exciting prizes!",
-        "description": "Win an all-expenses-paid trip to Maldives for 2 adults when you pay bills, transfer, reload and more! Every eligible transaction earns you entries to win cash prizes too. Make a transaction now to earn your next entry. T&C apply. Tap below to view your Trackers."
+        "description": "3"
       },
       "nonBoosterOdd": {
         "title": "Tap, Track, Win: Check in now to win exciting prizes!",
-        "description": "Check in daily for entries to win an all-expenses-paid trip to Maldives for 2 adults when you check in daily and earn your free entries. T&C apply. Tap below to check in now."
+        "description": "4"
       }
     }
   },
