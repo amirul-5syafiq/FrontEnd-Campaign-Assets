@@ -229,7 +229,7 @@
     "grandPrize": "tracker/earnedScreen/GrandPrize.json",
     "specialPrize": "tracker/earnedScreen/SpecialPrize1.json",
     "booster": "tracker/earnedScreen/SpecialPrize2Resized.json",
-    "completed": "tracker/earnedScreen/Completed.json",
+    "completed": "tracker/earnedScreen/CompletedNew.json",
     "backgroundGrand": "tracker/earnedScreen/grandBackground.png",
     "backgroundSpecial": "tracker/earnedScreen/specialBackground.png",
     "tapTrackWin": "tracker/earnedScreen/TapTrackWin.json",
@@ -290,13 +290,13 @@
     },
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/logo2.png"
       },
       "empty": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/logo2.png"
       },
       "completed": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/logo2.png"
       }
     },
     "dashboardWithTracker": {
@@ -337,17 +337,17 @@
   "dashboardstatus": {
     "active": {
       "activeEven": {
-        "title": "Win 1 year's worth of\npetrol vouchers!",
+        "title": "Win an iPad Pro\nand up to RM10 \nCashback!",
         "description": "Transact now for entries\nto win prizes.",
         "buttonText": "View Tracker"
       },
       "activeOdd": {
-        "title": "Win 1 year's worth of\npetrol vouchers!",
+        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
         "description": "Transact now for entries\nto win prizes.",
         "buttonText": "View Tracker"
       },
       "": {
-        "title": "Win 1 year's worth of\npetrol vouchers!",
+        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
         "description": "Transact now for entries\nto win prizes.",
         "buttonText": "View Tracker"
       }
@@ -366,12 +366,12 @@
     },
     "empty": {
       "emptyEven": {
-        "title": "Win 1 year's worth of\npetrol vouchers!",
+        "title": "Win an iPad Pro\nand up to RM 10\nCashback!",
         "description": "Transact now to earn\nyour first entry",
         "buttonText": "Learn More"
       },
       "emptyOdd": {
-        "title": "Win 1 year's of\npetrol vouchers!",
+        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
         "description": "Transact now to earn\nyour first entry",
         "buttonText": "Learn More"
       }
