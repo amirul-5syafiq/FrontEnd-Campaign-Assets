@@ -290,13 +290,13 @@
     },
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/mastheadJune.png"
       },
       "empty": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/mastheadJune.png"
       },
       "completed": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/mastheadJune.png"
       }
     },
     "dashboardWithTracker": {
@@ -337,7 +337,7 @@
   "dashboardstatus": {
     "active": {
       "activeEven": {
-        "title": "Win an iPad Pro and\nup to RM10 \nCashback!",
+        "title": "Win an iPad Pro and\nup to RM10 Cashback!",
         "description": "",
         "buttonText": "View Tracker"
       },
@@ -366,7 +366,7 @@
     },
     "empty": {
       "emptyEven": {
-        "title": "Win an iPad Pro and\nup to RM10 \nCashback!",
+        "title": "Win an iPad Pro and\nup to RM10 Cashback!",
         "description": "",
         "buttonText": "Learn More"
       },
