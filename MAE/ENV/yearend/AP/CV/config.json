@@ -290,7 +290,7 @@
     },
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/logoJune.png"
+        "logo": "dashboard/specialPrizeJune.png"
       },
       "empty": {
         "logo": "dashboard/logoJune.png"
@@ -330,7 +330,7 @@
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
       "backgroundColor": "#ffe8b0",
       "borderColor": "#ffe8b0",
-      "entriesContainerColor": "#000000",
+      "entriesContainerColor": "#ffe8b0",
       "entriesContainerButton": "#ffffff"
     }
   },
