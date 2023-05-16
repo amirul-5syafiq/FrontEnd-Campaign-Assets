@@ -290,13 +290,13 @@
     },
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/logoJune.png"
       },
       "empty": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/logoJune.png"
       },
       "completed": {
-        "logo": "dashboard/logo.png"
+        "logo": "dashboard/logoJune.png"
       }
     },
     "dashboardWithTracker": {
@@ -328,10 +328,10 @@
       "descriptionWidgetItem1": "Entries to win\nGrand Prize",
       "widgetItem2": "dashboard/withTracker/specialPrizeJune.png",
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
-      "backgroundColor": "#FFD88D",
-      "borderColor": "#FFD88D",
-      "entriesContainerColor": "#FFD88D",
-      "entriesContainerButton": "#000000"
+      "backgroundColor": "#ffe8b0",
+      "borderColor": "#ffe8b0",
+      "entriesContainerColor": "#000000",
+      "entriesContainerButton": "#ffffff"
     }
   },
   "dashboardstatus": {
