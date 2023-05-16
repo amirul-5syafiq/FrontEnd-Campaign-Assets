@@ -290,13 +290,13 @@
     },
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/specialPrizeJune.png"
+        "logo": "dashboard/logo.png"
       },
       "empty": {
-        "logo": "dashboard/logoJune.png"
+        "logo": "dashboard/logo.png"
       },
       "completed": {
-        "logo": "dashboard/logoJune.png"
+        "logo": "dashboard/logo.png"
       }
     },
     "dashboardWithTracker": {
@@ -337,7 +337,7 @@
   "dashboardstatus": {
     "active": {
       "activeEven": {
-        "title": "Win an iPad Pro\nand up to RM10 \nCashback!",
+        "title": "Win an iPad Pro and\nup to RM10 \nCashback!",
         "description": "",
         "buttonText": "View Tracker"
       },
@@ -347,7 +347,7 @@
         "buttonText": "View Tracker"
       },
       "": {
-        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
+        "title": "Win a trip to nMaladives\nor RM 500 cash prize!",
         "description": "",
         "buttonText": "View Tracker"
       }
@@ -366,12 +366,12 @@
     },
     "empty": {
       "emptyEven": {
-        "title": "Win an iPad Pro\nand up to RM 10\nCashback!",
+        "title": "Win an iPad Pro and\nup to RM10 \nCashback!",
         "description": "",
         "buttonText": "Learn More"
       },
       "emptyOdd": {
-        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
+        "title": "Win a trip to nMaladives\nor RM 500 cash prize!",
         "description": "",
         "buttonText": "Learn More"
       }
