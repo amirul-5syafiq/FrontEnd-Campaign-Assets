@@ -301,13 +301,13 @@
     },
     "dashboardWithTracker": {
       "active": {
-        "background": "dashboard/withTracker/background.png"
+        "background": "dashboard/withTracker/longEntryJ.png"
       },
       "empty": {
-        "background": "dashboard/withTracker/background.png"
+        "background": "dashboard/withTracker/longEntryJ.png"
       },
       "completed": {
-        "background": "dashboard/withTracker/background.png"
+        "background": "dashboard/withTracker/longEntryJ.png"
       }
     },
     "dashboardWithoutTracker": {
@@ -324,9 +324,9 @@
     "gameProgress": {
       "title": "Your Progress",
       "viewTracker": "View Tracker",
-      "widgetItem1": "dashboard/withTracker/grandPrize.png",
+      "widgetItem1": "dashboard/withTracker/grandPrizeJune.png",
       "descriptionWidgetItem1": "Entries to win\nGrand Prize",
-      "widgetItem2": "dashboard/withTracker/specialPrize.png",
+      "widgetItem2": "dashboard/withTracker/specialPrizeJune.png",
       "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
       "backgroundColor": "#FFD88D",
       "borderColor": "#FFD88D",
