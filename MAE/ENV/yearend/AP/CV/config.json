@@ -290,13 +290,13 @@
     },
     "dashboardLogo": {
       "active": {
-        "logo": "dashboard/logo2.png"
+        "logo": "dashboard/logo.png"
       },
       "empty": {
-        "logo": "dashboard/logo2.png"
+        "logo": "dashboard/logo.png"
       },
       "completed": {
-        "logo": "dashboard/logo2.png"
+        "logo": "dashboard/logo.png"
       }
     },
     "dashboardWithTracker": {
@@ -331,48 +331,48 @@
       "backgroundColor": "#FFD88D",
       "borderColor": "#FFD88D",
       "entriesContainerColor": "#FFD88D",
-      "entriesContainerButton": "#ffffff"
+      "entriesContainerButton": "#000000"
     }
   },
   "dashboardstatus": {
     "active": {
       "activeEven": {
         "title": "Win an iPad Pro\nand up to RM10 \nCashback!",
-        "description": "Transact now for entries\nto win prizes.",
+        "description": "",
         "buttonText": "View Tracker"
       },
       "activeOdd": {
         "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
-        "description": "Transact now for entries\nto win prizes.",
+        "description": "",
         "buttonText": "View Tracker"
       },
       "": {
         "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
-        "description": "Transact now for entries\nto win prizes.",
+        "description": "",
         "buttonText": "View Tracker"
       }
     },
     "completed": {
       "completedEven": {
         "title": "Yay! You've completed all teh trackers!",
-        "description": "Stay tuned for\nthe winners' announcement.",
+        "description": "",
         "buttonText": "View Tracker"
       },
       "completedOdd": {
         "title": "Yay! You've completed\nall Trackers!",
-        "description": "Stay tuned for\nthe winners' announcement.",
+        "description": "",
         "buttonText": "View Tracker"
       }
     },
     "empty": {
       "emptyEven": {
         "title": "Win an iPad Pro\nand up to RM 10\nCashback!",
-        "description": "Transact now to earn\nyour first entry",
+        "description": "",
         "buttonText": "Learn More"
       },
       "emptyOdd": {
         "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
-        "description": "Transact now to earn\nyour first entry",
+        "description": "",
         "buttonText": "Learn More"
       }
     }
