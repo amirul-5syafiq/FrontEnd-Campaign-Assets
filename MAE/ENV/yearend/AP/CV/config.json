@@ -257,6 +257,12 @@
           "action": "APPLEPAY_DASHBOARD",
           "image": "dashboard/swipper/applePayV2.png",
           "visible": true
+        },
+        {
+          "id": "survey",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/survey.png",
+          "visible": true
         }
       ],
       "android": [
