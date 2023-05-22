@@ -180,8 +180,8 @@
   "ssl": {
     "background": "ssl/sslRayaSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBanner2306.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner2306.png",
     "headerTitle": "",
     "sslTitle": "",
     "sslDescription": "",
