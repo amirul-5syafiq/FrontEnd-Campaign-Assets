@@ -301,13 +301,13 @@
     },
     "dashboardWithTracker": {
       "active": {
-        "background": "dashboard/withTracker/longEntryJ.png"
+        "background": "dashboard/withTracker/juneAoFull.png"
       },
       "empty": {
-        "background": "dashboard/withTracker/longEntryJ.png"
+        "background": "dashboard/withTracker/juneAoFull.png"
       },
       "completed": {
-        "background": "dashboard/withTracker/longEntryJ.png"
+        "background": "dashboard/withTracker/juneAoFull.png"
       }
     },
     "dashboardWithoutTracker": {
