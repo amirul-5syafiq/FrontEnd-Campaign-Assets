@@ -249,7 +249,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/juneAo2.png",
+          "image": "dashboard/swipper/juneAo3.png",
           "visible": true
         },
         {
@@ -269,7 +269,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/juneAo2.png",
+          "image": "dashboard/swipper/juneAo3.png",
           "visible": true
         }
       ],
@@ -283,7 +283,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/juneAo2.png",
+          "image": "dashboard/swipper/juneAo3.png",
           "visible": true
         }
       ]
