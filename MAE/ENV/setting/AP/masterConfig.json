@@ -1,6 +1,6 @@
 {
   "selectCampaign": "yearend",
   "contentVersion": "",
-  "listCampaignType": ["raya", "cny", "yearend", "default"],
-  "cacheConfig": "cacheConfig.json"
+  "cacheConfig": "cacheConfig.json",
+  "listCampaignType": ["raya", "cny", "yearend", "default"]
 }

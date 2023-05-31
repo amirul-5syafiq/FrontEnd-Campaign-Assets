@@ -1,5 +1,11 @@
 {
-  "dictionary": ["SECURE2U_PULL", "rejected", "Declined", "M201"],
+  "enableCache": true,
+  "invalidationOrder": false,
+  "maxAge": 900000,
+  "dictionary": {
+    "request": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"],
+    "response": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"]
+  },
   "cacheDictionary": {
     "/transfer/v2/fundTransfer/monetary": [
       "/banking/v1/summary/getBalance",

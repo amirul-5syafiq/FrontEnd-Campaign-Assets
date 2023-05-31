@@ -148,17 +148,17 @@
       "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-raya-en.pdf",
       "title": "Terms & Conditions"
     },
-    "ezyCash" :{
-      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
-      "title" : "Maybank2u"
+    "ezyCash": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+      "title": "Maybank2u"
     },
-    "ezyPay" :{
-      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
-      "title" : "Maybank2u"
+    "ezyPay": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+      "title": "Maybank2u"
     },
-    "balanceTransfer" :{
-      "link" : "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
-      "title" : "Maybank2u"
+    "balanceTransfer": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
+      "title": "Maybank2u"
     },
     "goldAccount": {
       "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
@@ -345,6 +345,368 @@
       }
     }
   },
+  "DeepLinking": {
+    "scan_pay": {
+      "stack": "QrStack",
+      "screen": {
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
+        }
+      },
+      "params": {
+        "primary": true,
+        "settings": false,
+        "fromRoute": "",
+        "fromStack": ""
+      }
+    },
+    "paybill": {
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
+      "params": {
+        "data": "null"
+      }
+    },
+    "pay_zakat": {
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
+      "params": {
+        "data": "null"
+      }
+    },
+    "paybill_jompay": {
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
+      "params": {
+        "data": "null"
+      }
+    },
+    "reload_hotlink": {
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
+      "params": {
+        "data": "null"
+      }
+    },
+    "reload": {
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
+      "params": {
+        "data": "null"
+      }
+    },
+    "reload_50": {
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
+      "params": {
+        "data": "null"
+      }
+    },
+    "pay_cardloan": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "e_greeting": {
+      "stack": "DashboardStack",
+      "screen": "Dashboard",
+      "params": {
+        "screen": "FestiveQuickActionScreen"
+      }
+    },
+    "transfer_fund": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 0,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "duit_now": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 2,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "transfer_fund_overseas": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 5,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "asnb_transfer": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 3,
+        "isNewASNBTransferEntryPoint": true,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "tabung_haji": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 4,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "efixed": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 2
+          }
+        }
+      }
+    },
+    "asbfinancing": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 3
+          }
+        }
+      }
+    },
+    "loanfinancing": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 3
+          }
+        }
+      }
+    },
+    "secure2u": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "SecureTAC"
+        }
+      }
+    },
+    "motortakaful": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 4
+          }
+        }
+      }
+    },
+    "apply_mae_card": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "premier": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "zestiaccount": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "creditcard": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 1
+          }
+        }
+      }
+    },
+    "goal_based_investment": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "FinancialGoalsDashboardScreen"
+        }
+      }
+    },
+    "create_tabung": {
+      "stack": "TabungStack",
+      "screen": "TabungMain",
+      "params": {
+        "screen": "TabungTabScreen"
+      }
+    },
+    "referafriend": {
+      "stack": "SettingsModule",
+      "screen": "Profile",
+      "params": {
+        "data": null
+      }
+    },
+    "ticket_purchase": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Wallet"
+        }
+      }
+    },
+    "atm_contactless": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Wallet"
+        }
+      }
+    },
+    "first_ssl": {
+      "stack": "SSLStack",
+      "screen": "SSLStart",
+      "params": {
+        "data": null
+      }
+    },
+    "sama2lokal": {
+      "stack": "SSLStack",
+      "screen": "SSLStart",
+      "params": {
+        "data": null
+      }
+    },
+    "ezycash": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "ezypay": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+        "headerColor": "transparent"
+      }
+    },
+    "balancetransfer": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "goldAccount": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "shareTrading": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "unitTrust": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    },
+    "kawankuSaving": { 
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+        "headerColor": "transparent"
+      }
+    }
+  },
+
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
