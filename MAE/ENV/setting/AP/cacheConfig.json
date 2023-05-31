@@ -1,22 +1,39 @@
 {
+  "enableCache": true,
+  "invalidationOrder": false,
+  "maxAge": 900000,
+  "dictionary": {
+    "request": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"],
+    "response": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"]
+  },
   "cacheDictionary": {
-    "https://uat-maya.maybank.com.my/transfer/v2/fundTransfer/monetary": [
-      "https://uat-maya.maybank.com.my/goal/v1/goal/exists",
-      "https://uat-maya.maybank.com.my/goal/v1/goal"
+    "/transfer/v2/fundTransfer/monetary": [
+      "/banking/v1/summary/getBalance",
+      "/banking/v1/summary?",
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
-    "https://uat-maya.maybank.com.my/banking/v1/summary?type=F&checkMae=true": [
-      "https://uat-maya.maybank.com.my/banking/v1/summary?type=A&checkMae=true",
-      "https://uat-maya.maybank.com.my/goal/v1/goal/exists",
-      "https://uat-maya.maybank.com.my/goal/v1/goal"
+    "/payment/v1/pay/bill": [
+      "/banking/v1/summary/getBalance",
+      "/banking/v1/summary?",
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/2fa/v2/secure2u/signTransaction": [
+      "/banking/v1/summary?type=A&checkMae=true"
     ]
   },
   "included": {
-    "https://uat-maya.maybank.com.my/banking/v1/summary?type=C&checkMae=true": true,
-    "https://uat-maya.maybank.com.my/banking/v1/summary?type=A&checkMae=true": true,
-    "https://uat-maya.maybank.com.my/goal/v1/goal/exists": true,
-    "https://uat-maya.maybank.com.my/goal/v1/goal": true,
-    "https://uat-maya.maybank.com.my/banking/v1/summary?": true,
-    "https://uat-maya.maybank.com.my/moment/api/v1/moment/get?": true,
-    "https://uat-maya.maybank.com.my/moment/api/v1/moment/get?countryCode=US&country=United States": true
+    "/goal/v1/goal/exists": true,
+    "/banking/v1/summary?type=A&checkMae=true": true,
+    "/goal/v1/goal": true,
+    "/banking/v1/summary/getBalance": true,
+    "/banking/v1/summary?": true,
+    "/moment/api/v1/moment/get?": true,
+    "/moment/api/v1/moment/get?countryCode=US&country=United States": true
+  },
+  "observableConfig": {
+    "/2fa/v2/secure2u/signTransaction": {
+      "source": "wallet",
+      "destination": "wallet"
+    }
   }
 }

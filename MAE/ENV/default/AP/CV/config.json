@@ -1,0 +1,400 @@
+{
+  "campaignId": 2,
+  "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
+  "greetingReceived": {
+    "festiveSendMoneyFromReceived": "",
+    "festiveSendGreetingFromReceived": "",
+    "background": "",
+    "moneyContainer": ""
+  },
+  "greetingSend": {
+    "mainTitle": "",
+    "designTemplates": [
+      {
+        "id": "",
+        "thumb": "",
+        "card": "",
+        "preFillText": ""
+      },
+      {
+        "id": "",
+        "thumb": "",
+        "card": "",
+        "preFillText": ""
+      },
+      {
+        "id": "",
+        "thumb": "",
+        "card": "",
+        "preFillText": ""
+      }
+    ],
+    "background": "",
+    "mainData": {
+      "color": "",
+      "mainHeader": "",
+      "options": [
+        {
+          "title": "",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "icon": ""
+        }
+      ]
+    },
+    "successMessageTransfer": "",
+    "failMessageTransfer": "",
+    "includeMoneyText": "",
+    "topContainer": "",
+    "backgroundGreetings": "",
+    "moneyReceivedText": "",
+    "sendGreetingTitle": "",
+    "sendGreetingText": "",
+    "sendGreetingFinalTitle": ""
+  },
+  "sendMoney": {
+    "festiveTitle": "",
+    "headerTitleEnterAmount": ""
+  },
+  "transfer": {
+    "backgroundSkin": ""
+  },
+  "payBills": {
+    "backgroundSkin": ""
+  },
+  "animationsWeb": {
+    "completed": "",
+    "consolation": "",
+    "grand": ""
+  },
+  "qrPay": {
+    "enterAmountTitle": "Scan & Pay",
+    "background": "",
+    "cashback": {
+      "background": "",
+      "success": {
+        "title": "",
+        "description": "",
+        "animation": "",
+        "moneyContainer": ""
+      },
+      "failed": {
+        "title": "",
+        "description": "",
+        "animation": ""
+      }
+    }
+  },
+  "entriesAnimation": {
+    "backgroundSpecial": "",
+    "backgroundGrand": "",
+    "moneyContainer": "",
+    "title": "",
+    "buttonTextPositive": "",
+    "buttonTextPositiveNotification": "",
+    "buttonTextNegative": "",
+    "consolation": {
+      "title": "",
+      "subtitle": "",
+      "firstDesc": "",
+      "secondDesc": ""
+    },
+    "special": {
+      "title": "",
+      "subtitle": "",
+      "firstDesc": "",
+      "secondDesc": "",
+      "animation": ""
+    },
+    "grand": {
+      "title": "",
+      "subtitle": "",
+      "firstDesc": "",
+      "secondDesc": "",
+      "animation": ""
+    },
+    "completed": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "login": {
+    "background": ""
+  },
+  "quickAction": {
+    "isEnabled": false,
+    "showFestive": "",
+    "festiveIcon": "",
+    "festiveTitle": ""
+  },
+  "quickActionDisplay": {
+    "isFestiveEnabled": false,
+    "tapTrackWin": {
+      "id": "",
+      "title": "",
+      "disabled": true,
+      "iconImage": "",
+      "module": "",
+      "screen": "",
+      "params": {
+        "data": null
+      }
+    },
+    "egreetings": {
+      "id": "",
+      "title": "",
+      "disabled": true,
+      "iconImage": "",
+      "module": "",
+      "screen": "",
+      "params": {
+        "screen": ""
+      }
+    }
+  },
+  "moreMenu": {
+    "festiveIcon": {
+      "id": "",
+      "icon": "",
+      "title": "",
+      "style": {
+        "width": ,
+        "height": 
+      },
+      "requireOnboard": false,
+      "navigationTo": {
+        "module": "",
+        "screen": ""
+      }
+    }
+  },
+  "link": {
+    "gameTnc": {
+      "link": "",
+      "title": "",
+    
+    },
+    "ezyCash": {
+      "link": "",
+      "title": "",
+    },
+    "ezyPay": {
+      "link": "",
+      "title": ""
+    },
+    "balanceTransfer": {
+      "link": "",
+      "title": ""
+    },
+    "goldAccount": {
+      "link": "",
+      "title": ""
+    },
+    "shareTrading": {
+      "link": "",
+      "title": ""
+    },
+    "unitTrust": {
+      "link": "",
+      "title": ""
+    },
+    "kawankuSaving": {
+      "link": "",
+      "title": ""
+    }
+  },
+  "ssl": {
+    "background": "ssl/skin.png",
+    "handLogo": "",
+    "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
+    "headerTitle": "Order Food & More",
+    "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
+    "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
+    "orderNow": "Order Now"
+  },
+  "fnB": {
+    "fnBbackground": "fnB/background.png",
+    "fnBBackground": "fnB/dashboard/background.png",
+    "fnBTitle": "Looking for food near you?",
+    "fnBDescription": "Let us point you in the right\ndirection",
+    "btnTitile": "Discover Now"
+  },
+  "gameStatus": {
+    "grandPrize": "",
+    "specialPrize": "",
+    "booster": "",
+    "completed": "",
+    "backgroundGrand": "",
+    "backgroundSpecial": "",
+    "tapTrackWin": "",
+    "specialCashback": "",
+    "entriesContainer": ""
+  },
+  "dashboard": {
+    "headerTitle": "Tap, Track, Win",
+    "swipper": {
+      "ios": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/juneAo2.png",
+          "visible": false
+        },
+        {
+          "id": "applePay",
+          "action": "APPLEPAY_DASHBOARD",
+          "image": "dashboard/swipper/applePayV2.png",
+          "visible": true
+        }
+      ],
+      "android": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/juneAo2.png",
+          "visible": false
+        }
+      ],
+      "huawei": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/juneAo2.png",
+          "visible": false
+        }
+      ]
+    },
+    "dashboardLogo": {
+      "active": {
+        "logo": ""
+      },
+      "empty": {
+        "logo": ""
+      },
+      "completed": {
+        "logo": ""
+      }
+    },
+    "dashboardWithTracker": {
+      "active": {
+        "background": ""
+      },
+      "empty": {
+        "background": ""
+      },
+      "completed": {
+        "background": ""
+      }
+    },
+    "dashboardWithoutTracker": {
+      "active": {
+        "background": ""
+      },
+      "empty": {
+        "background": ""
+      },
+      "completed": {
+        "background": ""
+      }
+    },
+    "gameProgress": {
+      "title": "",
+      "viewTracker": "",
+      "widgetItem1": "",
+      "descriptionWidgetItem1": "",
+      "widgetItem2": "",
+      "descriptionWidgetItem2": "",
+      "backgroundColor": "",
+      "borderColor": "",
+      "entriesContainerColor": "",
+      "entriesContainerButton": ""
+    }
+  },
+  "dashboardstatus": {
+    "active": {
+      "activeEven": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      },
+      "activeOdd": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      },
+      "": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      }
+    },
+    "completed": {
+      "completedEven": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      },
+      "completedOdd": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      }
+    },
+    "empty": {
+      "emptyEven": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      },
+      "emptyOdd": {
+        "title": "",
+        "description": "",
+        "buttonText": ""
+      }
+    
+  },
+  "DeepLinking": {
+    
+  },
+  "pushNotification": 
+    "festive": {
+      "isBoosterFestiveEven": {
+        "title": "",
+        "description": ""},
+      "isBoosterFestiveOdd": {
+        "title": "",
+        "description": ""},
+      "nonBoosterEven": {
+        "title": "",
+        "description": ""},
+      "nonBoosterOdd": {
+        "title": "",
+        "description": ""}
+  },
+  "isWhiteColorOnFestive": false
+}
