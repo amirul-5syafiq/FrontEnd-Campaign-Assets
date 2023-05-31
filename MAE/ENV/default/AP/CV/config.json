@@ -164,8 +164,8 @@
       "icon": "",
       "title": "",
       "style": {
-        "width": ,
-        "height": 
+        "width": "",
+        "height": ""
       },
       "requireOnboard": false,
       "navigationTo": {
@@ -177,12 +177,11 @@
   "link": {
     "gameTnc": {
       "link": "",
-      "title": "",
-    
+      "title": ""
     },
     "ezyCash": {
       "link": "",
-      "title": "",
+      "title": ""
     },
     "ezyPay": {
       "link": "",
@@ -210,7 +209,7 @@
     }
   },
   "ssl": {
-    "background": "ssl/skin.png",
+    "background": "",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/sslBannerV2.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/sslBannerV2.png",
@@ -376,25 +375,28 @@
         "description": "",
         "buttonText": ""
       }
-    
+    }
   },
-  "DeepLinking": {
-    
-  },
-  "pushNotification": 
-    "festive": {
-      "isBoosterFestiveEven": {
-        "title": "",
-        "description": ""},
-      "isBoosterFestiveOdd": {
-        "title": "",
-        "description": ""},
-      "nonBoosterEven": {
-        "title": "",
-        "description": ""},
-      "nonBoosterOdd": {
-        "title": "",
-        "description": ""}
-  },
+    "DeepLinking": {},
+    "pushNotification": {
+      "festive": {
+        "isBoosterFestiveEven": {
+          "title": "",
+          "description": ""
+        },
+        "isBoosterFestiveOdd": {
+          "title": "",
+          "description": ""
+        },
+        "nonBoosterEven": {
+          "title": "",
+          "description": ""
+        },
+        "nonBoosterOdd": {
+          "title": "",
+          "description": ""
+        }
+      }
+    },
   "isWhiteColorOnFestive": false
 }
