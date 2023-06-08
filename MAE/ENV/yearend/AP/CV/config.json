@@ -1,6 +1,7 @@
 {
   "campaignId": 2,
-  "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
+  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/staging/v2/",
+
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
     "festiveSendGreetingFromReceived": "",
@@ -211,8 +212,8 @@
   "ssl": {
     "background": "ssl/skin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/sslBanner2306.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner2306.png",
+    "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
     "headerTitle": "Order Food & More",
     "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
     "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
