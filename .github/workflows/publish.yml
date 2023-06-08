@@ -7,19 +7,19 @@ on:
 
 env:
   TAG_VERSION: ${{ github.ref_name }}
-  AWS_ROLE_CREDENTIAL_DEV: arn:aws:iam::823450791383:role/campaign-dev-GitOIDC-1MHTMHXU009-StaticWebHostRole-1FYADBDB22X98
-  AWS_ROLE_CREDENTIAL_SIT: arn:aws:iam::823450791383:role/campaign-sit-GitOIDC-1HJ8PQ74FSA-StaticWebHostRole-VY4Q6Q27S2TZ
-  AWS_ROLE_CREDENTIAL_UAT: arn:aws:iam::823450791383:role/campaign-uat-GitOIDC-NSE3YJF14ZV-StaticWebHostRole-JDI74L6N0D4P
+  AWS_ROLE_CREDENTIAL_DEV: arn:aws:iam::420792623485:role/campaign-dev-GitOIDC-15WRRSUCF1H-StaticWebHostRole-FXBV4W7A571O
+  AWS_ROLE_CREDENTIAL_SIT: arn:aws:iam::420792623485:role/campaign-sit-GitOIDC-1N16IPZF3FJ-StaticWebHostRole-1PM9EQFVMIX9M
+  AWS_ROLE_CREDENTIAL_UAT: arn:aws:iam::420792623485:role/campaign-uat-GitOIDC-15X2SLCGF5M-StaticWebHostRole-6NKXPL69NIWK
   AWS_ROLE_CREDENTIAL_STG: arn:aws:iam::075076474500:role/campaign-stg-GitOIDC-1FQ9VY2P11J-StaticWebHostRole-FSNCLS1X893O
   AWS_ROLE_CREDENTIAL_PROD: arn:aws:iam::075076474500:role/campaign-prod-GitOIDC-S6FKIR1PWZ-StaticWebHostRole-YQBDJH9IDNSU
 
   # for new architecture
-  BUCKET_ASSETS_DEV: campaign-dev-assets
-  BUCKET_ASSETS_SIT: campaign-sit-assets
-  BUCKET_ASSETS_UAT: campaign-uat-assets
+  BUCKET_ASSETS_DEV: mbb-campaign-dev-assets
+  BUCKET_ASSETS_SIT: mbb-campaign-sit-assets
+  BUCKET_ASSETS_UAT: mbb-campaign-uat-assets
   BUCKET_ASSETS_STG: campaign-stg-assets
   BUCKET_ASSETS_PROD: campaign-prod-assets
-  CLOUDFRONT_DISTRIBUTION_ID_NONPROD: EVUJUH2YYLJAW # used of sit and uat
+  CLOUDFRONT_DISTRIBUTION_ID_NONPROD: E1SVEFXT5S3I5Z # used of sit and uat
   CLOUDFRONT_DISTRIBUTION_ID_PROD: E1GJ88VJ4VWT89 # used of stg and prod
 
 jobs:
