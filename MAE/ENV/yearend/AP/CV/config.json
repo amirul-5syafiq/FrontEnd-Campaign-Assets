@@ -378,6 +378,12 @@
       }
     }
   },
+  "ToggleNotification": {
+    "title": "",
+    "description": "",
+    "toggleOn": "Notification enabled",
+    "toggleOff": "Notification disabled"
+  },
   "DeepLinking": {
     "scan_pay": {
       "stack": "QrStack",
@@ -766,7 +772,7 @@
         "headerColor": "transparent"
       }
     },
-    "winner_list":{
+    "winner_list": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
       "params": {
