@@ -379,8 +379,8 @@
     }
   },
   "ToggleNotification": {
-    "title": "",
-    "description": "",
+    "title": "Tap, Track, Win Notifications",
+    "description": "You will receive notification from us every time you win an entry",
     "toggleOn": "Notification enabled",
     "toggleOff": "Notification disabled"
   },
