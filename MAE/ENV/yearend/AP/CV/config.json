@@ -245,44 +245,12 @@
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
-          "visible": false
+          "visible": true
         },
         {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/juneAo3.png",
-          "visible": true
-        },
-        {
-          "id": "scam",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/scam.png",
-          "title": "Scam",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/fake-apps-scam.page",
-          "visible": true
-        },
-        {
-          "id": "efd",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/efd.png",
-          "title": "eFD",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/account_and_banking/efd-promo.page",
-          "visible": true
-        },
-        {
-          "id": "casa",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/efd.png",
-          "title": "CASA Account",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/apply-online.page",
-          "visible": true
-        },
-        {
-          "id": "motor",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/motor.png",
-          "title": "Motor Insurance",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "visible": true
         },
         {
@@ -297,44 +265,12 @@
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
-          "visible": false
+          "visible": true
         },
         {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/juneAo3.png",
-          "visible": true
-        },
-        {
-          "id": "scam",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/scam.png",
-          "title": "Scam",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/fake-apps-scam.page",
-          "visible": true
-        },
-        {
-          "id": "efd",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/efd.png",
-          "title": "eFD",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/account_and_banking/efd-promo.page",
-          "visible": true
-        },
-        {
-          "id": "casa",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/efd.png",
-          "title": "CASA Account",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/apply-online.page",
-          "visible": true
-        },
-        {
-          "id": "motor",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/motor.png",
-          "title": "Motor Insurance",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "visible": true
         }
       ],
@@ -343,44 +279,12 @@
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
-          "visible": false
+          "visible": true
         },
         {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/juneAo3.png",
-          "visible": true
-        },
-        {
-          "id": "scam",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/scam.png",
-          "title": "Scam",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/fake-apps-scam.page",
-          "visible": true
-        },
-        {
-          "id": "efd",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/efd.png",
-          "title": "eFD",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/account_and_banking/efd-promo.page",
-          "visible": true
-        },
-        {
-          "id": "casa",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/efd.png",
-          "title": "CASA Account",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/apply-online.page",
-          "visible": true
-        },
-        {
-          "id": "motor",
-          "action": "EXTERNAL_URL",
-          "image": "dashboard/swipper/motor.png",
-          "title": "Motor Insurance",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "visible": true
         }
       ]
