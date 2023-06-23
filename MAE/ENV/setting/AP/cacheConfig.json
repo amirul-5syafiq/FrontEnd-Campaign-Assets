@@ -3,32 +3,131 @@
   "invalidationOrder": false,
   "maxAge": 900000,
   "dictionary": {
-    "request": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"],
-    "response": ["SECURE2U_PULL", "rejected", "Declined", "M201", "Failed"]
+    "request": [
+      "SECURE2U_PULL",
+      "rejected",
+      "Declined",
+      "M200",
+      "M201",
+      "Failed",
+      "Unsuccessful"
+    ],
+    "response": [
+      "SECURE2U_PULL",
+      "rejected",
+      "Declined",
+      "M200",
+      "M201",
+      "Failed",
+      "Unsuccessful",
+      "TOUCHID",
+      "LOGIN",
+      "9999"
+    ]
   },
   "cacheDictionary": {
     "/transfer/v2/fundTransfer/monetary": [
-      "/banking/v1/summary/getBalance",
-      "/banking/v1/summary?",
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/overseas/v1/overseas/transfer": [
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/v2/bills/paid": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/2fa/v2/secure2u/nonMonetarySignTxn": [
       "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/payment/v1/pay/bill": [
-      "/banking/v1/summary/getBalance",
-      "/banking/v1/summary?",
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "//payment/v1/BT/insertBT": ["/banking/v1/summary?type=C&checkMae=true"],
+    "/transfer/v1/payToCard/": [
+      "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/2fa/v2/secure2u/signTransaction": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/notification/v1/pns/deRegister": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/cards/debitCardInquiry",
+      "/casa/debitcard/api/v1/inquire",
+      "/banking/v1/summary?type=A&filterJointAcc=true",
+      "/banking/v1/summary/qr?type=A"
+    ],
+    "/init?custKey=": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/cards/debitCardInquiry",
+      "/casa/debitcard/api/v1/inquire",
+      "/banking/v1/summary?type=A&filterJointAcc=true",
+      "/banking/v1/summary/qr?type=A"
+    ],
+    "/wallet/v1/device/add": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/cards/debitCardInquiry",
+      "/casa/debitcard/api/v1/inquire",
+      "/banking/v1/summary?type=A&filterJointAcc=true",
+      "/banking/v1/summary/qr?type=A"
+    ],
+    "/banking/v1/freezeCards": ["/banking/v1/summary?type=C&checkMae=true"],
+    "/v2/enrollment": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/cards/debitCardInquiry",
+      "/casa/debitcard/api/v1/inquire",
+      "/banking/v1/summary?type=A&filterJointAcc=true",
+      "/banking/v1/summary/qr?type=A"
+    ],
+    "/banking/v1/freezeaccount": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/user/v1/iBDeactivate/m2uIBDeactivation": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "//payment/v1/ezypay/payment": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/payment/v1/pay/loan": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/banking/v1/fd/executeFDPlacement": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=A&filterJointAcc=true"
+    ],
+    "/wallet/v1/qrpay/duitnow/payTransactionDuitQR": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary/qr?type=A"
+    ],
+    "/payment/v1/jompay/jompayPayment": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/transfer/v1/asnb/transfer": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/transfer/v1/th/transfer": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/wallet/v2/ssl/SSLPayment": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/transfer/v1/rtp/action": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/payment/v1/mobilereload/topup": [
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/payment/v1/ticket/payTicket": [
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/wallet/v1/wallet/updateAccountNo": [
       "/banking/v1/summary?type=A&checkMae=true"
     ]
   },
   "included": {
-    "/goal/v1/goal/exists": true,
     "/banking/v1/summary?type=A&checkMae=true": true,
-    "/goal/v1/goal": true,
-    "/banking/v1/summary/getBalance": true,
-    "/banking/v1/summary?": true,
-    "/moment/api/v1/moment/get?": true,
-    "/moment/api/v1/moment/get?countryCode=US&country=United States": true
+    "/banking/v1/summary?type=A&filterJointAcc=true": true,
+    "/banking/v1/summary/qr?type=A": true,
+    "/banking/v1/summary?type=C&checkMae=true": true,
+    "/banking/v1/cards/debitCardInquiry": true,
+    "/casa/debitcard/api/v1/inquire": true
   },
   "observableConfig": {
     "/2fa/v2/secure2u/signTransaction": {
