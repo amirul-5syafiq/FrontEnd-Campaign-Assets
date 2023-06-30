@@ -135,8 +135,8 @@
   },
   "included": {
     "/banking/v1/summary?type=A&checkMae=true": true,
-    "/banking/v1/summary?type=A&filterJointAcc=true": true,
-    "/banking/v1/summary/qr?type=A": true,
+    "/banking/v1/cards/debitCardInquiry": true,
+    "/casa/debitcard/api/v1/inquire": true,
     "/banking/v1/summary?type=C&checkMae=true": true,
     "/pfm/v1/pfm/creditCard/transaction/history/weekly": true
   },
