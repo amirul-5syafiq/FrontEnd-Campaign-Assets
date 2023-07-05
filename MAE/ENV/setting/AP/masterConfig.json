@@ -1,5 +1,5 @@
 {
-  "selectCampaign": "raya",
+  "selectCampaign": "merdeka",
   "contentVersion": "",
   "cacheConfig": "cacheConfig.json",
   "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka"],

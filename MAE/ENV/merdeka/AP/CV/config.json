@@ -732,7 +732,7 @@
       "screen": "MaybankHeartTaptastic",
       "params": {
        "data" :null 
-    },
+    }
     },
     "islamicgoldaccount": {
       "stack": "SettingsModule",
