@@ -35,8 +35,12 @@
     "/v2/bills/paid": [
       "/banking/v1/summary?type=A&checkMae=true"
     ],
+    "/banking/v1/ccActivate/ccSetPin": [
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
     "/2fa/v2/secure2u/nonMonetarySignTxn": [
-      "/banking/v1/summary?type=A&checkMae=true"
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
     ],
     "/payment/v1/pay/bill": [
       "/banking/v1/summary?type=A&checkMae=true",
