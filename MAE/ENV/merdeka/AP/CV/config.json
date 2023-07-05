@@ -724,7 +724,7 @@
     }
     },
     "donate": {
-      "module": "payBillsModule",
+      "stack": "payBillsModule",
       "screen": "MaybankHeartTaptastic",
       "params": {
        "data" :null 
