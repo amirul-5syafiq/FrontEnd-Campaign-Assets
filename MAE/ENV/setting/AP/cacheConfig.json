@@ -62,21 +62,24 @@
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/casa/debitcard/api/v1/inquire",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
+      "/atm/v1/qrContactlessWithdrawal/verify"
     ],
     "/init?custKey=": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/casa/debitcard/api/v1/inquire",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
+      "/atm/v1/qrContactlessWithdrawal/verify"
     ],
     "/wallet/v1/device/add": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/casa/debitcard/api/v1/inquire",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
+      "/atm/v1/qrContactlessWithdrawal/verify"
     ],
     "/banking/v1/freezeCards": [
       "/banking/v1/summary?type=C&checkMae=true"
@@ -86,7 +89,8 @@
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/casa/debitcard/api/v1/inquire",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
+      "/atm/v1/qrContactlessWithdrawal/verify"
     ],
     "/banking/v1/freezeaccount": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -142,7 +146,8 @@
     "/banking/v1/cards/debitCardInquiry": true,
     "/casa/debitcard/api/v1/inquire": true,
     "/banking/v1/summary?type=C&checkMae=true": true,
-    "/pfm/v1/pfm/creditCard/transaction/history/weekly": true
+    "/pfm/v1/pfm/creditCard/transaction/history/weekly": true,
+    "/atm/v1/qrContactlessWithdrawal/verify": true
   },
   "observableConfig": {
     "/2fa/v2/secure2u/signTransaction": {
