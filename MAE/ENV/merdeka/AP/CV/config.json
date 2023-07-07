@@ -717,11 +717,15 @@
       }
     },
     "balancetransfer": {
-      "module": "payBillsModule",
-      "screen": "MaybankHeartTaptastic",
+      "stack": "TabNavigator",
+      "screen": "Tab",
       "params": {
-       "data" :null 
-    }
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 1
+        }
+      }
     },
     "donate": {
       "stack": "payBillsModule",
