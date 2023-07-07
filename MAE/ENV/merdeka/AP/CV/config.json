@@ -343,12 +343,12 @@
         "buttonText": "View Tracker"
       },
       "activeOdd": {
-        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
+        "title": "Win a trip to\nMaldives or RM 500\ncash prize!",
         "description": "",
         "buttonText": "View Tracker"
       },
       "": {
-        "title": "Win a trip to nMaladives\nor RM 500 cash prize!",
+        "title": "Win a trip to nMaldives\nor RM 500 cash prize!",
         "description": "",
         "buttonText": "View Tracker"
       }
@@ -372,7 +372,7 @@
         "buttonText": "Learn More"
       },
       "emptyOdd": {
-        "title": "Win a trip to nMaladives\nor RM 500 cash prize!",
+        "title": "Win a trip to nMaldives\nor RM 500 cash prize!",
         "description": "",
         "buttonText": "Learn More"
       }
@@ -731,7 +731,9 @@
       "stack": "payBillsModule",
       "screen": "MaybankHeartTaptastic",
       "params": {
-       "data" :null 
+       "data" :{
+       "params":"handleGoToDonate"
+       }
     }
     },
     "islamicgoldaccount": {
