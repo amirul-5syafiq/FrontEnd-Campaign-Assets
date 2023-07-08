@@ -734,7 +734,7 @@
         "billerInfo": "...mbbHeartPayeeDetails",
         "fullName": "MaybankHeart",
         "subName": "Maybank",
-        "requiredFields": "[...requiredFieldArray]",
+        "requiredFields": ["...requiredFieldArray"],
         "donationFlow": true,
         "fromScreen": "MaybankHeartTaptastic",
         "fromModule": "payBillsModule"
