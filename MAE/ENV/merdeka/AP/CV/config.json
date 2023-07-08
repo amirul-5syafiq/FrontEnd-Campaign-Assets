@@ -729,9 +729,13 @@
     },
     "donate": {
       "stack": "payBillsModule",
-      "screen": "MaybankHeartTaptastic",
+      "screen": "PayBillsPayeeDetails",
       "params": {
-        "onPress": "this.handleGoToDonate"
+        "billerInfo": "mbbHeartPayeeDetails",
+        "requiredFields": ["...requiredFieldArray"],
+        "donationFlow": true,
+        "fromScreen": "MaybankHeartTaptastic",
+        "fromModule": "payBillsModule"
       }
     },
     "islamicgoldaccount": {
