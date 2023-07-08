@@ -731,7 +731,7 @@
       "stack": "payBillsModule",
       "screen": "MaybankHeartTaptastic",
       "params": {
-        "onPress": "this.handleGoToDonate"
+        "onClick": "ActionButton"
       }
     },
     "islamicgoldaccount": {
