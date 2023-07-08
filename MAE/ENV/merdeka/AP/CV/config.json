@@ -731,9 +731,6 @@
       "stack": "payBillsModule",
       "screen": "PayBillsPayeeDetails",
       "params": {
-        "billerInfo": "...mbbHeartPayeeDetails",
-        "fullName": "MaybankHeart",
-        "subName": "Maybank",
         "requiredFields": ["...requiredFieldArray"],
         "donationFlow": true,
         "fromScreen": "MaybankHeartTaptastic",
