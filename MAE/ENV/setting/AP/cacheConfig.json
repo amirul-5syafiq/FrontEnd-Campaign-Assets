@@ -85,7 +85,8 @@
       "/banking/v1/summary?type=C&checkMae=true"
     ],
     "/2fa/v3/transaction/execute": [
-      "/banking/v1/summary?type=C&checkMae=true"
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/v2/enrollment": [
       "/banking/v1/summary?type=A&checkMae=true",
