@@ -32,9 +32,7 @@
     "/overseas/v1/overseas/transfer": [
       "/banking/v1/summary?type=A&checkMae=true"
     ],
-    "/v2/bills/paid": [
-      "/banking/v1/summary?type=A&checkMae=true"
-    ],
+    "/v2/bills/paid": ["/banking/v1/summary?type=A&checkMae=true"],
     "/banking/v1/ccActivate/ccSetPin": [
       "/banking/v1/summary?type=C&checkMae=true"
     ],
@@ -46,9 +44,7 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true"
     ],
-    "//payment/v1/BT/insertBT": [
-      "/banking/v1/summary?type=C&checkMae=true"
-    ],
+    "//payment/v1/BT/insertBT": ["/banking/v1/summary?type=C&checkMae=true"],
     "/transfer/v1/payToCard/": [
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/summary?type=A&checkMae=true"
@@ -61,7 +57,6 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/casa/debitcard/api/v1/inquire",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "/atm/v1/qrContactlessWithdrawal/verify"
     ],
@@ -69,7 +64,6 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/casa/debitcard/api/v1/inquire",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "/atm/v1/qrContactlessWithdrawal/verify"
     ],
@@ -77,12 +71,13 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/casa/debitcard/api/v1/inquire",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "/atm/v1/qrContactlessWithdrawal/verify"
     ],
-    "/banking/v1/freezeCards": [
-      "/banking/v1/summary?type=C&checkMae=true"
+    "/banking/v1/freezeCards": ["/banking/v1/summary?type=C&checkMae=true"],
+    "/2fa/v3/transaction/execute": [
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/2fa/v3/transaction/execute": [
       "/banking/v1/summary?type=C&checkMae=true",
@@ -92,7 +87,6 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/casa/debitcard/api/v1/inquire",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "/atm/v1/qrContactlessWithdrawal/verify"
     ],
@@ -108,9 +102,7 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true"
     ],
-    "/payment/v1/pay/loan": [
-      "/banking/v1/summary?type=A&checkMae=true"
-    ],
+    "/payment/v1/pay/loan": ["/banking/v1/summary?type=A&checkMae=true"],
     "/banking/v1/fd/executeFDPlacement": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=A&filterJointAcc=true"
@@ -123,18 +115,10 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true"
     ],
-    "/transfer/v1/asnb/transfer": [
-      "/banking/v1/summary?type=A&checkMae=true"
-    ],
-    "/transfer/v1/th/transfer": [
-      "/banking/v1/summary?type=A&checkMae=true"
-    ],
-    "/wallet/v2/ssl/SSLPayment": [
-      "/banking/v1/summary?type=A&checkMae=true"
-    ],
-    "/transfer/v1/rtp/action": [
-      "/banking/v1/summary?type=A&checkMae=true"
-    ],
+    "/transfer/v1/asnb/transfer": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/transfer/v1/th/transfer": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/wallet/v2/ssl/SSLPayment": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/transfer/v1/rtp/action": ["/banking/v1/summary?type=A&checkMae=true"],
     "/payment/v1/mobilereload/topup": [
       "/banking/v1/summary?type=A&checkMae=true"
     ],
@@ -143,12 +127,14 @@
     ],
     "/wallet/v1/wallet/updateAccountNo": [
       "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/banking/v1/killSwitch/freezeDebitCard": [
+      "/banking/v1/cards/debitCardInquiry"
     ]
   },
   "included": {
     "/banking/v1/summary?type=A&checkMae=true": true,
     "/banking/v1/cards/debitCardInquiry": true,
-    "/casa/debitcard/api/v1/inquire": true,
     "/banking/v1/summary?type=C&checkMae=true": true,
     "/pfm/v1/pfm/creditCard/transaction/history/weekly": true,
     "/atm/v1/qrContactlessWithdrawal/verify": true
