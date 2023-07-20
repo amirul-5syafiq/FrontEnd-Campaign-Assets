@@ -251,7 +251,7 @@
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdeka.png",
-          "visible": false
+          "visible": true
         },
         {
           "id": "applePay",
@@ -271,7 +271,7 @@
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdeka.png",
-          "visible": false
+          "visible": true
         }
       ],
       "huawei": [
@@ -285,7 +285,7 @@
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/merdeka.png",
-          "visible": false
+          "visible": true
         }
       ]
     },
