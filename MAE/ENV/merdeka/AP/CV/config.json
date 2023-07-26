@@ -1,6 +1,6 @@
 {
   "campaignId": 2,
-  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
+  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/staging/v2/",
 
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
@@ -76,7 +76,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "qrPay/skinQrPay.png",
+    "background": "qrPay/qrMerdekaSkin.png",
     "cashback": {
       "background": "qrPay/cashback/background.png",
       "success": {
@@ -126,7 +126,7 @@
     }
   },
   "login": {
-    "background": "login/loginSkin.png"
+    "background": "login/merdekaLogin.png"
   },
   "quickAction": {
     "isEnabled": false,
@@ -162,7 +162,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/game.gif",
+      "icon": "icons/merdeka.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
@@ -210,7 +210,7 @@
     }
   },
   "ssl": {
-    "background": "ssl/skin.png",
+    "background": "ssl/sslMerdekaSkin.png",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
@@ -250,7 +250,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/juneAo3.png",
+          "image": "dashboard/swipper/newMerdeka.png",
           "visible": true
         },
         {
@@ -270,7 +270,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/juneAo3.png",
+          "image": "dashboard/swipper/newMerdeka.png",
           "visible": true
         }
       ],
@@ -284,7 +284,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/juneAo3.png",
+          "image": "dashboard/swipper/merdeka.png",
           "visible": true
         }
       ]
@@ -343,12 +343,12 @@
         "buttonText": "View Tracker"
       },
       "activeOdd": {
-        "title": "Win a trip to\nMaladives or RM 500\ncash prize!",
+        "title": "Win a trip to\nMaldives or RM 500\ncash prize!",
         "description": "",
         "buttonText": "View Tracker"
       },
       "": {
-        "title": "Win a trip to nMaladives\nor RM 500 cash prize!",
+        "title": "Win a trip to nMaldives\nor RM 500 cash prize!",
         "description": "",
         "buttonText": "View Tracker"
       }
@@ -372,7 +372,7 @@
         "buttonText": "Learn More"
       },
       "emptyOdd": {
-        "title": "Win a trip to nMaladives\nor RM 500 cash prize!",
+        "title": "Win a trip to nMaldives\nor RM 500 cash prize!",
         "description": "",
         "buttonText": "Learn More"
       }
@@ -727,6 +727,7 @@
         }
       }
     },
+    "donate": "donate",
     "islamicgoldaccount": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
@@ -782,38 +783,23 @@
       }
     }
   },
-  "cepUnit": {
-    "respCode": "CE200",
-    "respDesc": "Success",
-    "mbpns": {
-      "ready": true,
-      "inboxUrl": "https://engage.maybank2u.com.my/v1/notification/inbox"
-    },
-    "CX-VOC": {
-      "showBanner": true,
-      "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp_mae.png",
-      "bannerText": "Help us do better for you! Tell us how we can improve our experience.",
-      "bannerLinkText": "Share Feedback>",
-      "bannerLink": "https://www.qualtric.com/alsklk923"
-    }
-  },
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Transact to earn +2 entries!",
-        "description": "It's your lucky day! Every eligible transaction you make today earns you extra entries to win an all-expenses-paid trip to Maldives for 2 adults! Keep transacting for more entries to win cash prizes too. T&C apply. Tap below to view your Trackers."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for +2 entries to win prizes!",
-        "description": "You could win an all-expenses-paid trip to Maldives for 2 with Tap, Track, Win, tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Transact now to win exciting prizes!",
-        "description": "Win an all-expenses-paid trip to Maldives for 2 adults when you pay bills, transfer, reload and more! Every eligible transaction earns you entries to win cash prizes too. Make a transaction now to earn your next entry. T&C apply. Tap below to view your Trackers."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now to win exciting prizes!",
-        "description": "Check in daily for entries to win an all-expenses-paid trip to Maldives for 2 adults when you check in daily and earn your free entries. T&C apply. Tap below to check in now."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
