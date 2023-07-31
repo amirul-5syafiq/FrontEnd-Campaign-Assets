@@ -707,6 +707,7 @@
       }
     },
     "mae_dashboard": "mae_dashboard",
+    "donate": "donate",
     "ezycash": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
@@ -780,21 +781,6 @@
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/contests_winner/taptrackwinwinners.page",
         "headerColor": "transparent"
       }
-    }
-  },
-  "cepUnit": {
-    "respCode": "CE200",
-    "respDesc": "Success",
-    "mbpns": {
-      "ready": true,
-      "inboxUrl": "https://engage.maybank2u.com.my/v1/notification/inbox"
-    },
-    "CX-VOC": {
-      "showBanner": true,
-      "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp_mae.png",
-      "bannerText": "Help us do better for you! Tell us how we can improve our experience.",
-      "bannerLinkText": "Share Feedback>",
-      "bannerLink": "https://www.qualtric.com/alsklk923"
     }
   },
   "pushNotification": {
