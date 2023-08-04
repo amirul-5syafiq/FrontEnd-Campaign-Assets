@@ -400,6 +400,21 @@
         "fromStack": ""
       }
     },
+    "crossborder":{
+      "stack": "QrStack",
+      "screen": {
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
+        }
+      },
+      "params": {
+        "primary": true,
+        "settings": false,
+        "fromRoute": "",
+        "fromStack": ""
+      }
+    },
     "paybill": {
       "stack": "payBillsModule",
       "screen": "PayBillsLandingScreen",
