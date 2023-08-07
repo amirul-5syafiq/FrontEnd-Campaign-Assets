@@ -7,261 +7,109 @@
     "response": []
   },
   "cacheDictionary": {
-    "/banking/v1/ccActivate/ccSetPin": [
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C"
-    ],
-    "//payment/v1/BT/insertBT": [
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C"
-    ],
-    "/banking/v1/freezeCards": [
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C"
-    ],
-    "/banking/v1/killSwitch/freezeDebitCard": [
-      "/banking/v1/cards/debitCardInquiry"
+    "/transfer/v2/fundTransfer/monetary": [
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/overseas/v1/overseas/transfer": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A"
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
-    "/2fa/v3/transaction/execute": [
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C",
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A"
-    ],
-    "/banking/v1/freezeaccount": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C"
-    ],
-    "/user/v1/iBDeactivate/m2uIBDeactivation": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C"
-    ],
-    "//payment/v1/ezypay/payment": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C"
-    ],
-    "/banking/v1/fd/executeFDPlacement": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A"
-    ],
-    "/payment/v1/pay/loan": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/wallet/v1/qrpay/duitnow/payTransactionDuitQR": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "//mae/api/v1/activate/frzUnfrzReq": [
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/v2/sendRcvMoney/paid?notify=true": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/banking/v1/summary?type=A"
-    ],
-    "/v2/sendRcvMoney/send": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/banking/v1/summary?type=A"
-    ],
-    "/transfer/v1/payToCard/": [
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C",
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/transfer/v1/rtp/action": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/transfer/v1/th/transfer": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
+    "/v2/bills/paid": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/banking/v1/ccActivate/ccSetPin": [
+      "/banking/v1/summary?type=C&checkMae=true"
     ],
     "/2fa/v2/secure2u/nonMonetarySignTxn": [
       "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
+      "/banking/v1/summary?type=C&checkMae=true"
     ],
     "/payment/v1/pay/bill": [
       "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "//payment/v1/BT/insertBT": ["/banking/v1/summary?type=C&checkMae=true"],
+    "/transfer/v1/payToCard/": [
       "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/2fa/v2/secure2u/signTransaction": [
       "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
+      "/banking/v1/summary?type=C&checkMae=true"
     ],
-    "/transfer/v2/fundTransfer/monetary": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/payment/v1/jompay/jompayPayment": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=C",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/transfer/v1/asnb/transfer": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/wallet/v1/ssl/SSLPayment": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/wallet/v2/ssl/SSLPayment": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/payment/v1/mobilereload/topup": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/payment/v1/ticket/payTicket": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/payment/v1/ticket/getBarcodeKLIA": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/wallet/v1/wallet/updateAccountNo": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A"
-    ],
-    "/v2/bills/paid": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/funding/v1/funding/etbFunding": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/rpp/v1/consent/register": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/goal/v1/withdraw": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/goal/v1/goal/fund": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/goal/v1/goal/remove": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "//mae/api/v1/activate/setPinReq": [
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "/atm/v1/qrContactlessWithdrawal/confirmWithdrawal": [
-      "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-    "//mae/api/v1/activate/dbtCrdRpm": [
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
-    ],
-
     "/notification/v1/pns/deRegister": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=F&checkMae=true",
-      "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
     ],
     "/init?custKey=": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=F&checkMae=true",
-      "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
     ],
     "/wallet/v1/device/add": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=F&checkMae=true",
-      "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
+    ],
+    "/banking/v1/freezeCards": ["/banking/v1/summary?type=C&checkMae=true"],
+    "/2fa/v3/transaction/execute": [
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=A&checkMae=true"
     ],
     "/v2/enrollment": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
-      "/banking/v1/summary?type=F&checkMae=true",
-      "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/banking/v1/summary?type=A",
-      "/banking/v1/summary?type=C",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
+    ],
+    "/banking/v1/freezeaccount": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/user/v1/iBDeactivate/m2uIBDeactivation": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "//payment/v1/ezypay/payment": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/payment/v1/pay/loan": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/banking/v1/fd/executeFDPlacement": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=A&filterJointAcc=true"
+    ],
+    "/wallet/v1/qrpay/duitnow/payTransactionDuitQR": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary/qr?type=A"
+    ],
+    "/payment/v1/jompay/jompayPayment": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true"
+    ],
+    "/transfer/v1/asnb/transfer": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/transfer/v1/th/transfer": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/wallet/v2/ssl/SSLPayment": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/transfer/v1/rtp/action": ["/banking/v1/summary?type=A&checkMae=true"],
+    "/payment/v1/mobilereload/topup": [
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/payment/v1/ticket/payTicket": [
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/wallet/v1/wallet/updateAccountNo": [
+      "/banking/v1/summary?type=A&checkMae=true"
+    ],
+    "/banking/v1/killSwitch/freezeDebitCard": [
+      "/banking/v1/cards/debitCardInquiry"
     ]
   },
   "included": {
     "/banking/v1/summary?type=A&checkMae=true": true,
-    "/banking/v1/summary?type=C&checkMae=true": true,
-    "/banking/v1/summary?type=L&checkMae=true": true,
-    "/banking/v1/summary?type=F&checkMae=true": true,
     "/banking/v1/cards/debitCardInquiry": true,
+    "/banking/v1/summary?type=C&checkMae=true": true,
     "/pfm/v1/pfm/creditCard/transaction/history/weekly": true,
-    "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true": true,
-    "/banking/v1/summary?type=A": true,
-    "/banking/v1/summary?type=C": true,
     "/goal/v1/goal/exists": true
   },
   "observableConfig": {}
