@@ -3,27 +3,8 @@
   "invalidationOrder": false,
   "maxAge": 900000,
   "dictionary": {
-    "request": [
-      "SECURE2U_PULL",
-      "rejected",
-      "Declined",
-      "M200",
-      "M201",
-      "Failed",
-      "Unsuccessful"
-    ],
-    "response": [
-      "SECURE2U_PULL",
-      "rejected",
-      "Declined",
-      "M200",
-      "M201",
-      "Failed",
-      "Unsuccessful",
-      "TOUCHID",
-      "LOGIN",
-      "9999"
-    ]
+    "request": [],
+    "response": []
   },
   "cacheDictionary": {
     "/transfer/v2/fundTransfer/monetary": [
@@ -57,22 +38,19 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "/atm/v1/qrContactlessWithdrawal/verify"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
     ],
     "/init?custKey=": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "/atm/v1/qrContactlessWithdrawal/verify"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
     ],
     "/wallet/v1/device/add": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "/atm/v1/qrContactlessWithdrawal/verify"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
     ],
     "/banking/v1/freezeCards": ["/banking/v1/summary?type=C&checkMae=true"],
     "/2fa/v3/transaction/execute": [
@@ -83,8 +61,7 @@
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
-      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
-      "/atm/v1/qrContactlessWithdrawal/verify"
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly"
     ],
     "/banking/v1/freezeaccount": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -133,12 +110,7 @@
     "/banking/v1/cards/debitCardInquiry": true,
     "/banking/v1/summary?type=C&checkMae=true": true,
     "/pfm/v1/pfm/creditCard/transaction/history/weekly": true,
-    "/atm/v1/qrContactlessWithdrawal/verify": true
+    "/goal/v1/goal/exists": true
   },
-  "observableConfig": {
-    "/2fa/v2/secure2u/signTransaction": {
-      "source": "wallet",
-      "destination": "wallet"
-    }
-  }
+  "observableConfig": {}
 }
