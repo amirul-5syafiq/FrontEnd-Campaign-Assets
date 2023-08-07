@@ -262,7 +262,7 @@
     "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true": true,
     "/banking/v1/summary?type=A": true,
     "/banking/v1/summary?type=C": true,
-    "/goal/v1/goal/exist": true
+    "/goal/v1/goal/exists": true
   },
   "observableConfig": {}
 }
