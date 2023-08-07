@@ -206,6 +206,7 @@
     "/notification/v1/pns/deRegister": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=F&checkMae=true",
       "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/banking/v1/summary?type=A",
@@ -216,6 +217,7 @@
     "/init?custKey=": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=F&checkMae=true",
       "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/banking/v1/summary?type=A",
@@ -226,6 +228,7 @@
     "/wallet/v1/device/add": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=F&checkMae=true",
       "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/banking/v1/summary?type=A",
@@ -236,6 +239,7 @@
     "/v2/enrollment": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=F&checkMae=true",
       "/banking/v1/summary?type=L&checkMae=true",
       "/banking/v1/cards/debitCardInquiry",
       "/banking/v1/summary?type=A",
@@ -248,6 +252,7 @@
     "/banking/v1/summary?type=A&checkMae=true": true,
     "/banking/v1/summary?type=C&checkMae=true": true,
     "/banking/v1/summary?type=L&checkMae=true": true,
+    "/banking/v1/summary?type=F&checkMae=true": true,
     "/banking/v1/cards/debitCardInquiry": true,
     "/pfm/v1/pfm/creditCard/transaction/history/weekly": true,
     "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true": true,
