@@ -667,7 +667,7 @@
         "index": 1,
         "screen": "Maybank2u",
         "params": {
-          "index": 1
+          "index": 0
         }
       }
     },
@@ -689,7 +689,7 @@
         "index": 1,
         "screen": "Maybank2u",
         "params": {
-          "index": 1
+          "index": 0
         }
       }
     },
