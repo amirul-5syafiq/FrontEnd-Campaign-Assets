@@ -664,10 +664,10 @@
       "stack": "TabNavigator",
       "screen": "Tab",
       "params": {
-        "index": 4,
-        "screen": "More",
+        "index": 1,
+        "screen": "Maybank2u",
         "params": {
-          "screen": "Wallet"
+          "index": 1
         }
       }
     },
@@ -686,10 +686,10 @@
       "stack": "TabNavigator",
       "screen": "Tab",
       "params": {
-        "index": 4,
-        "screen": "More",
+        "index": 1,
+        "screen": "Maybank2u",
         "params": {
-          "screen": "Wallet"
+          "index": 1
         }
       }
     },
