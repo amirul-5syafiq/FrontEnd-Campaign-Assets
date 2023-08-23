@@ -1,0 +1,840 @@
+{
+  "campaignId": 2,
+  "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
+
+  "greetingReceived": {
+    "festiveSendMoneyFromReceived": "",
+    "festiveSendGreetingFromReceived": "",
+    "background": "",
+    "moneyContainer": ""
+  },
+  "greetingSend": {
+    "mainTitle": "",
+    "designTemplates": [
+      {
+        "id": "",
+        "thumb": "",
+        "card": "",
+        "preFillText": ""
+      },
+      {
+        "id": "",
+        "thumb": "",
+        "card": "",
+        "preFillText": ""
+      },
+      {
+        "id": "",
+        "thumb": "",
+        "card": "",
+        "preFillText": ""
+      }
+    ],
+    "background": "",
+    "mainData": {
+      "color": "",
+      "mainHeader": "",
+      "options": [
+        {
+          "title": "",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "icon": ""
+        }
+      ]
+    },
+    "successMessageTransfer": "",
+    "failMessageTransfer": "",
+    "includeMoneyText": "",
+    "topContainer": "",
+    "backgroundGreetings": "",
+    "moneyReceivedText": "",
+    "sendGreetingTitle": "",
+    "sendGreetingText": "",
+    "sendGreetingFinalTitle": ""
+  },
+  "sendMoney": {
+    "festiveTitle": "",
+    "headerTitleEnterAmount": ""
+  },
+  "transfer": {
+    "backgroundSkin": ""
+  },
+  "payBills": {
+    "backgroundSkin": ""
+  },
+  "animationsWeb": {
+    "completed": "completed-entry-animation",
+    "consolation": "special-entry-animation",
+    "grand": "grand-entry-animation"
+  },
+  "qrPay": {
+    "enterAmountTitle": "Scan & Pay",
+    "background": "qrPay/qrMaeSkin.png",
+    "cashback": {
+      "background": "qrPay/cashback/background.png",
+      "success": {
+        "title": "Hooray!\nYou've just earned",
+        "description": "Keep using Scan & Pay for more rewards.",
+        "animation": "qrPay/cashback/cashback.json",
+        "moneyContainer": "qrPay/cashback/cashbackAmountContainer.png"
+      },
+      "failed": {
+        "title": "Oops, no cashback this time.",
+        "description": "Keep using Scan & Pay for more rewards in the future.",
+        "animation": "qrPay/cashback/noCashback.json"
+      }
+    }
+  },
+  "entriesAnimation": {
+    "backgroundSpecial": "qrPay/cashback/background.png",
+    "backgroundGrand": "qrPay/cashback/background.png",
+    "moneyContainer": "qrPay/cashback/amountContainer.png",
+    "title": "You've just earned",
+    "buttonTextPositive": "View My Trackers",
+    "buttonTextPositiveNotification": "Turn On Notification",
+    "buttonTextNegative": "MAE-be later",
+    "consolation": {
+      "title": "You've scored",
+      "subtitle": "entries to win a Special Prize!",
+      "firstDesc": "Yay! You’re getting closer to\ncompleting a Tracker on\nTap, Track, Win.",
+      "secondDesc": "Make another transaction for more\nentries to win."
+    },
+    "special": {
+      "title": "You've scored",
+      "subtitle": "entries to win a Special Prize!",
+      "firstDesc": "Good job! You’re one step closer to\ncompleting a Tracker on\nTap, Track, Win.",
+      "secondDesc": "Make another transaction for more\nentries to win.",
+      "animation": "qrPay/cashback/coins.json"
+    },
+    "grand": {
+      "title": "You've scored",
+      "subtitle": "entries to win a Grand Prize!",
+      "firstDesc": "Well done! You’ve completed a Tracker \non Tap, Track, Win.",
+      "secondDesc": "Keep transacting and complete other \nTrackers for more entries to win.",
+      "animation": "qrPay/cashback/coins.json"
+    },
+    "completed": {
+      "title": "You're a star! You've\ncompleted all your Trackers",
+      "description": "Turn on your notification so you can\nbe notified when you win!"
+    }
+  },
+  "login": {
+    "background": "login/maeLogin.png"
+  },
+  "quickAction": {
+    "isEnabled": false,
+    "showFestive": "",
+    "festiveIcon": "",
+    "festiveTitle": ""
+  },
+  "quickActionDisplay": {
+    "isFestiveEnabled": false,
+    "tapTrackWin": {
+      "id": "tapTrackWin",
+      "title": "Tap, Track,\nWin",
+      "disabled": true,
+      "iconImage": "icons/game.png",
+      "module": "GameStack",
+      "screen": "TapTrackWin",
+      "params": {
+        "data": null
+      }
+    },
+    "egreetings": {
+      "id": "egreetings",
+      "title": "e-Duit\nRaya",
+      "disabled": true,
+      "iconImage": "icons/game.png",
+      "module": "DashboardStack",
+      "screen": "Dashboard",
+      "params": {
+        "screen": "FestiveQuickActionScreen"
+      }
+    }
+  },
+  "moreMenu": {
+    "festiveIcon": {
+      "id": "tapTrackWin",
+      "icon": "icons/merdeka.gif",
+      "title": "Tap, Track, Win",
+      "style": {
+        "width": 50,
+        "height": 50
+      },
+      "requireOnboard": true,
+      "navigationTo": {
+        "module": "GameStack",
+        "screen": "TapTrackWin"
+      }
+    }
+  },
+  "link": {
+    "gameTnc": {
+      "link": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+      "title": "Terms & Conditions"
+    },
+    "ezyCash": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezycash.page",
+      "title": "Maybank2u"
+    },
+    "ezyPay": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/ezypay.page",
+      "title": "Maybank2u"
+    },
+    "balanceTransfer": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/cards/features_services/balance-transfer.page",
+      "title": "Maybank2u"
+    },
+    "goldAccount": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    },
+    "shareTrading": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/digital_banking/share-trading-cash-account.page",
+      "title": "Maybank2u"
+    },
+    "unitTrust": {
+      "link": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/unit_trusts/unit_trusts.page",
+      "title": "Maybank2u"
+    },
+    "kawankuSaving": {
+      "link": "https://192.168.63.17/cgi-bin/bvUIUX2/m2u/common/login.do",
+      "title": "Maybank2u"
+    }
+  },
+  "ssl": {
+    "background": "ssl/sslMaeSkin.png",
+    "handLogo": "",
+    "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
+    "headerTitle": "Order Food & More",
+    "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
+    "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
+    "orderNow": "Order Now"
+  },
+  "fnB": {
+    "fnBbackground": "fnB/background.png",
+    "fnBBackground": "fnB/dashboard/background.png",
+    "fnBTitle": "Looking for food near you?",
+    "fnBDescription": "Let us point you in the right\ndirection",
+    "btnTitile": "Discover Now"
+  },
+  "gameStatus": {
+    "grandPrize": "tracker/earnedScreen/GrandPrize.json",
+    "specialPrize": "tracker/earnedScreen/SpecialPrize1.json",
+    "booster": "tracker/earnedScreen/SpecialPrize2Resized.json",
+    "completed": "tracker/earnedScreen/CompletedNew.json",
+    "backgroundGrand": "tracker/earnedScreen/grandBackground.png",
+    "backgroundSpecial": "tracker/earnedScreen/specialBackground.png",
+    "tapTrackWin": "tracker/earnedScreen/TapTrackWin.json",
+    "specialCashback": "",
+    "entriesContainer": "tracker/earnedScreen/amountContainer.png"
+  },
+  "dashboard": {
+    "headerTitle": "Tap, Track, Win",
+    "swipper": {
+      "ios": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/trackerBanner.png",
+          "visible": true
+        },
+        {
+          "id": "applePay",
+          "action": "APPLEPAY_DASHBOARD",
+          "image": "dashboard/swipper/applePayV2.png",
+          "visible": true
+        }
+      ],
+      "android": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/trackerBanner.png",
+          "visible": true
+        }
+      ],
+      "huawei": [
+        {
+          "id": "tabung",
+          "action": "GOALS_DASHBOARD",
+          "image": "dashboard/swipper/tabungV2.png",
+          "visible": true
+        },
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/trackerBanner.png",
+          "visible": true
+        }
+      ]
+    },
+    "dashboardLogo": {
+      "active": {
+        "logo": "dashboard/mastheadJune.png"
+      },
+      "empty": {
+        "logo": "dashboard/mastheadJune.png"
+      },
+      "completed": {
+        "logo": "dashboard/mastheadJune.png"
+      }
+    },
+    "dashboardWithTracker": {
+      "active": {
+        "background": "dashboard/withTracker/juneAoFull.png"
+      },
+      "empty": {
+        "background": "dashboard/withTracker/juneAoFull.png"
+      },
+      "completed": {
+        "background": "dashboard/withTracker/juneAoFull.png"
+      }
+    },
+    "dashboardWithoutTracker": {
+      "active": {
+        "background": "dashboard/withoutTracker/background.png"
+      },
+      "empty": {
+        "background": "dashboard/withoutTracker/background.png"
+      },
+      "completed": {
+        "background": "dashboard/withoutTracker/background.png"
+      }
+    },
+    "gameProgress": {
+      "title": "Your Progress",
+      "viewTracker": "View Tracker",
+      "widgetItem1": "dashboard/withTracker/grandPrizeJune.png",
+      "descriptionWidgetItem1": "Entries to win\nGrand Prize",
+      "widgetItem2": "dashboard/withTracker/specialPrizeJune.png",
+      "descriptionWidgetItem2": "Entries to win\nSpecial Prize",
+      "backgroundColor": "#ffe8b0",
+      "borderColor": "#ffe8b0",
+      "entriesContainerColor": "#ffe8b0",
+      "entriesContainerButton": "#ffde02"
+    }
+  },
+  "dashboardstatus": {
+    "active": {
+      "activeEven": {
+        "title": "Win an iPad Pro and\nup to RM10 Cashback!",
+        "description": "",
+        "buttonText": "View Tracker"
+      },
+      "activeOdd": {
+        "title": "Win a trip to\nMaldives or RM 500\ncash prize!",
+        "description": "",
+        "buttonText": "View Tracker"
+      },
+      "": {
+        "title": "Win a trip to nMaldives\nor RM 500 cash prize!",
+        "description": "",
+        "buttonText": "View Tracker"
+      }
+    },
+    "completed": {
+      "completedEven": {
+        "title": "Yay! You've completed all teh trackers!",
+        "description": "",
+        "buttonText": "View Tracker"
+      },
+      "completedOdd": {
+        "title": "Yay! You've completed\nall Trackers!",
+        "description": "",
+        "buttonText": "View Tracker"
+      }
+    },
+    "empty": {
+      "emptyEven": {
+        "title": "Win an iPad Pro and\nup to RM10 Cashback!",
+        "description": "",
+        "buttonText": "Learn More"
+      },
+      "emptyOdd": {
+        "title": "Win a trip to nMaldives\nor RM 500 cash prize!",
+        "description": "",
+        "buttonText": "Learn More"
+      }
+    }
+  },
+  "ToggleNotification": {
+    "title": "Tap, Track, Win Notifications",
+    "description": "You will receive notification from us every time you win an entry",
+    "toggleOn": "Notification enabled",
+    "toggleOff": "Notification disabled"
+  },
+  "DeepLinking": {
+    "scan_pay": {
+      "stack": "QrStack",
+      "screen": {
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
+        }
+      },
+      "params": {
+        "primary": true,
+        "settings": false,
+        "fromRoute": "",
+        "fromStack": ""
+      }
+    },
+    "crossborder":{
+      "stack": "QrStack",
+      "screen": {
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
+        }
+      },
+      "params": {
+        "primary": true,
+        "settings": false,
+        "fromRoute": "",
+        "fromStack": ""
+      }
+    },
+    "paybill": {
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
+      "params": {
+        "data": null
+      }
+    },
+    "pay_zakat": {
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
+      "params": {
+        "data": null
+      }
+    },
+    "paybill_jompay": {
+      "stack": "payBillsModule",
+      "screen": "PayBillsLandingScreen",
+      "params": {
+        "data": null
+      }
+    },
+    "reload_hotlink": {
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
+      "params": {
+        "data": null
+      }
+    },
+    "reload": {
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
+      "params": {
+        "data": null
+      }
+    },
+    "reload_50": {
+      "stack": "mobileReloadModule",
+      "screen": "ReloadSelectTelco",
+      "params": {
+        "data": null
+      }
+    },
+    "pay_cardloan": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "e_greeting": {
+      "stack": "DashboardStack",
+      "screen": "Dashboard",
+      "params": {
+        "screen": "FestiveQuickActionScreen"
+      }
+    },
+    "transfer_fund": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 0,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "duit_now": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 2,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "transfer_fund_overseas": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 5,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "asnb_transfer": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 3,
+        "isNewASNBTransferEntryPoint": true,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "tabung_haji": {
+      "stack": "fundTransferModule",
+      "screen": "TransferTabScreen",
+      "params": {
+        "index": 4,
+        "screenDate": { "routeFrom": "TapTrackWin" }
+      }
+    },
+    "efixed": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 2
+          }
+        }
+      }
+    },
+    "asbfinancing": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 3
+          }
+        }
+      }
+    },
+    "loanfinancing": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 3
+          }
+        }
+      }
+    },
+    "secure2u": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "SecureTAC"
+        }
+      }
+    },
+    "motorinsurance": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 4
+          }
+        }
+      }
+    },
+    "apply_mae_card": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "premier": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "zestiaccount": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "creditcard": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 1
+          }
+        }
+      }
+    },
+    "goal_based_investment": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "FinancialGoalsDashboardScreen"
+        }
+      }
+    },
+    "create_tabung": {
+      "stack": "TabungStack",
+      "screen": "TabungMain",
+      "params": {
+        "screen": "TabungTabScreen"
+      }
+    },
+    "referafriend": {
+      "stack": "SettingsModule",
+      "screen": "Profile",
+      "params": {
+        "data": null
+      }
+    },
+    "ticket_purchase": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 0
+        }
+      }
+    },
+    "ezypay": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 1
+        }
+      }
+    },
+    "atm_contactless": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 0
+        }
+      }
+    },
+    "first_ssl": {
+      "stack": "SSLStack",
+      "screen": "SSLStart",
+      "params": {
+        "data": null
+      }
+    },
+    "sama2lokal": {
+      "stack": "SSLStack",
+      "screen": "SSLStart",
+      "params": {
+        "data": null
+      }
+    },
+    "tracker": {
+      "module": "GameStack",
+      "screen": "TapTrackWin",
+      "params": {
+        "data": "isRefresh"
+      }
+    },
+    "notification": {
+      "module": "SettingsModule",
+      "screen": "Notifications",
+      "params": {
+        "data": null
+      }
+    },
+    "mae_dashboard": "mae_dashboard",
+    "ezycash": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
+        "headerColor": "transparent"
+      }
+    },
+    "balancetransfer": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 1,
+        "screen": "Maybank2u",
+        "params": {
+          "index": 1
+        }
+      }
+    },
+    "donate": "donate",
+    "islamicgoldaccount": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Maybank2u",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/gold_silver/maybank-islamic-gold-account-i.page?gclid=Cj0KCQjwr82iBhCuARIsAO0EAZx5PsyxysypZvEBMXK9qPwnCBo0lwflTJF3OMQ0ZY3MdZ2D62OJ3-AaAs9-EALw_wcB",
+        "headerColor": "transparent"
+      }
+    },
+    "sharetrading": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Maybank2u",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/services/digital_banking/share-trading-cash-account.page",
+        "headerColor": "transparent"
+      }
+    },
+    "unittrustaccount": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Maybank2u",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/unit_trusts/unit_trusts.page",
+        "headerColor": "transparent"
+      }
+    },
+    "kawankusavings": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Maybank2u",
+        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
+        "headerColor": "transparent"
+      }
+    },
+    "tnc_url": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Terms & Conditions",
+        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/tc-tap-track-win-year-end-edition.pdf",
+        "headerColor": "transparent"
+      }
+    },
+    "winner_list": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Winner List",
+        "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/contests_winner/taptrackwinwinners.page",
+        "headerColor": "transparent"
+      }
+    },
+   "merchant_list": {
+    "stack": "SettingsModule",
+    "screen": "PdfSetting",
+    "params": {
+      "title": "Merchant List",
+      "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports",
+      "headerColor": "transparent"
+    }
+   },
+   "spend_win_list": {
+    "stack": "SettingsModule",
+    "screen": "PdfSetting",
+    "params": {
+      "title": "Spend & Win List",
+      "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes",
+      "headerColor": "transparent"
+    }
+   }
+  },
+  "pushNotification": {
+    "festive": {
+      "isBoosterFestiveEven": {
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+      },
+      "isBoosterFestiveOdd": {
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+      },
+      "nonBoosterEven": {
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+      },
+      "nonBoosterOdd": {
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+      }
+    }
+  },
+  "isWhiteColorOnFestive": false
+}
