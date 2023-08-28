@@ -162,7 +162,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/merdeka.gif",
+      "icon": "icons/tapTrackWin.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
@@ -819,20 +819,20 @@
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win the Ultimate Slay-cation for 2 adults with Tap, Track, Win. Tap below to check in and earn your entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
