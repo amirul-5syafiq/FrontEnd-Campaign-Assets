@@ -1,8 +1,8 @@
 {
-  "selectCampaign": "aoc",
+  "selectCampaign": "yearend",
   "contentVersion": "",
   "cacheConfig": "cacheConfig.json",
-  "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka", "aoc"],
+  "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka"],
   "cepUnit": {
     "respCode": "CE200",
     "respDesc": "Success",
