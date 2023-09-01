@@ -11,9 +11,9 @@
       "inboxUrl": "https://engage.maybank2u.com.my/v1/notification/inbox"
     },
     "CX-VOC": {
-      "showBanner": false,
+      "showBanner": true,
       "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp_mae.png",
-      "bannerText": "Help us do better for you! Tell us how we can improve our experience.",
+      "bannerText": "Help us do better for you! Tell us how we can improve your experience.",
       "bannerLinkText": "Share Feedback>",
       "bannerLink": "https://maybankvoc.qualtrics.com/jfe/form/SV_3PjWKN8h1xOL9oa"
     }
