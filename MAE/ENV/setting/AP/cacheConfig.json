@@ -57,7 +57,8 @@
     "/payment/v1/pay/loan": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=A",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
+      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
+      "/banking/v1/summary?type=L&checkMae=true"
     ],
     "/wallet/v1/qrpay/duitnow/payTransactionDuitQR": [
       "/banking/v1/summary?type=A&checkMae=true",
