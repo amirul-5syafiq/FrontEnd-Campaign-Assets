@@ -819,7 +819,7 @@
     "screen": "PdfSetting",
     "params": {
       "title": "Merchant List",
-      "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports",
+      "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports.pdf",
       "headerColor": "transparent"
     }
    },
@@ -828,7 +828,7 @@
     "screen": "PdfSetting",
     "params": {
       "title": "Spend & Win List",
-      "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes",
+      "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes.pdf",
       "headerColor": "transparent"
     }
    }
