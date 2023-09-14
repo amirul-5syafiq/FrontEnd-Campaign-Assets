@@ -254,12 +254,14 @@
     ]
   },
   "included": {
+    "/banking/v1/summary?type=A&checkMae=true": true,
     "/banking/v1/summary?type=C&checkMae=true": true,
     "/banking/v1/summary?type=L&checkMae=true": true,
     "/banking/v1/summary?type=F&checkMae=true": true,
     "/banking/v1/cards/debitCardInquiry": true,
     "/pfm/v1/pfm/creditCard/transaction/history/weekly": true,
     "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true": true,
+    "/banking/v1/summary?type=A": true,
     "/banking/v1/summary?type=C": true,
     "/goal/v1/goal/exist": true
   },
