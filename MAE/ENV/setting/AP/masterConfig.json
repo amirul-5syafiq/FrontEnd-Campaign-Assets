@@ -1,6 +1,6 @@
 {
   "selectCampaign": "merdeka",
-  "contentVersion": "",
+  "contentVersion": "cacheConfig.json",
   "cacheConfig": "",
   "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka"],
   "cepUnit": {
