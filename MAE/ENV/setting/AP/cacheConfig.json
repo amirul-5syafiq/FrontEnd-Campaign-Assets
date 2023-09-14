@@ -1,7 +1,7 @@
 {
   "enableCache": true,
   "invalidationOrder": false,
-  "maxAge": 3600000,
+  "maxAge": 120000,
   "dictionary": {
     "request": [],
     "response": []
