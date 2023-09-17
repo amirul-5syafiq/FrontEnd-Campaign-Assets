@@ -219,7 +219,6 @@
     ],
     "/transfer/v1//th/favorite/action": ["/transfer/v1/th/favorite/list"],
     "/overseas/v1/overseas/addFavorite": ["/overseas/v1/overseas/favorites"],
-
     "/notification/v1/pns/deRegister": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
@@ -236,8 +235,8 @@
       "/payment/v1/jompay/favorite/inqury",
       "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
       "/transfer/v2/favorites/list?indicator=DUITNOW",
-      "banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
-      "transfer/v1/th/favorite/list",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites"
     ],
     "/init?custKey=": [
@@ -256,8 +255,8 @@
       "/payment/v1/jompay/favorite/inqury",
       "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
       "/transfer/v2/favorites/list?indicator=DUITNOW",
-      "banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
-      "transfer/v1/th/favorite/list",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites"
     ],
     "/wallet/v1/device/add": [
@@ -276,8 +275,8 @@
       "/payment/v1/jompay/favorite/inqury",
       "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
       "/transfer/v2/favorites/list?indicator=DUITNOW",
-      "banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
-      "transfer/v1/th/favorite/list",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites"
     ],
     "/v2/enrollment": [
@@ -296,8 +295,8 @@
       "/payment/v1/jompay/favorite/inqury",
       "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
       "/transfer/v2/favorites/list?indicator=DUITNOW",
-      "banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
-      "transfer/v1/th/favorite/list",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites"
     ]
   },
@@ -317,8 +316,8 @@
     "/payment/v1/jompay/favorite/inqury": true,
     "/transfer/v2/favorites/list?indicator=FUND_TRANSFER": true,
     "/transfer/v2/favorites/list?indicator=DUITNOW": true,
-    "banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer": true,
-    "transfer/v1/th/favorite/list": true,
+    "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer": true,
+    "/transfer/v1/th/favorite/list": true,
     "/overseas/v1/overseas/favorites": true
   },
   "observableConfig": {}
