@@ -214,7 +214,12 @@
       "/banking/v1/summary?type=C",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/goal/v1/goal/exist",
+      "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
+      "/transfer/v2/favorites/list?indicator=DUITNOW",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/overseas/v1/overseas/favorites",
+      "/transfer/v1/th/favorite/list"
     ],
     "/init?custKey=": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -226,7 +231,12 @@
       "/banking/v1/summary?type=C",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/goal/v1/goal/exist",
+      "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
+      "/transfer/v2/favorites/list?indicator=DUITNOW",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/overseas/v1/overseas/favorites",
+      "/transfer/v1/th/favorite/list"
     ],
     "/wallet/v1/device/add": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -238,7 +248,12 @@
       "/banking/v1/summary?type=C",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/goal/v1/goal/exist",
+      "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
+      "/transfer/v2/favorites/list?indicator=DUITNOW",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/overseas/v1/overseas/favorites",
+      "/transfer/v1/th/favorite/list"
     ],
     "/v2/enrollment": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -250,7 +265,12 @@
       "/banking/v1/summary?type=C",
       "/pfm/v1/pfm/creditCard/transaction/history/weekly",
       "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
-      "/goal/v1/goal/exist"
+      "/goal/v1/goal/exist",
+      "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
+      "/transfer/v2/favorites/list?indicator=DUITNOW",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/overseas/v1/overseas/favorites",
+      "/transfer/v1/th/favorite/list"
     ]
   },
   "included": {
@@ -263,7 +283,12 @@
     "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true": true,
     "/banking/v1/summary?type=A": true,
     "/banking/v1/summary?type=C": true,
-    "/goal/v1/goal/exist": true
+    "/goal/v1/goal/exist": true,
+    "/transfer/v2/favorites/list?indicator=FUND_TRANSFER": true,
+    "/transfer/v2/favorites/list?indicator=DUITNOW": true,
+    "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer": true,
+    "/overseas/v1/overseas/favorites": true,
+    "/transfer/v1/th/favorite/list": true
   },
   "observableConfig": {}
 }
