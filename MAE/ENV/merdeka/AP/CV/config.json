@@ -250,7 +250,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/trackerBanner.png",
+          "image": "dashboard/swipper/newMerdekaOne.png",
           "visible": true
         },
         {
@@ -302,7 +302,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/trackerBanner.png",
+          "image": "dashboard/swipper/newMerdekaOne.png",
           "visible": true
         },
         {
@@ -344,7 +344,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/trackerBanner.png",
+          "image": "dashboard/swipper/newMerdekaOne.png",
           "visible": true
         },
         {
