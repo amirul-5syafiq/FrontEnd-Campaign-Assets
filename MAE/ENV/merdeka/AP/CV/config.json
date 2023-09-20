@@ -241,14 +241,6 @@
     "swipper": {
       "ios": [
         {
-          "id": "external_travel",
-          "action": "CAMPAIGN",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
-        },
-        {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdekaOne.png",
@@ -276,19 +268,19 @@
           "title": "Instant 10% off with Car Insurance/Takaful.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "CAMPAIGN",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
       ],
       "android": [
         {
-          "id": "external_travel",
-          "action": "CAMPAIGN",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
-        },
-        {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdekaOne.png",
@@ -316,19 +308,19 @@
           "title": "Instant 10% off with Car Insurance/Takaful.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "CAMPAIGN",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
       ],
       "huawei": [
         {
-          "id": "external_travel",
-          "action": "CAMPAIGN",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
-        },
-        {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdekaOne.png",
@@ -356,6 +348,14 @@
           "title": "Instant 10% off with Car Insurance/Takaful.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "CAMPAIGN",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
       ]
