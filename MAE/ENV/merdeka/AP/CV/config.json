@@ -76,7 +76,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "qrPay/qrMaeSkin.png",
+    "background": "qrPay/qrMerdekaSkin.png",
     "cashback": {
       "background": "qrPay/cashback/background.png",
       "success": {
@@ -126,7 +126,7 @@
     }
   },
   "login": {
-    "background": "login/maeLogin.png"
+    "background": "login/merdekaLogin.png"
   },
   "quickAction": {
     "isEnabled": false,
@@ -162,7 +162,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/tapTrackWin.gif",
+      "icon": "icons/merdeka.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
@@ -210,7 +210,7 @@
     }
   },
   "ssl": {
-    "background": "ssl/sslMaeSkin.png",
+    "background": "ssl/sslMerdekaSkin.png",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
@@ -241,124 +241,148 @@
     "headerTitle": "Tap, Track, Win",
     "swipper": {
       "ios": [
-        {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
-        },
-        {
-          "id": "external_championship",
-          "action": "EXTERNAL_URL",
-          "title": "Par-tee with the Pros!",
-          "url": "https://www.maybank.com/en/championship/index.page",
-          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_heart2Heart",
-          "action": "EXTERNAL_URL",
-          "title": "Join us in saving a child’s heart.",
-          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
-          "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_travel",
-          "action": "CAMPAIGN",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
-        }
+          {
+              "id": "tabung",
+              "action": "GOALS_DASHBOARD",
+              "image": "dashboard/swipper/tabungV2.png",
+              "visible": false
+          },
+          {
+              "id": "campaign",
+              "action": "CAMPAIGN",
+              "image": "dashboard/swipper/newMerdekaOne.png",
+              "visible": true
+          },
+          {
+              "id": "applePay",
+              "action": "APPLEPAY_DASHBOARD",
+              "image": "dashboard/swipper/applePayV2.png",
+              "visible": false
+          },
+          {
+              "id": "external_championship",
+              "action": "EXTERNAL_URL",
+              "title": "Par-tee with the Pros!",
+              "url": "https://www.maybank.com/en/championship/index.page",
+              "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_heart2Heart",
+              "action": "EXTERNAL_URL",
+              "title": "Join us in saving a child’s heart.",
+              "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+              "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_carInsurance",
+              "action": "EXTERNAL_URL",
+              "title": "Instant 10% off with Car Insurance/Takaful.",
+              "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page?gbraid=0AAAAADeErYGxq3WWtx3FW2tKkWlHC_j4N&gclid=EAIaIQobChMIg4fi8sK4gQMVx199Ch1hmAffEAAYASAAEgJYX_D_BwE",
+              "image": "dashboard/swipper/carInsuranceBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_travel",
+              "action": "EXTERNAL_URL",
+              "title": "Enjoy 25% off Travel Protection plans.",
+              "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page?",
+              "image": "dashboard/swipper/travelInsuranceBanner.png",
+              "visible": true
+          }
       ],
       "android": [
-        {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
-        },
-        {
-          "id": "external_championship",
-          "action": "EXTERNAL_URL",
-          "title": "Par-tee with the Pros!",
-          "url": "https://www.maybank.com/en/championship/index.page",
-          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_heart2Heart",
-          "action": "EXTERNAL_URL",
-          "title": "Join us in saving a child’s heart.",
-          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
-          "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_travel",
-          "action": "CAMPAIGN",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
-        }
+          {
+              "id": "tabung",
+              "action": "GOALS_DASHBOARD",
+              "image": "dashboard/swipper/tabungV2.png",
+              "visible": false
+          },
+          {
+              "id": "campaign",
+              "action": "CAMPAIGN",
+              "image": "dashboard/swipper/newMerdekaOne.png",
+              "visible": true
+          },
+          {
+              "id": "external_championship",
+              "action": "EXTERNAL_URL",
+              "title": "Par-tee with the Pros!",
+              "url": "https://www.maybank.com/en/championship/index.page",
+              "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_heart2Heart",
+              "action": "EXTERNAL_URL",
+              "title": "Join us in saving a child’s heart.",
+              "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+              "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_carInsurance",
+              "action": "EXTERNAL_URL",
+              "title": "Instant 10% off with Car Insurance/Takaful.",
+              "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page?gbraid=0AAAAADeErYGxq3WWtx3FW2tKkWlHC_j4N&gclid=EAIaIQobChMIg4fi8sK4gQMVx199Ch1hmAffEAAYASAAEgJYX_D_BwE",
+              "image": "dashboard/swipper/carInsuranceBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_travel",
+              "action": "EXTERNAL_URL",
+              "title": "Enjoy 25% off Travel Protection plans.",
+              "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page?",
+              "image": "dashboard/swipper/travelInsuranceBanner.png",
+              "visible": true
+          }
       ],
       "huawei": [
-        {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
-        },
-        {
-          "id": "external_championship",
-          "action": "EXTERNAL_URL",
-          "title": "Par-tee with the Pros!",
-          "url": "https://www.maybank.com/en/championship/index.page",
-          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_heart2Heart",
-          "action": "EXTERNAL_URL",
-          "title": "Join us in saving a child’s heart.",
-          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
-          "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_travel",
-          "action": "CAMPAIGN",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
-          "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
-        }
+          {
+              "id": "tabung",
+              "action": "GOALS_DASHBOARD",
+              "image": "dashboard/swipper/tabungV2.png",
+              "visible": false
+          },
+          {
+              "id": "campaign",
+              "action": "CAMPAIGN",
+              "image": "dashboard/swipper/newMerdekaOne.png",
+              "visible": true
+          },
+          {
+              "id": "external_championship",
+              "action": "EXTERNAL_URL",
+              "title": "Par-tee with the Pros!",
+              "url": "https://www.maybank.com/en/championship/index.page",
+              "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_heart2Heart",
+              "action": "EXTERNAL_URL",
+              "title": "Join us in saving a child’s heart.",
+              "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+              "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_carInsurance",
+              "action": "EXTERNAL_URL",
+              "title": "Instant 10% off with Car Insurance/Takaful.",
+              "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page?gbraid=0AAAAADeErYGxq3WWtx3FW2tKkWlHC_j4N&gclid=EAIaIQobChMIg4fi8sK4gQMVx199Ch1hmAffEAAYASAAEgJYX_D_BwE",
+              "image": "dashboard/swipper/carInsuranceBanner.png",
+              "visible": true
+          },
+          {
+              "id": "external_travel",
+              "action": "EXTERNAL_URL",
+              "title": "Enjoy 25% off Travel Protection plans.",
+              "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page?",
+              "image": "dashboard/swipper/travelInsuranceBanner.png",
+              "visible": true
+          }
       ]
     },
     "dashboardLogo": {
@@ -472,22 +496,7 @@
         "fromStack": ""
       }
     },
-    "selectmerchant": {
-      "stack": "QrStack",
-      "screen": {
-        "qrEnabled": {
-          "true": "QrMain",
-          "false": "QrStart"
-        }
-      },
-      "params": {
-        "primary": true,
-        "settings": false,
-        "fromRoute": "",
-        "fromStack": ""
-      }
-    },
-    "crossborder": {
+    "crossborder":{
       "stack": "QrStack",
       "screen": {
         "qrEnabled": {
@@ -883,43 +892,25 @@
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/contests_winner/taptrackwinwinners.page",
         "headerColor": "transparent"
       }
-    },
-    "merchant_list": {
-      "stack": "SettingsModule",
-      "screen": "PdfSetting",
-      "params": {
-        "title": "Merchant List",
-        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports.pdf",
-        "headerColor": "transparent"
-      }
-    },
-    "spend_win_list": {
-      "stack": "SettingsModule",
-      "screen": "PdfSetting",
-      "params": {
-        "title": "Spend & Win List",
-        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes.pdf",
-        "headerColor": "transparent"
-      }
     }
   },
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
+        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
