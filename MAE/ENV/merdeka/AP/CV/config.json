@@ -250,7 +250,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/latestMerdeka.png",
+          "image": "dashboard/swipper/newMerdekaOne.png",
           "visible": true
         },
         {
@@ -310,15 +310,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/latestMerdeka.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "image": "dashboard/swipper/newMerdekaOne.png",
           "visible": true
         },
         {
@@ -364,15 +356,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/latestMerdeka.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "image": "dashboard/swipper/newMerdekaOne.png",
           "visible": true
         },
         {
