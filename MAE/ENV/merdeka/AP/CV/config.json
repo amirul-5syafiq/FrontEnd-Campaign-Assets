@@ -76,7 +76,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "qrPay/qrMerdekaSkin.png",
+    "background": "qrPay/qrMaeSkin.png",
     "cashback": {
       "background": "qrPay/cashback/background.png",
       "success": {
@@ -126,7 +126,7 @@
     }
   },
   "login": {
-    "background": "login/merdekaLogin.png"
+    "background": "login/maeLogin.png"
   },
   "quickAction": {
     "isEnabled": false,
@@ -162,7 +162,7 @@
   "moreMenu": {
     "festiveIcon": {
       "id": "tapTrackWin",
-      "icon": "icons/merdeka.gif",
+      "icon": "icons/tapTrackWin.gif",
       "title": "Tap, Track, Win",
       "style": {
         "width": 50,
@@ -210,7 +210,7 @@
     }
   },
   "ssl": {
-    "background": "ssl/sslMerdekaSkin.png",
+    "background": "ssl/sslMaeSkin.png",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
@@ -250,21 +250,13 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
+          "image": "dashboard/swipper/trackerBanner.png",
           "visible": true
         },
         {
           "id": "applePay",
           "action": "APPLEPAY_DASHBOARD",
           "image": "dashboard/swipper/applePayV2.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
           "visible": true
         },
         {
@@ -310,15 +302,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "image": "dashboard/swipper/trackerBanner.png",
           "visible": true
         },
         {
@@ -339,17 +323,13 @@
         },
         {
           "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
         {
           "id": "external_travel",
-          "action": "EXTERNAL_URL",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
@@ -364,15 +344,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "image": "dashboard/swipper/trackerBanner.png",
           "visible": true
         },
         {
@@ -393,17 +365,13 @@
         },
         {
           "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
         {
           "id": "external_travel",
-          "action": "EXTERNAL_URL",
-          "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
@@ -520,7 +488,22 @@
         "fromStack": ""
       }
     },
-    "crossborder":{
+    "selectmerchant": {
+      "stack": "QrStack",
+      "screen": {
+        "qrEnabled": {
+          "true": "QrMain",
+          "false": "QrStart"
+        }
+      },
+      "params": {
+        "primary": true,
+        "settings": false,
+        "fromRoute": "",
+        "fromStack": ""
+      }
+    },
+    "crossborder": {
       "stack": "QrStack",
       "screen": {
         "qrEnabled": {
@@ -916,25 +899,43 @@
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/contests_winner/taptrackwinwinners.page",
         "headerColor": "transparent"
       }
+    },
+    "merchant_list": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Merchant List",
+        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports.pdf",
+        "headerColor": "transparent"
+      }
+    },
+    "spend_win_list": {
+      "stack": "SettingsModule",
+      "screen": "PdfSetting",
+      "params": {
+        "title": "Spend & Win List",
+        "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes.pdf",
+        "headerColor": "transparent"
+      }
     }
   },
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win prizes!",
-        "description": "Stand to win cashback up to RM66 with Tap, Track, Win. Tap below to check in and earn your entries now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
+        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
