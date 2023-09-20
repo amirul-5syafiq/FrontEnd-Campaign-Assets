@@ -242,25 +242,27 @@
     "swipper": {
       "ios": [
         {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
       ],
       "android": [
         {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
+          "id": "external_travel",
+          "action": "APPLY_MOTORINSURANCE",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
       ],
       "huawei": [
         {
-          "id": "campaign",
-          "action": "CAMPAIGN",
-          "image": "dashboard/swipper/newMerdekaOne.png",
+          "id": "external_travel",
+          "action": "APPLY_MOTORINSURANCE",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
       ]
