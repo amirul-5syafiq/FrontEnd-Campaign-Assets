@@ -251,13 +251,13 @@
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "applePay",
           "action": "APPLEPAY_DASHBOARD",
           "image": "dashboard/swipper/applePayV2.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_championship",
@@ -265,7 +265,7 @@
           "title": "Par-tee with the Pros!",
           "url": "https://www.maybank.com/en/championship/index.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_heart2Heart",
@@ -273,7 +273,7 @@
           "title": "Join us in saving a child’s heart.",
           "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
           "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_carInsurance",
@@ -281,7 +281,7 @@
           "title": "Instant 10% off with Car Insurance/Takaful.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_travel",
@@ -289,7 +289,7 @@
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
+          "visible": false
         }
       ],
       "android": [
@@ -303,7 +303,7 @@
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_championship",
@@ -311,7 +311,7 @@
           "title": "Par-tee with the Pros!",
           "url": "https://www.maybank.com/en/championship/index.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_heart2Heart",
@@ -319,19 +319,19 @@
           "title": "Join us in saving a child’s heart.",
           "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
           "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_carInsurance",
           "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_travel",
           "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
+          "visible": false
         }
       ],
       "huawei": [
@@ -345,7 +345,7 @@
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/newMerdekaOne.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_championship",
@@ -353,7 +353,7 @@
           "title": "Par-tee with the Pros!",
           "url": "https://www.maybank.com/en/championship/index.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_heart2Heart",
@@ -361,19 +361,19 @@
           "title": "Join us in saving a child’s heart.",
           "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
           "image": "dashboard/swipper/heart2HeartCampaignBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_carInsurance",
           "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "external_travel",
           "action": "APPLY_MOTORINSURANCE",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
-          "visible": true
+          "visible": false
         }
       ]
     },
