@@ -245,7 +245,7 @@
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "campaign",
@@ -297,7 +297,7 @@
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "campaign",
@@ -339,7 +339,7 @@
           "id": "tabung",
           "action": "GOALS_DASHBOARD",
           "image": "dashboard/swipper/tabungV2.png",
-          "visible": true
+          "visible": false
         },
         {
           "id": "campaign",
