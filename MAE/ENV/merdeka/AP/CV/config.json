@@ -312,7 +312,9 @@
         },
         {
           "id": "external_carInsurance",
-          "action": "APPLY_MOTORINSURANCE",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         }
@@ -350,7 +352,9 @@
         },
         {
           "id": "external_carInsurance",
-          "action": "APPLY_MOTORINSURANCE",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         }
