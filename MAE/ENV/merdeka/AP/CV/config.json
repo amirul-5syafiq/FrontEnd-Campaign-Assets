@@ -243,7 +243,7 @@
       "ios": [
         {
           "id": "external_travel",
-          "action": "EXTERNAL_URL",
+          "action": "CAMPAIGN",
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
@@ -253,7 +253,7 @@
       "android": [
         {
           "id": "external_travel",
-          "action": "EXTERNAL_URL",
+          "action": "CAMPAIGN",
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
@@ -263,7 +263,7 @@
       "huawei": [
         {
           "id": "external_travel",
-          "action": "EXTERNAL_URL",
+          "action": "CAMPAIGN",
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
