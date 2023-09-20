@@ -252,7 +252,9 @@
       "android": [
         {
           "id": "external_travel",
-          "action": "APPLY_MOTORINSURANCE",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
@@ -260,7 +262,9 @@
       "huawei": [
         {
           "id": "external_travel",
-          "action": "APPLY_MOTORINSURANCE",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://m2ulife.page.link/maemotorinsurance",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
