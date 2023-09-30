@@ -268,7 +268,7 @@
           "id": "external_carInsurance",
           "action": "EXTERNAL_URL",
           "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page?gbraid=0AAAAADeErYGxq3WWtx3FW2tKkWlHC_j4N&gclid=EAIaIQobChMIg4fi8sK4gQMVx199Ch1hmAffEAAYASAAEgJYX_D_BwE",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
@@ -276,7 +276,7 @@
           "id": "external_travel",
           "action": "EXTERNAL_URL",
           "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page?",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
@@ -308,7 +308,7 @@
           "id": "external_carInsurance",
           "action": "EXTERNAL_URL",
           "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page?gbraid=0AAAAADeErYGxq3WWtx3FW2tKkWlHC_j4N&gclid=EAIaIQobChMIg4fi8sK4gQMVx199Ch1hmAffEAAYASAAEgJYX_D_BwE",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
@@ -316,7 +316,7 @@
           "id": "external_travel",
           "action": "EXTERNAL_URL",
           "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page?",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
@@ -348,7 +348,7 @@
           "id": "external_carInsurance",
           "action": "EXTERNAL_URL",
           "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page?gbraid=0AAAAADeErYGxq3WWtx3FW2tKkWlHC_j4N&gclid=EAIaIQobChMIg4fi8sK4gQMVx199Ch1hmAffEAAYASAAEgJYX_D_BwE",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
@@ -356,7 +356,7 @@
           "id": "external_travel",
           "action": "EXTERNAL_URL",
           "title": "Enjoy 25% off Travel Protection plans.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page?",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
           "visible": true
         }
