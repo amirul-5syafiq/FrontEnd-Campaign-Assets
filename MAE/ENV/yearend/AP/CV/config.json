@@ -245,7 +245,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/trackerBanner.png",
+          "image": "dashboard/swipper/trackerBanner1.png",
           "visible": true
         },
         {
@@ -285,7 +285,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/trackerBanner.png",
+          "image": "dashboard/swipper/trackerBanner1.png",
           "visible": true
         },
         {
@@ -325,7 +325,7 @@
         {
           "id": "campaign",
           "action": "CAMPAIGN",
-          "image": "dashboard/swipper/trackerBanner.png",
+          "image": "dashboard/swipper/trackerBanner1.png",
           "visible": true
         },
         {
