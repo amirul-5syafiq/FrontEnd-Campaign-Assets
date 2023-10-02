@@ -1,8 +1,8 @@
 {
-  "selectCampaign": "yearend",
+  "selectCampaign": "deepavali",
   "contentVersion": "",
   "cacheConfig": "cacheConfig.json",
-  "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka"],
+  "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka", "deepavali"],
   "cepUnit": {
     "respCode": "CE200",
     "respDesc": "Success",

@@ -3,65 +3,63 @@
   "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
 
   "greetingReceived": {
-    "festiveSendMoneyFromReceived": "",
-    "festiveSendGreetingFromReceived": "",
-    "background": "",
-    "moneyContainer": ""
+    "festiveSendMoneyFromReceived": "e-Greeting from",
+    "background": "greetings/received/receiveBackground.png",
+    "moneyContainer": "greetings/received/moneyContainer.png"
   },
   "greetingSend": {
-    "mainTitle": "",
+    "mainTitle": "Pick an e-Greeting\ndesign and add\nyour wish",
     "designTemplates": [
       {
-        "id": "",
-        "thumb": "",
-        "card": "",
-        "preFillText": ""
+        "id": "T1",
+        "thumb": "greetings/template1/greetingIconOne.png",
+        "card": "greetings/template1/greetingCardOne.png",
+        "preFillText": "Semoga diberi kesihatan yang baik serta rezeki yang luas dan berpanjangan."
       },
       {
-        "id": "",
-        "thumb": "",
-        "card": "",
-        "preFillText": ""
+        "id": "T2",
+        "thumb": "greetings/template2/greetingIconTwo.png",
+        "card": "greetings/template2/greetingCardTwo.png",
+        "preFillText": "Salam dihulur buat ingatan, buat keluarga juga kenalan. Selamat Hari raya Aidilfitri, Maaf Zahir dan Batin."
       },
       {
-        "id": "",
-        "thumb": "",
-        "card": "",
-        "preFillText": ""
+        "id": "T3",
+        "thumb": "greetings/template3/greetingIconThree.png",
+        "card": "greetings/template3/greetingCardThree.png",
+        "preFillText": "Tangan dihulur, maaf dipinta. Selamat Hari raya Aidilfitri, Maaf Zahir dan Batin."
       }
     ],
-    "background": "",
+    "background": "greetings/eDuitRayaBackground.png",
     "mainData": {
-      "color": "",
-      "mainHeader": "",
+      "color": "#FFFFFF",
+      "mainHeader": "Send DeepaMoney as\nblessings and well wishes to\n love ones.",
       "options": [
         {
-          "title": "",
-          "icon": ""
+          "title": "Send via \nScan & Pay",
+          "icon": "icons/scanAndPay.png"
         },
         {
-          "title": "",
-          "icon": ""
+          "title": "Send via\nTransfer",
+          "icon": "icons/sendMoney.png"
         },
         {
-          "title": "",
-          "icon": ""
+          "title": "Send \ne-Greetings",
+          "icon": "icons/sendGreeting.png"
         }
       ]
     },
-    "successMessageTransfer": "",
-    "failMessageTransfer": "",
-    "includeMoneyText": "",
-    "topContainer": "",
-    "backgroundGreetings": "",
-    "moneyReceivedText": "",
-    "sendGreetingTitle": "",
-    "sendGreetingText": "",
-    "sendGreetingFinalTitle": ""
+    "successMessageTransfer": "DeepaMoney sent successfully",
+    "includeMoneyText": "Include DeepaMoney",
+    "topContainer": "greetings/send/e-greetingSkin.png",
+    "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
+    "moneyReceivedText": "DeepaMoney",
+    "sendGreetingTitle": "Send e-Greeting",
+    "sendGreetingText": "Send\ne-Greeting to",
+    "sendGreetingFinalTitle": "Take a final look"
   },
   "sendMoney": {
-    "festiveTitle": "",
-    "headerTitleEnterAmount": ""
+    "festiveTitle": "Send DeepaMoney",
+    "headerTitleEnterAmount": "Send DeepaMoney"
   },
   "transfer": {
     "backgroundSkin": ""
@@ -76,7 +74,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "qrPay/qrMaeSkin.png",
+    "background": "",
     "cashback": {
       "background": "qrPay/cashback/background.png",
       "success": {
@@ -126,7 +124,7 @@
     }
   },
   "login": {
-    "background": "login/maeLogin.png"
+    "background": ""
   },
   "quickAction": {
     "isEnabled": false,
@@ -210,7 +208,7 @@
     }
   },
   "ssl": {
-    "background": "ssl/sslMaeSkin.png",
+    "background": "",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
@@ -947,6 +945,15 @@
     "params": {
       "title": "Spend & Win List",
       "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes.pdf",
+      "headerColor": "transparent"
+    }
+   },
+   "maybank_heart": {
+    "stack": "SettingsModule",
+    "screen": "PdfSetting",
+    "params": {
+      "title": "Spend & Win List",
+      "source": "https://www.maybankheart.com/",
       "headerColor": "transparent"
     }
    }
