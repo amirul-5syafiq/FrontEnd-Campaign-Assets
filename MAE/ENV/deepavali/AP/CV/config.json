@@ -240,29 +240,9 @@
     "swipper": {
       "ios": [
         {
-          "id": "tabung",
-          "action": "GOALS_DASHBOARD",
-          "image": "dashboard/swipper/tabungV2.png",
-          "visible": true
-        },
-        {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/trackerBanner.png",
-          "visible": true
-        },
-        {
-          "id": "applePay",
-          "action": "APPLEPAY_DASHBOARD",
-          "image": "dashboard/swipper/applePayV2.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
           "visible": true
         },
         {
@@ -300,31 +280,9 @@
       ],
       "android": [
         {
-          "id": "tabung",
-          "action": "GOALS_DASHBOARD",
-          "image": "dashboard/swipper/tabungV2.png",
-          "visible": true
-        },
-        {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/trackerBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_championship",
-          "action": "EXTERNAL_URL",
-          "title": "Par-tee with the Pros!",
-          "url": "https://www.maybank.com/en/championship/index.page",
-          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
           "visible": true
         },
         {
@@ -354,23 +312,9 @@
       ],
       "huawei": [
         {
-          "id": "tabung",
-          "action": "GOALS_DASHBOARD",
-          "image": "dashboard/swipper/tabungV2.png",
-          "visible": true
-        },
-        {
           "id": "campaign",
           "action": "CAMPAIGN",
           "image": "dashboard/swipper/trackerBanner.png",
-          "visible": true
-        },
-        {
-          "id": "external_campaign",
-          "action": "EXTERNAL_URL",
-          "title": "Win cash prizes of up to RM5,000!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/mae/tap-track-win.page",
-          "image": "dashboard/swipper/tapTrackWinBanner.png",
           "visible": true
         },
         {
