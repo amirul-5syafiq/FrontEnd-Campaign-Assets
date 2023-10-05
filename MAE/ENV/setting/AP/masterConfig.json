@@ -7,7 +7,7 @@
     "respCode": "CE200",
     "respDesc": "Success",
     "mbpns": {
-      "ready": true,
+      "ready": false,
       "inboxUrl": "https://stp-engage.maybank2u.com.my/v1/notification/inbox"
     },
     "CX-VOC": {
