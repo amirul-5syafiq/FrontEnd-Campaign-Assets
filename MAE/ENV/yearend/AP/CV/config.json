@@ -213,8 +213,8 @@
   "ssl": {
     "background": "ssl/sslMaeSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBanner1.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner1.png",
     "headerTitle": "Order Food & More",
     "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
     "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
