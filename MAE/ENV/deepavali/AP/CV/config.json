@@ -692,6 +692,48 @@
         }
       }
     },
+    "m2uMudharabah": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "m2uPremier1": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "m2uSavings": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
     "zestiaccount": {
       "stack": "TabNavigator",
       "screen": "Tab",
