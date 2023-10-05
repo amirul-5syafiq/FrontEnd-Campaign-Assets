@@ -129,8 +129,8 @@
   "quickAction": {
     "isEnabled": false,
     "showFestive": "",
-    "festiveIcon": "",
-    "festiveTitle": ""
+    "festiveIcon": "icons/eDuitraya.png",
+    "festiveTitle": "DeepaMoney"
   },
   "quickActionDisplay": {
     "isFestiveEnabled": false,
