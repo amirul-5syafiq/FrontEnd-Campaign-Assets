@@ -14,19 +14,19 @@
         "id": "T1",
         "thumb": "greetings/template1/greetingIconOne.png",
         "card": "greetings/template1/greetingCardOne.png",
-        "preFillText": "Semoga diberi kesihatan yang baik serta rezeki yang luas dan berpanjangan."
+        "preFillText": "May the Festival of Lights bring togetherness, laughter and endless blessings."
       },
       {
         "id": "T2",
         "thumb": "greetings/template2/greetingIconTwo.png",
         "card": "greetings/template2/greetingCardTwo.png",
-        "preFillText": "Salam dihulur buat ingatan, buat keluarga juga kenalan. Selamat Hari raya Aidilfitri, Maaf Zahir dan Batin."
+        "preFillText": "Sending heartfelt Deepavali wishes for a year filled with success and good fortune."
       },
       {
         "id": "T3",
         "thumb": "greetings/template3/greetingIconThree.png",
         "card": "greetings/template3/greetingCardThree.png",
-        "preFillText": "Tangan dihulur, maaf dipinta. Selamat Hari raya Aidilfitri, Maaf Zahir dan Batin."
+        "preFillText": "May the Festival of Lights bring togetherness, laughter and endless blessings."
       }
     ],
     "background": "greetings/eDuitRayaBackground.png",
@@ -49,12 +49,12 @@
       ]
     },
     "successMessageTransfer": "DeepaMoney sent successfully",
-    "includeMoneyText": "Include DeepaMoney",
+    "includeMoneyText": "Send e-Greeting",
     "topContainer": "greetings/send/e-greetingSkin.png",
     "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
     "moneyReceivedText": "DeepaMoney",
     "sendGreetingTitle": "Send e-Greeting",
-    "sendGreetingText": "Send\ne-Greeting to",
+    "sendGreetingText": "Send\n to",
     "sendGreetingFinalTitle": "Take a final look"
   },
   "sendMoney": {
@@ -706,6 +706,20 @@
         }
       }
     },
+    "kawankusavings":{
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
     "m2uPremier1": {
       "stack": "TabNavigator",
       "screen": "Tab",
@@ -894,15 +908,6 @@
       "params": {
         "title": "Maybank2u",
         "source": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/wealth/unit_trusts/unit_trusts.page",
-        "headerColor": "transparent"
-      }
-    },
-    "kawankusavings": {
-      "stack": "SettingsModule",
-      "screen": "PdfSetting",
-      "params": {
-        "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
         "headerColor": "transparent"
       }
     },
