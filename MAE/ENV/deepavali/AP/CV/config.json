@@ -127,7 +127,7 @@
     "background": ""
   },
   "quickAction": {
-    "isEnabled": false,
+    "isEnabled": true,
     "showFestive": "",
     "festiveIcon": "icons/eDuitraya.png",
     "festiveTitle": "DeepaMoney"
