@@ -4,6 +4,7 @@
 
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "e-Greeting from",
+    "festiveSendGreetingFromReceived": "You’ve received an e-Greeting from",
     "background": "greetings/received/receiveBackground.png",
     "moneyContainer": "greetings/received/moneyContainer.png"
   },
@@ -48,8 +49,9 @@
         }
       ]
     },
-    "successMessageTransfer": "DeepaMoney sent successfully",
-    "includeMoneyText": "Send e-Greeting",
+    "successMessageTransfer": "Transaction successful",
+    "failMessageTransfer": "Transaction unsuccessful",
+    "includeMoneyText": "Include DeepaMoney",
     "topContainer": "greetings/send/e-greetingSkin.png",
     "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
     "moneyReceivedText": "DeepaMoney",
@@ -74,7 +76,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "",
+    "background": "qrPay/qrMaeSkin.png",
     "cashback": {
       "background": "qrPay/cashback/background.png",
       "success": {
@@ -208,7 +210,7 @@
     }
   },
   "ssl": {
-    "background": "",
+    "background": "ssl/sslMaeSkin.png",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
