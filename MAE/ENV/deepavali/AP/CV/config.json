@@ -971,7 +971,7 @@
     "stack": "SettingsModule",
     "screen": "PdfSetting",
     "params": {
-      "title": "Spend & Win List",
+      "title": "MaybankHeart",
       "source": "https://www.maybankheart.com/",
       "headerColor": "transparent"
     }
