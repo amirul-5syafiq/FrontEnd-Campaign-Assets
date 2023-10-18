@@ -2,6 +2,7 @@
   "selectCampaign": "deepavali",
   "contentVersion": "",
   "cacheConfig": "cacheConfig.json",
+  "abcEnable": true,
   "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka", "deepavali"],
   "cepUnit": {
     "respCode": "CE200",
