@@ -259,7 +259,7 @@
           "id": "external_scam",
           "action": "EXTERNAL_URL",
           "title": "Identify scam calls and protect your money!",
-          "url": "https://www.maybank.com/en/championship/index.page",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
           "image": "dashboard/swipper/scamExtBanner.png",
           "visible": true
         },
@@ -305,7 +305,7 @@
           "id": "external_championship",
           "action": "EXTERNAL_URL",
           "title": "Par-tee with the Pros!",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
+          "url": "https://www.maybank.com/en/championship/index.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
           "visible": false
         },
@@ -313,7 +313,7 @@
           "id": "external_scam",
           "action": "EXTERNAL_URL",
           "title": "Identify scam calls and protect your money!",
-          "url": "https://www.maybank.com/en/championship/index.page",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
           "image": "dashboard/swipper/scamExtBanner.png",
           "visible": true
         },
@@ -367,7 +367,7 @@
           "id": "external_scam",
           "action": "EXTERNAL_URL",
           "title": "Identify scam calls and protect your money!",
-          "url": "https://www.maybank.com/en/championship/index.page",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
           "image": "dashboard/swipper/scamExtBanner.png",
           "visible": true
         },
