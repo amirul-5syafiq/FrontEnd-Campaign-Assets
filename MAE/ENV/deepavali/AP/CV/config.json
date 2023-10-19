@@ -253,6 +253,14 @@
           "title": "Par-tee with the Pros!",
           "url": "https://www.maybank.com/en/championship/index.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": false
+        },
+        {
+          "id": "external_scam",
+          "action": "EXTERNAL_URL",
+          "title": "Identify scam calls and protect your money!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/scamExtBanner.png",
           "visible": true
         },
         {
@@ -263,20 +271,20 @@
           "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
           "visible": true
         },
-       {
-          "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
-          "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
         {
           "id": "external_travel",
           "action": "EXTERNAL_URL",
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
         {
@@ -297,8 +305,16 @@
           "id": "external_championship",
           "action": "EXTERNAL_URL",
           "title": "Par-tee with the Pros!",
-          "url": "https://www.maybank.com/en/championship/index.page",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": false
+        },
+        {
+          "id": "external_scam",
+          "action": "EXTERNAL_URL",
+          "title": "Identify scam calls and protect your money!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/scamExtBanner.png",
           "visible": true
         },
         {
@@ -310,19 +326,19 @@
           "visible": true
         },
         {
-          "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
-          "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
-        {
           "id": "external_travel",
           "action": "EXTERNAL_URL",
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
         {
@@ -345,6 +361,14 @@
           "title": "Par-tee with the Pros!",
           "url": "https://www.maybank.com/en/championship/index.page",
           "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": false
+        },
+        {
+          "id": "external_scam",
+          "action": "EXTERNAL_URL",
+          "title": "Identify scam calls and protect your money!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/scamExtBanner.png",
           "visible": true
         },
         {
@@ -355,20 +379,20 @@
           "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
           "visible": true
         },
-       {
-          "id": "external_carInsurance",
-          "action": "EXTERNAL_URL",
-          "title": "Instant 10% off with Car Insurance/Takaful.",
-          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
-          "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
         {
           "id": "external_travel",
           "action": "EXTERNAL_URL",
           "title": "Enjoy 25% off Travel Protection plans.",
           "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
           "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
         },
         {
