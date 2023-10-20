@@ -286,12 +286,6 @@
           "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "image": "dashboard/swipper/carInsuranceBanner.png",
           "visible": true
-        },
-        {
-          "id": "googlePay",
-          "action": "GOOGLEPAY_DASHBOARD",
-          "image": "dashboard/swipper/googlePay.jpeg",
-          "visible": true
         }
       ],
       "android": [
@@ -344,7 +338,7 @@
         {
           "id": "googlePay",
           "action": "GOOGLEPAY_DASHBOARD",
-          "image": "dashboard/swipper/googlePay.jpeg",
+          "image": "dashboard/swipper/googlePay.png",
           "visible": true
         }
       ],
@@ -393,12 +387,6 @@
           "title": "Instant 10% off with Car Insurance/Takaful.",
           "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
           "image": "dashboard/swipper/carInsuranceBanner.png",
-          "visible": true
-        },
-        {
-          "id": "googlePay",
-          "action": "GOOGLEPAY_DASHBOARD",
-          "image": "dashboard/swipper/googlePay.jpeg",
           "visible": true
         }
       ]
