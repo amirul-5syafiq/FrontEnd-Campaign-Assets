@@ -3,7 +3,7 @@
   "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
 
   "greetingReceived": {
-    "festiveSendMoneyFromReceived": "e-Greeting from",
+    "festiveSendMoneyFromReceived": "DeepaMoney from",
     "festiveSendGreetingFromReceived": "You’ve received an e-Greeting from",
     "background": "greetings/received/receiveBackground.png",
     "moneyContainer": "greetings/received/moneyContainer.png"
