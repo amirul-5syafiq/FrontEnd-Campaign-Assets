@@ -1,20 +1,21 @@
 {
-  "selectCampaign": "yearend",
+  "selectCampaign": "deepavali",
   "contentVersion": "",
   "cacheConfig": "cacheConfig.json",
-  "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka"],
+  "abcEnable": true,
+  "listCampaignType": ["raya", "cny", "yearend", "default", "merdeka", "deepavali"],
   "cepUnit": {
     "respCode": "CE200",
     "respDesc": "Success",
     "mbpns": {
       "ready": true,
-      "inboxUrl": "https://engage.maybank2u.com.my/v1/notification/inbox"
+      "inboxUrl": "https://stp-engage.maybank2u.com.my/v1/notification/inbox"
     },
     "CX-VOC": {
       "showBanner": true,
-      "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp_mae.png",
+      "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp-mae-icon-v2.png",
       "bannerText": "Help us do better for you! Tell us how we can improve your experience.",
-      "bannerLinkText": "Share Feedback>",
+      "bannerLinkText": "Share Feedback >",
       "bannerLink": "https://maybankvoc.qualtrics.com/jfe/form/SV_3PjWKN8h1xOL9oa"
     }
   }

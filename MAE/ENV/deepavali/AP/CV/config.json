@@ -1,68 +1,67 @@
 {
   "campaignId": 2,
-
-  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
+  "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
 
   "greetingReceived": {
-    "festiveSendMoneyFromReceived": "",
-    "festiveSendGreetingFromReceived": "",
-    "background": "",
-    "moneyContainer": ""
+    "festiveSendMoneyFromReceived": "DeepaMoney from",
+    "festiveSendGreetingFromReceived": "You’ve received an e-Greeting from",
+    "background": "greetings/received/receiveBackground.png",
+    "moneyContainer": "greetings/received/moneyContainer.png"
   },
   "greetingSend": {
-    "mainTitle": "",
+    "mainTitle": "Pick an e-Greeting\ndesign and add\nyour wish",
     "designTemplates": [
       {
-        "id": "",
-        "thumb": "",
-        "card": "",
-        "preFillText": ""
+        "id": "T1",
+        "thumb": "greetings/template1/greetingIconOne.png",
+        "card": "greetings/template1/greetingCardOne.png",
+        "preFillText": "May this Festival of Lights illuminate your life with happiness and prosperity."
       },
       {
-        "id": "",
-        "thumb": "",
-        "card": "",
-        "preFillText": ""
+        "id": "T2",
+        "thumb": "greetings/template2/greetingIconTwo.png",
+        "card": "greetings/template2/greetingCardTwo.png",
+        "preFillText": "Sending heartfelt Deepavali wishes for a year filled with success and good fortune."
       },
       {
-        "id": "",
-        "thumb": "",
-        "card": "",
-        "preFillText": ""
+        "id": "T3",
+        "thumb": "greetings/template3/greetingIconThree.png",
+        "card": "greetings/template3/greetingCardThree.png",
+        "preFillText": "May the Festival of Lights bring togetherness, laughter and endless blessings."
       }
     ],
-    "background": "",
+    "background": "greetings/eDuitRayaBackground.png",
     "mainData": {
-      "color": "",
-      "mainHeader": "",
+      "color": "#FFFFFF",
+      "mainHeader": "Send DeepaMoney as\nblessings and well wishes to\n love ones.",
       "options": [
         {
-          "title": "",
-          "icon": ""
+          "title": "Send via \nScan & Pay",
+          "icon": "icons/scanAndPay.png"
         },
         {
-          "title": "",
-          "icon": ""
+          "title": "Send via\nTransfer",
+          "icon": "icons/sendMoney.png"
         },
         {
-          "title": "",
-          "icon": ""
+          "title": "Send \ne-Greetings",
+          "icon": "icons/sendGreeting.png"
         }
       ]
     },
-    "successMessageTransfer": "",
-    "failMessageTransfer": "",
-    "includeMoneyText": "",
-    "topContainer": "",
-    "backgroundGreetings": "",
-    "moneyReceivedText": "",
-    "sendGreetingTitle": "",
-    "sendGreetingText": "",
-    "sendGreetingFinalTitle": ""
+    "successMessageTransfer": "Transaction successful",
+    "failMessageTransfer": "Transaction unsuccessful",
+    "includeMoneyText": "Include DeepaMoney",
+    "topContainer": "greetings/send/e-greetingSkin.png",
+    "backgroundGreetings": "greetings/eDuitRayaHomePage.png",
+    "moneyReceivedText": "DeepaMoney",
+    "sendGreetingTitle": "Send e-Greeting",
+    "sendGreetingText": "Send to",
+    "sendGreetingFinalTitle": "Take a final look"
   },
   "sendMoney": {
-    "festiveTitle": "",
-    "headerTitleEnterAmount": ""
+    "festiveTitle": "Send DeepaMoney",
+    "headerTitleEnterAmount": "Send DeepaMoney"
   },
   "transfer": {
     "backgroundSkin": ""
@@ -127,13 +126,13 @@
     }
   },
   "login": {
-    "background": "login/maeLogin.png"
+    "background": ""
   },
   "quickAction": {
-    "isEnabled": false,
-    "showFestive": "",
-    "festiveIcon": "",
-    "festiveTitle": ""
+    "isEnabled": true,
+    "showFestive": true,
+    "festiveIcon": "icons/eDuitraya.png",
+    "festiveTitle": "Deepa \nMoney"
   },
   "quickActionDisplay": {
     "isFestiveEnabled": false,
@@ -242,13 +241,154 @@
     "headerTitle": "Tap, Track, Win",
     "swipper": {
       "ios": [
-       
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_championship",
+          "action": "EXTERNAL_URL",
+          "title": "Par-tee with the Pros!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": false
+        },
+        {
+          "id": "external_scam",
+          "action": "EXTERNAL_URL",
+          "title": "Identify scam calls and protect your money!",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
+          "image": "dashboard/swipper/scamExtBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_heart2Heart",
+          "action": "EXTERNAL_URL",
+          "title": "Join us in saving a child’s heart.",
+          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+          "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        }
       ],
       "android": [
-       
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_championship",
+          "action": "EXTERNAL_URL",
+          "title": "Par-tee with the Pros!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": false
+        },
+        {
+          "id": "external_scam",
+          "action": "EXTERNAL_URL",
+          "title": "Identify scam calls and protect your money!",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
+          "image": "dashboard/swipper/scamExtBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_heart2Heart",
+          "action": "EXTERNAL_URL",
+          "title": "Join us in saving a child’s heart.",
+          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+          "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "googlePay",
+          "action": "GOOGLEPAY_DASHBOARD",
+          "image": "dashboard/swipper/googlePay.png",
+          "visible": true
+        }
       ],
       "huawei": [
-       
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/tapTrackWinBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_championship",
+          "action": "EXTERNAL_URL",
+          "title": "Par-tee with the Pros!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": false
+        },
+        {
+          "id": "external_scam",
+          "action": "EXTERNAL_URL",
+          "title": "Identify scam calls and protect your money!",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/security_alert/security_alert_listing.page",
+          "image": "dashboard/swipper/scamExtBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_heart2Heart",
+          "action": "EXTERNAL_URL",
+          "title": "Join us in saving a child’s heart.",
+          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+          "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        }
       ]
     },
     "dashboardLogo": {
@@ -584,6 +724,62 @@
         }
       }
     },
+    "m2uMudharabah": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "kawankusavings":{
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "m2uPremier1": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
+    "m2uSavings": {
+      "stack": "TabNavigator",
+      "screen": "Tab",
+      "params": {
+        "index": 4,
+        "screen": "More",
+        "params": {
+          "screen": "Apply",
+          "params": {
+            "index": 0
+          }
+        }
+      }
+    },
     "zestiaccount": {
       "stack": "TabNavigator",
       "screen": "Tab",
@@ -699,7 +895,6 @@
       }
     },
     "mae_dashboard": "mae_dashboard",
-    "donate": "donate",
     "ezycash": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
@@ -748,15 +943,6 @@
         "headerColor": "transparent"
       }
     },
-    "kawankusavings": {
-      "stack": "SettingsModule",
-      "screen": "PdfSetting",
-      "params": {
-        "title": "Maybank2u",
-        "source": "https://www.maybank2u.com.my/home/m2u/common/login.do",
-        "headerColor": "transparent"
-      }
-    },
     "tnc_url": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
@@ -792,25 +978,34 @@
       "source": "https://www.maybank2u.com.my/iwov-resources/pdf/upload/ttw-scan-pay-sports-prizes.pdf",
       "headerColor": "transparent"
     }
+   },
+   "maybank_heart": {
+    "stack": "SettingsModule",
+    "screen": "PdfSetting",
+    "params": {
+      "title": "MaybankHeart",
+      "source": "https://www.maybankheart.com/",
+      "headerColor": "transparent"
+    }
    }
   },
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
