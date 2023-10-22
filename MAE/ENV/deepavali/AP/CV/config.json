@@ -340,7 +340,7 @@
           "id": "googlePay",
           "action": "GOOGLEPAY_DASHBOARD",
           "image": "dashboard/swipper/googlePay.jpeg",
-          "visible": true
+          "visible": false
         }
       ],
       "huawei": [
