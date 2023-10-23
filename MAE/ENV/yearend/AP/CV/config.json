@@ -914,20 +914,20 @@
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
