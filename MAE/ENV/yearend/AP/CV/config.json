@@ -213,8 +213,8 @@
   "ssl": {
     "background": "ssl/sslMaeSkin.png",
     "handLogo": "",
-    "festiveWidgetBackground": "ssl/dashboard/juneAO3.png",
-    "festiveWidgetFnbBackground": "ssl/dashboard/juneAO3.png",
+    "festiveWidgetBackground": "ssl/dashboard/sslBanner1.png",
+    "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner1.png",
     "headerTitle": "Order Food & More",
     "sslTitle": "Up to 50% OFF on\nSama-Sama Lokal.",
     "sslDescription": "Get CNY snacks and\ngoodies delivered to you.\nCome support local.",
@@ -242,13 +242,130 @@
     "headerTitle": "Tap, Track, Win",
     "swipper": {
       "ios": [
-       
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/trackerBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_championship",
+          "action": "EXTERNAL_URL",
+          "title": "Par-tee with the Pros!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_heart2Heart",
+          "action": "EXTERNAL_URL",
+          "title": "Join us in saving a child’s heart.",
+          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+          "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
+          "visible": true
+        },
+       {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        }
       ],
       "android": [
-       
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/trackerBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_championship",
+          "action": "EXTERNAL_URL",
+          "title": "Par-tee with the Pros!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_heart2Heart",
+          "action": "EXTERNAL_URL",
+          "title": "Join us in saving a child’s heart.",
+          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+          "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "googlePay",
+          "action": "GOOGLEPAY_DASHBOARD",
+          "image": "dashboard/swipper/googlePay.png",
+          "visible": false
+        }
       ],
       "huawei": [
-       
+        {
+          "id": "campaign",
+          "action": "CAMPAIGN",
+          "image": "dashboard/swipper/trackerBanner1.png",
+          "visible": true
+        },
+        {
+          "id": "external_championship",
+          "action": "EXTERNAL_URL",
+          "title": "Par-tee with the Pros!",
+          "url": "https://www.maybank.com/en/championship/index.page",
+          "image": "dashboard/swipper/maybankGolfChampionshipBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_heart2Heart",
+          "action": "EXTERNAL_URL",
+          "title": "Join us in saving a child’s heart.",
+          "url": "https://www.maybankheart.com/campaign-details-page?Campaign=64ee9d0d56681a065ccffcf8",
+          "image": "dashboard/swipper/heart2HeartCampaignBanner1.png",
+          "visible": true
+        },
+       {
+          "id": "external_carInsurance",
+          "action": "EXTERNAL_URL",
+          "title": "Instant 10% off with Car Insurance/Takaful.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/motor-insurance-takaful.page",
+          "image": "dashboard/swipper/carInsuranceBanner.png",
+          "visible": true
+        },
+        {
+          "id": "external_travel",
+          "action": "EXTERNAL_URL",
+          "title": "Enjoy 25% off Travel Protection plans.",
+          "url": "https://www.maybank2u.com.my/maybank2u/malaysia/en/personal/promotions/investment_insurance/tripcare-360.page",
+          "image": "dashboard/swipper/travelInsuranceBanner.png",
+          "visible": true
+        }
       ]
     },
     "dashboardLogo": {
@@ -797,20 +914,20 @@
   "pushNotification": {
     "festive": {
       "isBoosterFestiveEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "isBoosterFestiveOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterEven": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       },
       "nonBoosterOdd": {
-        "title": "Tap, Track, Win: Check in now for entries to win amazing prizes!",
-        "description": "Stand to win up to RM5,000 cash with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
+        "title": "Tap, Track, Win: Transact & win RM5 cashback!",
+        "description": "Stand to win up to RM5 cashback when you complete every 2 Trackers with Tap, Track, Win. Tap below to check in and earn an entry now! Then, keep transacting for more entries to win. T&C apply."
       }
     }
   },
