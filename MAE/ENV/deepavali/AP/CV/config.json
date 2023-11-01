@@ -36,10 +36,6 @@
       "mainHeader": "Send DeepaMoney as\nblessings and well wishes to\n love ones.",
       "options": [
         {
-          "title": "Send via \nScan & Pay",
-          "icon": "icons/scanAndPay.png"
-        },
-        {
           "title": "Send via\nTransfer",
           "icon": "icons/sendMoney.png"
         },
