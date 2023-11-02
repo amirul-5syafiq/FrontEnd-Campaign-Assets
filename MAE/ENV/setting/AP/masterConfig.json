@@ -1,5 +1,5 @@
 {
-  "selectCampaign": "yearend",
+  "selectCampaign": "deepavali",
   "contentVersion": "",
   "cacheConfig": "cacheConfig.json",
   "abcEnable": true,
@@ -13,7 +13,7 @@
     },
     "CX-VOC": {
       "showBanner": true,
-      "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp_mae.png",
+      "bannerImage": "https://www.maybank.com/iwov-resources/images/mae_app/improve-exp-mae-icon-v2.png",
       "bannerText": "Help us do better for you! Tell us how we can improve your experience.",
       "bannerLinkText": "Share Feedback >",
       "bannerLink": "https://maybankvoc.qualtrics.com/jfe/form/SV_3PjWKN8h1xOL9oa"

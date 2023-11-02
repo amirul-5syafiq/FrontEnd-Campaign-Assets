@@ -282,6 +282,27 @@
       "/overseas/v1/overseas/favorites",
       "/2fa/v2/secure2u/s2uActivationCardInquiry"
     ],
+    "v3/users/login": [
+      "/banking/v1/summary?type=A&checkMae=true",
+      "/banking/v1/summary?type=C&checkMae=true",
+      "/banking/v1/summary?type=F&checkMae=true",
+      "/banking/v1/summary?type=L&checkMae=true",
+      "/banking/v1/cards/debitCardInquiry",
+      "/banking/v1/summary?type=A",
+      "/banking/v1/summary?type=C",
+      "/pfm/v1/pfm/creditCard/transaction/history/weekly",
+      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
+      "/goal/v1/goal/exists",
+      "/payment/v1/pay/bill/favList",
+      "/payment/v1/zakat/favList",
+      "/payment/v1/jompay/favorite/inqury",
+      "/transfer/v2/favorites/list?indicator=FUND_TRANSFER",
+      "/transfer/v2/favorites/list?indicator=DUITNOW",
+      "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
+      "/transfer/v1/th/favorite/list",
+      "/overseas/v1/overseas/favorites",
+      "/2fa/v2/secure2u/s2uActivationCardInquiry"
+    ],
     "/v2/enrollment": [
       "/banking/v1/summary?type=A&checkMae=true",
       "/banking/v1/summary?type=C&checkMae=true",
