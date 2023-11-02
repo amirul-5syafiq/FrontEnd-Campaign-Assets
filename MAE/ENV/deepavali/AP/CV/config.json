@@ -291,7 +291,7 @@
           "id": "emadani",
           "action": "EMADANI",
           "image": "dashboard/swipper/emadani.png",
-          "visible": true
+          "visible": false
         }
       ],
       "android": [
@@ -345,7 +345,7 @@
           "id": "googlePay",
           "action": "GOOGLEPAY_DASHBOARD",
           "image": "dashboard/swipper/googlePay.png",
-          "visible": true
+          "visible": false
         }
       ],
       "huawei": [
