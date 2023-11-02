@@ -1,6 +1,7 @@
 {
   "campaignId": 2,
-  "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
+
+  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
 
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
@@ -845,6 +846,7 @@
       }
     },
     "mae_dashboard": "mae_dashboard",
+    "donate": "donate",
     "ezycash": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
