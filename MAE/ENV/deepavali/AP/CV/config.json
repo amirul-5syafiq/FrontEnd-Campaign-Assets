@@ -129,10 +129,10 @@
     "background": ""
   },
   "quickAction": {
-    "isEnabled": true,
-    "showFestive": true,
-    "festiveIcon": "icons/eDuitraya.png",
-    "festiveTitle": "Deepa \nMoney"
+    "isEnabled": false,
+    "showFestive": "",
+    "festiveIcon": "",
+    "festiveTitle": ""
   },
   "quickActionDisplay": {
     "isFestiveEnabled": false,
