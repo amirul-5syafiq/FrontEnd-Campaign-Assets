@@ -1,7 +1,7 @@
 {
   "campaignId": 2,
 
-  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/staging/v2/",
+  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
 
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "",
@@ -867,7 +867,6 @@
         }
       }
     },
-    "donate": "donate",
     "islamicgoldaccount": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
