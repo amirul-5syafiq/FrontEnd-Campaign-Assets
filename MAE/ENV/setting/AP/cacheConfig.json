@@ -348,7 +348,8 @@
     "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer": true,
     "/transfer/v1/th/favorite/list": true,
     "/overseas/v1/overseas/favorites": true,
-    "/2fa/v2/secure2u/s2uActivationCardInquiry": true
+    "/2fa/v2/secure2u/s2uActivationCardInquiry": true,
+    "/regional/v1/regionalProductSummary": true
   },
   "observableConfig": {}
 }
