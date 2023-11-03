@@ -866,7 +866,6 @@
         }
       }
     },
-    "donate": "donate",
     "islamicgoldaccount": {
       "stack": "SettingsModule",
       "screen": "PdfSetting",
