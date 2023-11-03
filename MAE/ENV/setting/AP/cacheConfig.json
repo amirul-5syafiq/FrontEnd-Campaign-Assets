@@ -323,10 +323,6 @@
       "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites",
       "/2fa/v2/secure2u/s2uActivationCardInquiry"
-    ],
-    "/regional/v1/createConsent": ["/regional/v1/regionalProductSummary"],
-    "/regional/v1/unlinkAccount?region=SG": [
-      "/regional/v1/regionalProductSummary"
     ]
   },
   "included": {
