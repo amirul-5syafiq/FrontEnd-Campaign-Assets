@@ -1,6 +1,6 @@
 {
   "campaignId": 2,
-  "campaignWebViewUrl": "https://campaigns-nonprod.maybanksandbox.com/uat/v2/",
+  "campaignWebViewUrl": "https://campaigns.maybanksandbox.com/v2/",
 
   "greetingReceived": {
     "festiveSendMoneyFromReceived": "DeepaMoney from",
@@ -126,7 +126,7 @@
     }
   },
   "login": {
-    "background": ""
+    "background": "login/maeLogin.png"
   },
   "quickAction": {
     "isEnabled": true,
