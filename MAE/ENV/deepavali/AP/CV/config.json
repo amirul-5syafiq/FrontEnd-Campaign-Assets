@@ -126,7 +126,7 @@
     }
   },
   "login": {
-    "background": ""
+    "background": "login/maeLogin.png"
   },
   "quickAction": {
     "isEnabled": true,
