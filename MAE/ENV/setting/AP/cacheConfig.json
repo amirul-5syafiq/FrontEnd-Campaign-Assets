@@ -24,7 +24,8 @@
     ],
     "/overseas/v1/overseas/transfer": [
       "/banking/v1/summary?type=A&checkMae=true",
-      "/banking/v1/summary?type=A"
+      "/banking/v1/summary?type=A",
+      "/regional/v1/regionalProductSummary"
     ],
     "/2fa/v3/transaction/execute": [
       "/banking/v1/summary?type=C&checkMae=true",
@@ -114,7 +115,8 @@
       "/banking/v1/summary?type=A",
       "/banking/v1/summary?type=C&checkMae=true",
       "/banking/v1/summary?type=C",
-      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true"
+      "//mae/api/v1/maeCustomerInfo?countryCode=MY&checkMaeAcctBalance=true",
+      "/regional/v1/regionalProductSummary"
     ],
     "/transfer/v2/fundTransfer/monetary": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -259,7 +261,8 @@
       "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
       "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites",
-      "/2fa/v2/secure2u/s2uActivationCardInquiry"
+      "/2fa/v2/secure2u/s2uActivationCardInquiry",
+      "/regional/v1/regionalProductSummary"
     ],
     "/wallet/v1/device/add": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -301,7 +304,8 @@
       "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
       "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites",
-      "/2fa/v2/secure2u/s2uActivationCardInquiry"
+      "/2fa/v2/secure2u/s2uActivationCardInquiry",
+      "/regional/v1/regionalProductSummary"
     ],
     "/v2/enrollment": [
       "/banking/v1/summary?type=A&checkMae=true",
@@ -322,7 +326,14 @@
       "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer",
       "/transfer/v1/th/favorite/list",
       "/overseas/v1/overseas/favorites",
-      "/2fa/v2/secure2u/s2uActivationCardInquiry"
+      "/2fa/v2/secure2u/s2uActivationCardInquiry",
+      "/regional/v1/regionalProductSummary"
+    ],
+    "/regional/v1/createConsent": [
+      "/regional/v1/regionalProductSummary"
+    ],
+    "/regional/v1/unlinkAccount?region=SG": [
+      "/regional/v1/regionalProductSummary"
     ]
   },
   "included": {
@@ -344,7 +355,8 @@
     "/banking/v1/asnb/getASNBAccountSummaryDetails?accType=ASNB&serviceType=ASNB_Transfer": true,
     "/transfer/v1/th/favorite/list": true,
     "/overseas/v1/overseas/favorites": true,
-    "/2fa/v2/secure2u/s2uActivationCardInquiry": true
+    "/2fa/v2/secure2u/s2uActivationCardInquiry": true,
+    "/regional/v1/regionalProductSummary": true
   },
   "observableConfig": {}
 }
