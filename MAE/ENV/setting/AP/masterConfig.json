@@ -9,7 +9,7 @@
     "respDesc": "Success",
     "mbpns": {
       "ready": true,
-      "inboxUrl": "https://engage.maybank2u.com.my/v1/notification/inbox"
+      "inboxUrl": "https://stp-engage.maybank2u.com.my/v1/notification/inbox"
     },
     "CX-VOC": {
       "showBanner": true,
