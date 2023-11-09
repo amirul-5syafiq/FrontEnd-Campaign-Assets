@@ -77,7 +77,7 @@
   },
   "qrPay": {
     "enterAmountTitle": "Scan & Pay",
-    "background": "qrPay/qrMaeSkin.png",
+    "background": "",
     "cashback": {
       "background": "qrPay/cashback/background.png",
       "success": {
@@ -211,7 +211,7 @@
     }
   },
   "ssl": {
-    "background": "ssl/sslMaeSkin.png",
+    "background": "",
     "handLogo": "",
     "festiveWidgetBackground": "ssl/dashboard/sslBanner1.png",
     "festiveWidgetFnbBackground": "ssl/dashboard/sslBanner1.png",
