@@ -135,11 +135,11 @@
     "festiveTitle": "Deepa \nMoney"
   },
   "quickActionDisplay": {
-    "isFestiveEnabled": false,
+    "isFestiveEnabled": true,
     "tapTrackWin": {
       "id": "tapTrackWin",
       "title": "Tap, Track,\nWin",
-      "disabled": true,
+      "disabled": false,
       "iconImage": "icons/game.png",
       "module": "GameStack",
       "screen": "TapTrackWin",
@@ -150,7 +150,7 @@
     "egreetings": {
       "id": "egreetings",
       "title": "e-Duit\nRaya",
-      "disabled": true,
+      "disabled": false,
       "iconImage": "icons/game.png",
       "module": "DashboardStack",
       "screen": "Dashboard",
